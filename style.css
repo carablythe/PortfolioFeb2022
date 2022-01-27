@@ -7,16 +7,16 @@ nav {
   background: #A865C9;
   text-align: center;
   background-size: cover;
-  margin: 2vw 0vw 2vw 0vw;
+  margin: .5vw 0vw 1vw 0vw;
 }
 
 .navBar {
   display: inline-flex;
   text-align: center;
-  margin: 1vw 3vw 2vw 0vw;
-  padding: 1.5vw 3vw 1vw 3vw;
+  margin: 2vw 3vw 2vw 0vw;
+  padding: 1vw 3vw 1vw 3vw;
   color: #311432;
-  font-size: 2.5vw;
+  font-size: 2vw;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -36,9 +36,10 @@ nav {
 
 .dropUl{
   position:absolute;
-  margin-top: 3vw;
-  width: 15vw;
-  height: 10vw;
+  margin-top: 2.5vw;
+  padding: 1vw 2vw 0vw 3vw;
+  width: 12vw;
+  height: 8vw;
   flex-direction: column;
   list-style:none;
   color: black;
@@ -53,7 +54,6 @@ nav {
 
 .drop:hover > .dropUl{
   display:flex;
-  justify-content: space-around;
   align-items: left;
 }
 
@@ -64,26 +64,25 @@ nav {
 
 h2 {
   margin: 1vw 1vw 1vw 1vw;
-  padding: 1vw 5vw 1vw 5vw;
-  font-size: 3.5vw;
+  font-size: 2.7vw;
   color: #F5F5F5;
   text-align: center;
   justify-content: center;
   text-shadow: .5vw .5vw black;
-  padding: 5vw 5vw 5vw 6vw;
+  padding: 5vw 5vw 5vw 7vw;
 }
 
 .header {
   flex-grow: inherit;
   text-align: center;
   margin: 1vw 7vw 2vw 7vw;
-  padding: 5vw 5vw 5vw 5vw;
+  padding: 5vw 5vw 2vw 5vw;
 }
 
 h1 {
   margin: auto;
   color: #311432;
-  font-size: 6vw;
+  font-size: 5.5vw;
   font-family: 'DM Sans', sans-serif;
   text-shadow: .5vw  .1vw #A865C9;
 }
@@ -91,7 +90,7 @@ h1 {
 #headerObject {
   padding: .5vw;
   flex-grow: inherit;
-  font-size: 3vw;
+  font-size: 2.7vw;
   background: #999999;
   font-family: 'DM Sans', sans-serif;
   color: #F5F5F5;
@@ -104,20 +103,20 @@ object{
 
 .first_row {
   column-count: 3;
-  margin: 1vw 2vw 2vw 2vw;
+  margin: 1vw 2vw 1vw 2vw;
 }
 
 
 .first_in_row {
   flex: 1;
-  width: 29vw;
-  height: 20vw;
+  width: 26vw;
+  height: 18vw;
   background-color:#FFFFFF;
   background-image: url(images/GameSpace.png);
   flex-grow: inherit;
   background-size:cover;
   box-shadow: 1vw 1vw #999999;
-  margin: 0vw 1vw 1vw 0vw;
+  margin: 0vw 1vw 1vw 2vw;
   padding-top: .8vw;
 }
 
@@ -128,13 +127,13 @@ object{
 
 .second_in_row {
   flex: 2;
-  width: 29vw;
-  height: 20vw;
+  width: 26vw;
+  height: 18vw;
   background-image: url(images/OtherProjects.png);
   flex-grow: inherit;
   background-size: cover;
   box-shadow: 1vw 1vw #311432;
-  margin: 1vw 1vw 1.2vw 0vw;
+  margin: 1vw 1vw 1.2vw 1vw;
   padding-top: .5vw;
 }
 
@@ -144,14 +143,14 @@ object{
 }
 
 .third_in_row {
-  width: 30vw;
-  height: 19.5vw;
+  width: 26vw;
+  height: 17.5vw;
   flex: 3;
   background-image: url(images/Comments.png);
   background-size: cover;
   flex-grow: inherit;
   box-shadow: 1vw 1vw #999999;
-  margin: 1vw 14vw 1vw 0vw;
+  margin: 1vw 9vw 1vw 0vw;
   padding-bottom: 1.2vw;
 }
 
@@ -172,12 +171,17 @@ a {
   text-decoration: none;
   color: #311432;
   font-family: 'DM Sans', sans-serif;
-  font-size: 2.5vw;
+  font-size: 2vw;
+}
+
+a:hover {
+  color: #F5F5F5;
 }
 
 .foot {
   display: inline;
   padding: 1vw 5vw 1vw 1vw;
+  margin: .5vw 4vw .5vw 4vw;
   text-align: center;
 }
 
@@ -187,6 +191,6 @@ footer {
   background-size: cover;
   background: #A865C9;
   background-size: cover;
-  margin: 3vw 0vw 1vw 0vw;
-  padding: .5vw
+  margin: 1vw 0vw 0vw 0vw;
+  padding: .5vw 3vw .5vw 4vw;
   }
