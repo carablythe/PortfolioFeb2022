@@ -10,7 +10,7 @@ div {
 
 nav {
   align-self: flex-start;
-  background: #311432;
+  background: #A865C9;
   text-align: center;
   background-size: cover;
   margin: 2vw 0vw 2vw 0vw;
@@ -22,11 +22,10 @@ nav {
   text-align: center;
   margin: 1vw 3vw 2vw 0vw;
   padding: 1.5vw 3vw 1vw 3vw;
+  color: #F5F5F5;
+  font-size: 2vw;
 }
 
-.navA {
-  color: #F5F5F5;
-}
 
 h2 {
   margin: 1vw 1vw 1vw 1vw;
@@ -51,7 +50,7 @@ h1 {
   color: #311432;
   font-size: 6vw;
   font-family: 'DM Sans', sans-serif;
-  text-shadow: 1vw .5vw #999999;
+  text-shadow: .5vw  .1vw #A865C9;
 }
 
 #headerObject {
@@ -79,36 +78,51 @@ object{
   width: 29vw;
   height: 20vw;
   background-color:#FFFFFF;
-  background-image: url("https://media.istockphoto.com/vectors/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-vector-id1313854295?k=20&m=1313854295&s=612x612&w=0&h=R0wkQHPMF9AkU_n4HYNlsB0nPZnTvQruMoae0Q_zlf0=");
+  background-image: url(images/GameSpace.png);
   flex-grow: inherit;
-  background-size:contain;
+  background-size:cover;
   box-shadow: 1vw 1vw #999999;
   margin: 0vw 1vw 1vw 0vw;
   padding-top: .8vw;
+}
+
+.first_in_row:hover {
+background-image: url(images/GameSpaceInverted.png);
+background-size: cover;
 }
 
 .second_in_row {
   flex: 2;
   width: 29vw;
   height: 20vw;
-  background-image: url("https://media.istockphoto.com/photos/business-womans-hands-on-keyboard-using-laptop-with-colorful-splashes-picture-id671826820?k=20&m=671826820&s=612x612&w=0&h=Utqnkbn5WRquXHk9qCnoAiMMA6u-a33Xgzn7UkxM7R8=");
+  background-image: url(images/OtherProjects.png);
   flex-grow: inherit;
-  background-size: contain;
+  background-size: cover;
   box-shadow: 1vw 1vw #311432;
-  margin: 1vw 1vw 1vw 0vw;
+  margin: 1vw 1vw 1.2vw 0vw;
   padding-top: .5vw;
+}
+
+.second_in_row:hover {
+background-image: url(images/OtherProjectsInverted.png);
+background-size: cover;
 }
 
 .third_in_row {
   width: 30vw;
   height: 19.5vw;
   flex: 3;
-  background-image: url("https://media.istockphoto.com/photos/top-view-blank-screen-digital-tablet-in-studio-workplace-picture-id1138064661?k=20&m=1138064661&s=612x612&w=0&h=sKFkN1BOqubi4yhlYrYfBJVcCny1iEdUtLGYKVgmMys=");
+  background-image: url(images/Comments.png);
   background-size: cover;
   flex-grow: inherit;
   box-shadow: 1vw 1vw #999999;
   margin: 1vw 14vw 1vw 0vw;
-  padding-bottom: 1.3vw;
+  padding-bottom: 1.2vw;
+}
+
+.third_in_row:hover {
+background-image: url(images/CommentsInverted.png);
+background-size: cover;
 }
 
 li {
@@ -147,9 +161,10 @@ a {
 }
 
 footer {
+  align-self: flex-end;
   text-align: center;
   background-size: cover;
-  background: #311432;
+  background: #A865C9;
   background-size: cover;
   margin: 3vw 0vw 1vw 0vw;
   padding: .5vw
