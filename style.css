@@ -1,5 +1,5 @@
 html {
-  background-color:#FBD1A2;
+  background-color:#d9cbb6;
 }
 
 div {
@@ -10,17 +10,17 @@ div {
 
 nav {
   align-self: flex-start;
-  background: #00B2CA;
+  background: #311432;
   text-align: center;
   background-size: cover;
-  margin: 2vw 2vw 2vw 2vw;
+  margin: 2vw 0vw 2vw 0vw;
 }
 
 .navBar {
   flex-grow: inherit;
   display: inline-flex;
   text-align: center;
-  margin: 1vw 2vw 2vw 2vw;
+  margin: 1vw 3vw 2vw 0vw;
   padding: 1.5vw 3vw 1vw 3vw;
 }
 
@@ -29,12 +29,14 @@ nav {
 }
 
 h2 {
-  margin: 0vw 1vw 0vw 1vw;
-  padding: 0vw 5vw 0vw 5vw;
+  margin: 1vw 1vw 1vw 1vw;
+  padding: 1vw 5vw 1vw 5vw;
   font-family: 'DM Sans', sans-serif;
-  font-size: 2vw;
-  color: #1D4E89;
+  font-size: 3vw;
+  color: #F5F5F5;
   text-align: center;
+  justify-content: center;
+  text-shadow: .3vw .3vw black;
 }
 
 .header {
@@ -46,56 +48,67 @@ h2 {
 
 h1 {
   margin: auto;
-  color: #194E89;
-  font-size: 5vw;
+  color: #311432;
+  font-size: 6vw;
   font-family: 'DM Sans', sans-serif;
-  text-shadow: 3px 3px #F79256;
+  text-shadow: 1vw .5vw #999999;
 }
 
 #headerObject {
   padding: .5vw;
   flex-grow: inherit;
   font-size: 3vw;
-  background: #F79256;
+  background: #999999;
   font-family: 'DM Sans', sans-serif;
   color: #F5F5F5;
+  box-shadow: 1vw 1vw #311432;
 }
 
 object{
-  object-position: right;
+  object-position: center;
 }
 
 .first_row {
   column-count: 3;
-  margin: 1vw 7vw 2vw 7vw;
-  flex-grow: inherit;
+  margin: 1vw 2vw 2vw 2vw;
 }
 
 
 .first_in_row {
   flex: 1;
+  width: 29vw;
+  height: 20vw;
   background-color:#FFFFFF;
-  flex-direction: column;
-  float:left;
-  box-shadow: .3vw .3vw .3vw .3vw #F79256;
+  background-image: url("https://media.istockphoto.com/vectors/vector-illustration-young-gamer-sit-in-front-of-a-screen-and-playing-vector-id1313854295?k=20&m=1313854295&s=612x612&w=0&h=R0wkQHPMF9AkU_n4HYNlsB0nPZnTvQruMoae0Q_zlf0=");
+  flex-grow: inherit;
+  background-size:contain;
+  box-shadow: 1vw 1vw #999999;
+  margin: 0vw 1vw 1vw 0vw;
+  padding-top: .8vw;
 }
 
 .second_in_row {
   flex: 2;
+  width: 29vw;
+  height: 20vw;
+  background-image: url("https://media.istockphoto.com/photos/business-womans-hands-on-keyboard-using-laptop-with-colorful-splashes-picture-id671826820?k=20&m=671826820&s=612x612&w=0&h=Utqnkbn5WRquXHk9qCnoAiMMA6u-a33Xgzn7UkxM7R8=");
   flex-grow: inherit;
-  background-color:#FFFFFF;
-  flex-direction: column;
-  float:left;
-  box-shadow: .3vw .3vw .3vw .3vw #F79256;
+  background-size: contain;
+  box-shadow: 1vw 1vw #311432;
+  margin: 1vw 1vw 1vw 0vw;
+  padding-top: .5vw;
 }
 
 .third_in_row {
+  width: 30vw;
+  height: 19.5vw;
   flex: 3;
+  background-image: url("https://media.istockphoto.com/photos/top-view-blank-screen-digital-tablet-in-studio-workplace-picture-id1138064661?k=20&m=1138064661&s=612x612&w=0&h=sKFkN1BOqubi4yhlYrYfBJVcCny1iEdUtLGYKVgmMys=");
+  background-size: cover;
   flex-grow: inherit;
-  background-color:#FFFFFF;
-  flex-direction: column;
-  float:left;
-  box-shadow: .3vw .3vw .3vw .3vw #F79256;
+  box-shadow: 1vw 1vw #999999;
+  margin: 1vw 14vw 1vw 0vw;
+  padding-bottom: 1.3vw;
 }
 
 li {
@@ -124,18 +137,20 @@ li {
 a {
   text-decoration: none;
      color: #F5F5F5;
+     font-size: 2vw;
 }
 
 .foot {
   display: inline;
-  padding: 1vw 3vw 1vw 3vw;
+  padding: 1vw 5vw 1vw 1vw;
   text-align: center;
 }
 
 footer {
   text-align: center;
-  background: #00B2CA;
   background-size: cover;
-  margin: 2vw 2vw 1vw 2vw;
+  background: #311432;
+  background-size: cover;
+  margin: 3vw 0vw 1vw 0vw;
   padding: .5vw
   }
