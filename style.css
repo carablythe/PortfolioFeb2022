@@ -2,12 +2,6 @@ html {
   background-color:#d9cbb6;
 }
 
-div {
-    flex-grow: inherit;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
 nav {
   align-self: flex-start;
   background: #A865C9;
@@ -17,7 +11,6 @@ nav {
 }
 
 .navBar {
-  flex-grow: inherit;
   display: inline-flex;
   text-align: center;
   margin: 1vw 3vw 2vw 0vw;
@@ -26,16 +19,60 @@ nav {
   font-size: 2vw;
 }
 
+.dropdown {
+  height: 7vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.about {
+  position: relative;
+  cursor:pointer;
+}
+
+
+.about ul{
+  position:absolute;
+  margin-top: 3vw;
+  width: 15vw;
+  height: 10vw;
+  display: flex;
+  justify-content: space-around;
+  align-items: left;
+  flex-direction: column;
+  list-style:none;
+  color: black;
+  border-radius: 2vw;
+  background: #A865C9;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-10px);
+  transition: all 0.4s ease;
+}
+
+.about:hover {
+  color: red;
+}
+
+.about:hover {
+  opacity: 1;
+  pointer-events: all;
+  transform: translateY(0px);
+}
 
 h2 {
   margin: 1vw 1vw 1vw 1vw;
   padding: 1vw 5vw 1vw 5vw;
   font-family: 'DM Sans', sans-serif;
-  font-size: 3vw;
+  font-size: 3.5vw;
   color: #F5F5F5;
   text-align: center;
   justify-content: center;
-  text-shadow: .3vw .3vw black;
+  text-shadow: .5vw .5vw black;
+  padding: 5vw 5vw 5vw 6vw;
 }
 
 .header {
@@ -87,8 +124,8 @@ object{
 }
 
 .first_in_row:hover {
-background-image: url(images/GameSpaceInverted.png);
-background-size: cover;
+  background-image: url(images/GameSpaceInverted.png);
+  background-size: cover;
 }
 
 .second_in_row {
@@ -104,8 +141,8 @@ background-size: cover;
 }
 
 .second_in_row:hover {
-background-image: url(images/OtherProjectsInverted.png);
-background-size: cover;
+  background-image: url(images/OtherProjectsInverted.png);
+  background-size: cover;
 }
 
 .third_in_row {
@@ -125,33 +162,19 @@ background-image: url(images/CommentsInverted.png);
 background-size: cover;
 }
 
+
 li {
-  display: flex;
   list-style-type: none;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
-  color: #777777;
 }
 
-.theme{
-  margin:  0vw .0vw .5vw .5vw;
-  font-size: .6vw;
-  background-color: #7DCFB6;
-  display: inline-flex;
-}
-
-.themeUL {
-  display: flex;
-  display: inline-flex;
-  list-style: none;
-  margin: 0vw -7vw .5vw -2vw;
-  font-size: .7vw;
-}
 
 a {
   text-decoration: none;
-     color: #F5F5F5;
-     font-size: 2vw;
+  color: #311432;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 2vw;
 }
 
 .foot {
