@@ -180,7 +180,6 @@ a:hover {
   display: inline;
   padding: 1vw 5vw 1vw 1vw;
   margin: .5vw 4vw .5vw 4vw;
-  text-align: center;
 }
 
 footer {
@@ -188,7 +187,49 @@ footer {
   text-align: center;
   background-size: cover;
   background: #A865C9;
-  background-size: cover;
   margin: 1vw 0vw 0vw 0vw;
   padding: .5vw 3vw .5vw 4vw;
   }
+
+@media (max-width: 915px) {
+  .first_row {
+   column-count: 1;
+  }
+  .first_in_row, .second_in_row, .third_in_row {
+    width: 70vw;
+    height: 40vw;
+    margin: 5vw 10vw 5vw 10vw;
+
+  }
+  a, .navBar {
+    font-size: 4vw;
+  }
+  h2, #headerObject {
+     font-size: 6vw;
+  }
+  h2{
+    padding: 12vw 18vw 0vw 18vw;
+  }
+  h1{
+   font-size: 8vw;
+  }
+  nav {
+    margin: 0vw 0vw;
+    padding: 3vw 0vw 3vw 0vw;
+    width: 100%;
+    position: sticky;
+    top: 0;
+  }
+  footer {
+    margin: .5vw .5vw;
+    padding: .2vw 0vw .2vw 0vw;
+    width: 100%;
+    position: sticky;
+    bottom: 0;
+  }
+  .foot {
+    align-items: center;
+    margin: .5vw .5vw;
+    padding: .2vw 5vw .2vw 3vw;
+  }
+}
