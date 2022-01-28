@@ -8,6 +8,7 @@ nav {
   text-align: center;
   background-size: cover;
   margin: .5vw 0vw 1vw 0vw;
+  box-shadow: 1vw 1vw #311432;
 }
 
 .navBar {
@@ -32,7 +33,6 @@ nav {
 .drop {
   position: relative;
 }
-
 
 .dropUl{
   position:absolute;
@@ -60,7 +60,6 @@ nav {
 .dropLi {
   text-align: left;
 }
-
 
 h2 {
   margin: 1vw 1vw 1vw 1vw;
@@ -101,11 +100,50 @@ object{
   object-position: center;
 }
 
+h3, #submit {
+  font-size: 2vw;
+  font-family: 'DM Sans', sans-serif;
+  color: #311432;
+}
+
+.contactForm {
+  display: flex;
+  margin: 0vw 11vw;
+  width:70vw;
+}
+
+.formClass {
+  display: flex;
+  margin: 2vw 13vw;
+  color: #311432;
+  font-size: 2vw;
+  font-family: 'DM Sans', sans-serif;
+}
+
+.upperForm {
+  display: flex;
+  column: 2;
+
+}
+
+.nameInput{
+  width:33.2vw;
+  height:2vw;
+  font-size: 2vw;
+  margin-right: 2vw;
+}
+
+#comment {
+  width:70vw;
+  height:10vw;
+  font-size: 2vw;
+  font-family: 'DM Sans', sans-serif;
+}
+
 .first_row {
   column-count: 3;
   margin: 1vw 2vw 1vw 2vw;
 }
-
 
 .first_in_row {
   flex: 1;
@@ -178,7 +216,7 @@ a:hover {
 
 .foot {
   display: inline;
-  padding: 1vw 5vw 1vw 1vw;
+  padding: 1vw 3vw 1vw 1vw;
   margin: .5vw 4vw .5vw 4vw;
 }
 
@@ -189,9 +227,10 @@ footer {
   background: #A865C9;
   margin: 1vw 0vw 0vw 0vw;
   padding: .5vw 3vw .5vw 4vw;
-  }
+  box-shadow: 1vw 1vw #311432;
+}
 
-@media (max-width: 915px) {
+@media (max-width: 500px) {
   .first_row {
    column-count: 1;
   }
