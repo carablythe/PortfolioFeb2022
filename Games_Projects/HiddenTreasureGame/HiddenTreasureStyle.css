@@ -1,0 +1,82 @@
+
+body {
+  background-image: url("https://media.istockphoto.com/photos/open-treasure-chest-on-the-beach-picture-id537208605?k=20&m=537208605&s=612x612&w=0&h=UiIbZONBfyJaQLWmfWnN4fSa0Fhn_mkIH90K25FDjH8=");
+  background-size: cover;
+  background-color: #0B6623;
+  font-family:'Mochiy Pop P One', sans-serif;
+}
+
+h1 {
+  text-align: center;
+  color: #FF69B4;
+  font-size: 4vw;
+  text-shadow: 5px 5px #000000;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5vw;
+}
+
+.buttonStart {
+  background-color: red;
+}
+
+.buttonStartclass {
+  flex-flow: row;
+}
+
+.top{
+  display: flex;
+  flex-grow: inherit;
+  column-count: 3;
+  justify-content: space-between;
+}
+
+.buttonAclass {
+  flex: 1;
+  flex-direction: column;
+    flex-grow: inherit;
+
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  flex-grow: inherit;
+  width: 80vw;
+  height: 25vw;
+  background-color: whitesmoke;
+  flex: 2;
+  padding: 1vw 1vw 1vw 1vw;
+}
+
+.buttonBclass {
+  flex: 3;
+  flex-direction: column;
+    flex-grow: inherit;
+
+}
+
+button {
+  width: 18vw;
+  height: 6vw;
+  font-size: 2vw;
+  font-family:'Mochiy Pop P One', sans-serif;
+  margin: 2vw 2vw;
+  box-shadow: 5px 5px #000000;
+
+}
+
+button:hover{
+  transform: scale(1.2);
+  transition: 10ms;}
+
+.buttonA {
+    background-color: orange;
+}
+
+.buttonB {
+    background-color: #04d9ff;
+}

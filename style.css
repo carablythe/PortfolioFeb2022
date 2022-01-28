@@ -159,13 +159,11 @@ object{
   background-size: cover;
 }
 
-
 li {
   list-style-type: none;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
 }
-
 
 a {
   text-decoration: none;
