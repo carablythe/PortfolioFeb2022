@@ -100,10 +100,11 @@ object{
   object-position: center;
 }
 
-h3, #submit {
+h3, .submit {
   font-size: 2vw;
   font-family: 'DM Sans', sans-serif;
   color: #311432;
+  text-align: center;
 }
 
 .contactForm {

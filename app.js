@@ -1,8 +1,21 @@
-$(() => {
-  $('#submit').on('click', () => {
-  alert(`Thank you for contacting me! I look forward to reading your message and will be in touch soon. Have a great day!`)
-  })
-})
+// $(() => {
+//   $('.submit').on('click', () => {
+//   .alert("Thank you for contacting me! I look forward to reading your message and will be in touch soon. Have a great day!")
+//   })
+// })
+
+
+$(document).ready(function(){
+  $(".submit").click(function(){
+    alert("Thank you for contacting me! I look forward to reading your message and will be in touch soon. Have a great day!");
+  });
+});
+
+// const submitForm = () => {
+//   alert("Thank you for contacting me! I look forward to reading your message and will be in touch soon. Have a great day!"
+// }
+//
+// submitForm()
 
 
 
