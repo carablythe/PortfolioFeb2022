@@ -17,7 +17,7 @@ nav {
   margin: 2vw 3vw 2vw 0vw;
   padding: 1vw 3vw 1vw 3vw;
   color: #311432;
-  font-size: 2vw;
+  font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -43,7 +43,7 @@ nav {
   flex-direction: column;
   list-style:none;
   color: black;
-  border-radius: 2vw;
+  border-radius: 1.7vw;
   background: #A865C9;
   display:none;
 }
@@ -101,10 +101,14 @@ object{
 }
 
 h3, .submit {
-  font-size: 2vw;
+  font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
   color: #311432;
   text-align: center;
+}
+
+h3 {
+  margin: -3vw 22vw 0vw 18vw;
 }
 
 .contactForm {
@@ -117,27 +121,27 @@ h3, .submit {
   display: flex;
   margin: 2vw 13vw;
   color: #311432;
-  font-size: 2vw;
+  font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
 }
 
 .upperForm {
   display: flex;
-  column: 2;
-
+  column: 1.7;
+  margin-bottom: 1vw;
 }
 
 .nameInput{
   width:33.2vw;
   height:2vw;
-  font-size: 2vw;
+  font-size: 1.7vw;
   margin-right: 2vw;
 }
 
 #comment {
   width:70vw;
-  height:10vw;
-  font-size: 2vw;
+  height:8vw;
+  font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -208,7 +212,7 @@ a {
   text-decoration: none;
   color: #311432;
   font-family: 'DM Sans', sans-serif;
-  font-size: 2vw;
+  font-size: 1.7vw;
 }
 
 a:hover {
