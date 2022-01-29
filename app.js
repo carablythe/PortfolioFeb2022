@@ -1,8 +1,4 @@
-// $(() => {
-//   $('.submit').on('click', () => {
-//   .alert("Thank you for contacting me! I look forward to reading your message and will be in touch soon. Have a great day!")
-//   })
-// })
+/* The below is the set-up for my contact page submit alert: */
 
 
 $(document).ready(function(){
@@ -11,16 +7,11 @@ $(document).ready(function(){
   });
 });
 
-// const submitForm = () => {
-//   alert("Thank you for contacting me! I look forward to reading your message and will be in touch soon. Have a great day!"
-// }
-//
-// submitForm()
 
 
 
 
-// The below code was an attempt to get the dropdown menus via jQuery, but I ended up getting it to work with CSS:
+// The below code was an attempt to get the dropdown menus via jQuery, but I ended up getting it to work with CSS...later I realized I had not synced my script sources for javascript and jQuery with my html files, and that may have been why the below attemps didn't work:
 
 
 // $(() => {

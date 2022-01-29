@@ -1,8 +1,11 @@
+/* The below is the set-up for all html files: */
+
 html {
   background-color:#d9cbb6;
   font-family: 'DM Sans', sans-serif;
 }
 
+/* The below is the set-up for all html files' navbar: */
 nav {
   background: #A865C9;
   text-align: center;
@@ -61,6 +64,7 @@ nav {
   text-align: left;
 }
 
+/* The below is the set-up for all html files' headers: */
 h2 {
   margin: 1vw 1vw 1vw 1vw;
   font-size: 2.7vw;
@@ -100,6 +104,7 @@ object{
   object-position: center;
 }
 
+/* The below is the set-up for the h3 and form on the contact page: */
 h3, .submit {
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
@@ -145,6 +150,7 @@ h3 {
   font-family: 'DM Sans', sans-serif;
 }
 
+/* The below is the set-up of the center rows and image buttons for the index, game and project pages: */
 .first_row {
   column-count: 3;
   margin: 1vw 2vw 1vw 2vw;
@@ -202,6 +208,7 @@ h3 {
   background-size: cover;
 }
 
+/* The below is the set-up for all html files' navbar and footer: */
 li {
   list-style-type: none;
   text-decoration: none;
@@ -219,6 +226,7 @@ a:hover {
   color: #F5F5F5;
 }
 
+/* The below is the set-up for all html files' footer: */
 .foot {
   display: inline;
   padding: 1vw 3vw 1vw 1vw;
@@ -235,6 +243,7 @@ footer {
   box-shadow: 1vw 1vw #311432;
 }
 
+/* The below is the set-up for all html files' smaller device views: */
 @media (max-width: 500px) {
   .first_row {
    column-count: 1;
