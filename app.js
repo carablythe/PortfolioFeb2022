@@ -1,3 +1,14 @@
+/* The below is the set-up for my game page Read Me / more info buttons: */
+
+const readMeText = () => {
+  const readMessage = document.getElementById('readMe');
+  if (readMessage.style.display === "none") {
+    readMessage.style.display = "block"
+  }
+  else {readMessage.style.display = "none"}
+}
+
+
 /* The below is the set-up for my contact page submit alert: */
 
 $(document).ready(function(){
@@ -6,6 +17,36 @@ $(document).ready(function(){
   });
 });
 
+
+
+// The below code was an attempt to get the "read me" button to work on the Game Space page...Ashley helped me get it working with the first code on this page....
+
+
+// const button = document.getElementById('readMeButton');
+//
+// button.addEventListener("click", moreInfo)
+//
+// const moreInfo = () => {
+//   document.getElementById('readMe').innertext= "testing";
+// }
+//
+// moreInfo()
+
+
+// const readButton = document.getElementById('readMeButton');
+//
+// readButton.addEventListener("click", moreInfo);
+//
+// const moreInfo = () => {
+//   document.getElementById('readMe').innerHTML= "testing";
+// }
+
+// let button = document.querySelector('#readMeButton');
+// let message = document.querySelector('#readMe');
+//
+// button.addEventListener('click', () => {
+//   message.classList.toggle('reveal');
+// })
 
 
 

@@ -2,6 +2,7 @@
 
 html {
   background: url("https://files.123freevectors.com/wp-content/original/149759-abstract-grey-and-white-business-background-template.jpg");
+  background-size: cover;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -78,38 +79,39 @@ h2 {
   flex-grow: inherit;
   text-align: center;
   margin: 1vw 7vw 2vw 7vw;
-  padding: 5vw 5vw 2vw 5vw;
+  padding: 5vw 5vw 5vw 5vw;
 }
 
 h1 {
   margin: auto;
   color: #311432;
-  font-size: 5.5vw;
+  font-size: 5vw;
   font-family: 'DM Sans', sans-serif;
   text-shadow: .5vw  .1vw #A865C9;
 }
 
 #headerObject {
-  padding: .5vw;
+  padding: .3vw;
   flex-grow: inherit;
-  font-size: 2.7vw;
+  font-size: 2.5vw;
   background: #999999;
   font-family: 'DM Sans', sans-serif;
   color: #F5F5F5;
   box-shadow: 1vw 1vw #311432;
 }
 
-object{
+object {
   object-position: center;
 }
 
 /* The below is the set-up for the h3 and form on the contact page: */
-h3, .submit {
+h3, .submit, #readMe, #readMeButton {
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
   color: #311432;
   text-align: center;
 }
+
 
 h3 {
   margin: -3vw 22vw 0vw 18vw;
@@ -150,7 +152,7 @@ h3 {
 /* The below is the set-up of the center rows and image buttons for the index, game and project pages: */
 .first_row {
   column-count: 3;
-  margin: 1vw 2vw 1vw 2vw;
+  margin: 4vw 2vw 4vw 2vw;
 }
 
 .first_in_row, .first_game, .first_project {
@@ -232,7 +234,26 @@ h3 {
   background-size: cover;
 }
 
+/* The below is the read Me settings for the Games and Project pages: */
+
+#readMe, #readMeButton {
+  font-size: 1.7vw;
+  font-family: 'DM Sans', sans-serif;
+  color: #311432;
+  margin: 2vw 45vw;
+}
+
+
+#readMe {
+  display: none;
+}
+
+
+
+
+
 /* The below is margin and font color setting for the Background and Goals pages: */
+
 p {
   margin: 3vw 3vw;
   color: #311432;
@@ -259,11 +280,13 @@ a:hover {
 /* The below is the set-up for all html files' footer: */
 .foot {
   display: inline;
+  font-size: 2.5vw;
   padding: 1vw 3vw 1vw 1vw;
   margin: .5vw 4vw .5vw 4vw;
 }
 
 footer {
+
   align-self: flex-end;
   text-align: center;
   background-size: cover;
@@ -274,7 +297,7 @@ footer {
 }
 
 /* The below is the set-up for all html files' smaller device views: */
-@media (max-width: 600px) {
+@media (max-width: 915px) {
   .first_row {
    column-count: 1;
   }
@@ -346,7 +369,7 @@ footer {
   }
 
   footer {
-    margin: .5vw .5vw;
+    margin: .3vw .3vw;
     padding: .2vw 0vw .2vw 0vw;
     width: 100%;
     position: sticky;
@@ -355,7 +378,7 @@ footer {
 
   .foot {
     align-items: center;
-    margin: .5vw .5vw;
-    padding: .2vw 5vw .2vw 3vw;
+    margin: .3vw .3vw;
+    padding: .1vw 7vw .1vw 0vw;
   }
 }
