@@ -5,7 +5,7 @@ html {
   font-family: 'DM Sans', sans-serif;
 }
 
-/* The below is the set-up for all html files' navbar: */
+/* The below is the set-up for all html files' navbar and drop-down menus: */
 nav {
   background: #A865C9;
   text-align: center;
@@ -175,7 +175,12 @@ h3 {
 }
 
 .first_game {
-  background-image: url("https://media.istockphoto.com/photos/open-treasure-chest-on-the-beach-picture-id537208605?k=20&m=537208605&s=612x612&w=0&h=UiIbZONBfyJaQLWmfWnN4fSa0Fhn_mkIH90K25FDjH8=");
+  background-image: url(images/Treasure.png);
+}
+
+.first_game:hover {
+  background-image: url(images/TreasureInverted.png);
+  background-size: cover;
 }
 
 .second_in_row, .second_game, .second_project {
@@ -195,6 +200,15 @@ h3 {
 
 .second_in_row:hover, .first_project:hover, .second_project:hover, .third_project:hover {
   background-image: url(images/OtherProjectsInverted.png);
+  background-size: cover;
+}
+
+.second_game {
+  background-image: url(images/Smiley.png);
+}
+
+.second_game:hover {
+  background-image: url(images/SmileyInverted.png);
   background-size: cover;
 }
 
