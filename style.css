@@ -45,7 +45,6 @@ nav {
   height: 8vw;
   flex-direction: column;
   list-style:none;
-  color: black;
   border-radius: 1.7vw;
   background: #A865C9;
   display:none;
@@ -119,7 +118,6 @@ h3 {
 .contactForm {
   display: flex;
   margin: 0vw 11vw;
-  width:70vw;
 }
 
 .formClass {
@@ -132,13 +130,12 @@ h3 {
 
 .upperForm {
   display: flex;
-  column: 1.7;
   margin-bottom: 1vw;
 }
 
 .nameInput{
   width:33.2vw;
-  height:2vw;
+  height:2.5vw;
   font-size: 1.7vw;
   margin-right: 2vw;
 }
@@ -156,12 +153,11 @@ h3 {
   margin: 1vw 2vw 1vw 2vw;
 }
 
-.first_in_row {
+.first_in_row, .first_game, .first_project {
   flex: 1;
   width: 26vw;
   height: 18vw;
   background-color:#FFFFFF;
-  background-image: url(images/GameSpace.png);
   flex-grow: inherit;
   background-size:cover;
   box-shadow: 1vw 1vw #999999;
@@ -169,16 +165,23 @@ h3 {
   padding-top: .8vw;
 }
 
-.first_in_row:hover {
+.first_in_row, .third_game {
+  background-image: url(images/GameSpace.png);
+}
+
+.first_in_row:hover, .third_game:hover {
   background-image: url(images/GameSpaceInverted.png);
   background-size: cover;
 }
 
-.second_in_row {
+.first_game {
+  background-image: url("https://media.istockphoto.com/photos/open-treasure-chest-on-the-beach-picture-id537208605?k=20&m=537208605&s=612x612&w=0&h=UiIbZONBfyJaQLWmfWnN4fSa0Fhn_mkIH90K25FDjH8=");
+}
+
+.second_in_row, .second_game, .second_project {
   flex: 2;
   width: 26vw;
   height: 18vw;
-  background-image: url(images/OtherProjects.png);
   flex-grow: inherit;
   background-size: cover;
   box-shadow: 1vw 1vw #311432;
@@ -186,16 +189,19 @@ h3 {
   padding-top: .5vw;
 }
 
-.second_in_row:hover {
+.second_in_row, .first_project, .second_project, .third_project {
+    background-image: url(images/OtherProjects.png);
+}
+
+.second_in_row:hover, .first_project:hover, .second_project:hover, .third_project:hover {
   background-image: url(images/OtherProjectsInverted.png);
   background-size: cover;
 }
 
-.third_in_row {
+.third_in_row, .third_game, .third_project  {
   width: 26vw;
   height: 17.5vw;
   flex: 3;
-  background-image: url(images/Comments.png);
   background-size: cover;
   flex-grow: inherit;
   box-shadow: 1vw 1vw #999999;
@@ -203,9 +209,19 @@ h3 {
   padding-bottom: 1.2vw;
 }
 
+.third_in_row {
+    background-image: url(images/Comments.png);
+}
+
 .third_in_row:hover {
   background-image: url(images/CommentsInverted.png);
   background-size: cover;
+}
+
+/* The below is margin and font color setting for the Background and Goals pages: */
+p {
+  margin: 3vw 3vw;
+  color: #311432;
 }
 
 /* The below is the set-up for all html files' navbar and footer: */
@@ -244,35 +260,77 @@ footer {
 }
 
 /* The below is the set-up for all html files' smaller device views: */
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .first_row {
    column-count: 1;
   }
-  .first_in_row, .second_in_row, .third_in_row {
+  .first_in_row, .second_in_row, .third_in_row, .first_game, .second_game, .third_game, .first_project, .second_project, .third_project  {
     width: 70vw;
     height: 40vw;
     margin: 5vw 10vw 5vw 10vw;
+  }
 
-  }
   a, .navBar {
-    font-size: 4vw;
+    font-size: 3vw;
   }
+
+  .dropUl{
+    position:absolute;
+    margin-top: 4.5vw;
+    padding: 1vw 2vw 2vw 2vw;
+    width: 12vw;
+    height: 8vw;
+    flex-direction: column;
+  }
+
   h2, #headerObject {
      font-size: 6vw;
   }
+
   h2{
     padding: 12vw 18vw 0vw 18vw;
   }
+
   h1{
    font-size: 8vw;
   }
+
   nav {
-    margin: 0vw 0vw;
+    margin: 0vw 0vw 8vw 0vw;
     padding: 3vw 0vw 3vw 0vw;
     width: 100%;
     position: sticky;
     top: 0;
   }
+
+  .upperForm {
+    display: flex;
+    margin-bottom: 1vw;
+    flex-direction: column;
+    columns:2
+  }
+
+  .nameInput{
+    width:70vw;
+    height:4vw;
+    font-size: 4vw;
+    margin-right: 2vw;
+  }
+
+  h3, .submit {
+    font-size: 4vw;
+  }
+
+  .formClass {
+    font-size: 4vw;
+  }
+
+  #comment {
+    width:70vw;
+    height:20vw;
+    font-size: 4vw;
+  }
+
   footer {
     margin: .5vw .5vw;
     padding: .2vw 0vw .2vw 0vw;
@@ -280,6 +338,7 @@ footer {
     position: sticky;
     bottom: 0;
   }
+
   .foot {
     align-items: center;
     margin: .5vw .5vw;
