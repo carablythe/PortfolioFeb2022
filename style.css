@@ -116,7 +116,6 @@ h3 {
 }
 
 .formClass {
-  display: flex;
   margin: 5vw 13vw;
   color: #311432;
   font-size: 1.7vw;
@@ -124,19 +123,18 @@ h3 {
 }
 
 .upperForm {
-  display: flex;
   margin-bottom: 1vw;
 }
 
 .nameInput{
-  width:33.2vw;
+  width:70vw;
   height:2.5vw;
   font-size: 1.7vw;
   margin-right: 2vw;
 }
 
 .emailInput{
-  width:69vw;
+  width:70vw;
   height:2.5vw;
   font-size: 1.7vw;
   margin-right: 2vw;
@@ -151,6 +149,13 @@ h3 {
   height:15vw;
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
+}
+
+.imResponse {
+  width: 70vw;
+  height: 7vw;
+  font-size: 1.7vw;
+  text-align: center;
 }
 
 /* The below is the set-up of the center rows and image buttons for the index, game and project pages: */
@@ -184,10 +189,10 @@ h3 {
   background-image: url(images/Treasure.png);
 }
 
-.first_game:hover {
+/* .first_game:hover {
   background-image: url(images/TreasureInverted.png);
   background-size: cover;
-}
+} */
 
 .second_in_row, .second_game, .second_project {
   flex: 2;
@@ -303,6 +308,7 @@ footer {
   .first_row {
    column-count: 1;
   }
+
   .first_in_row, .second_in_row, .third_in_row, .first_game, .second_game, .third_game, .first_project, .second_project, .third_project  {
     width: 70vw;
     height: 40vw;
@@ -379,6 +385,13 @@ footer {
     width:70vw;
     height:35vw;
     font-size: 4vw;
+  }
+
+  .imResponse {
+    width: 70vw;
+    height: 20vw;
+    font-size: 4vw;
+    text-align: center;
   }
 
   footer {
