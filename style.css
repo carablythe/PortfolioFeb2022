@@ -18,8 +18,8 @@ nav {
 .navBar {
   display: inline-flex;
   text-align: center;
-  margin: 2vw 3vw 2vw 0vw;
-  padding: 1vw 3vw 1vw 3vw;
+  margin: 2vw 0vw 2vw 5vw;
+  padding: 1vw 0vw 1vw 5vw;
   color: #311432;
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
@@ -31,7 +31,7 @@ nav {
   justify-content: space-around;
   align-items: center;
   width: 80%;
-  margin: auto;
+  margin: 0vw 0vw;
 }
 
 .drop {
@@ -41,9 +41,9 @@ nav {
 .dropUl{
   position:absolute;
   margin-top: 2.5vw;
-  padding: 1vw 2vw 0vw 3vw;
-  width: 12vw;
-  height: 8vw;
+  padding: 1vw 1vw 0vw 3vw;
+  width: 8vw;
+  height:6vw;
   flex-direction: column;
   list-style:none;
   border-radius: 1.7vw;
@@ -79,8 +79,8 @@ h2 {
 .header {
   flex-grow: inherit;
   text-align: center;
-  margin: 1vw 7vw 0vw 7vw;
-  padding: 5vw 5vw 3vw 5vw;
+  margin: 3vw 7vw 0vw 7vw;
+  padding: 5vw 5vw 5vw 5vw;
 }
 
 h1 {
@@ -133,6 +133,17 @@ h3 {
   height:2.5vw;
   font-size: 1.7vw;
   margin-right: 2vw;
+}
+
+.emailInput{
+  width:69vw;
+  height:2.5vw;
+  font-size: 1.7vw;
+  margin-right: 2vw;
+}
+
+.lowerForm {
+  margin-top: 1vw;
 }
 
 #comment {
@@ -307,6 +318,12 @@ footer {
     font-size: 2.5vw;
   }
 
+  .navBar {
+    align-content: center;
+    margin: 2vw 0vw 2vw 3vw;
+    padding: 1vw 0vw 1vw 3vw;
+  }
+
   .dropUl{
     position:absolute;
     margin-top: 4.5vw;
@@ -343,7 +360,7 @@ footer {
     columns:2
   }
 
-  .nameInput{
+  .nameInput, .emailInput{
     width:70vw;
     height:4vw;
     font-size: 4vw;
