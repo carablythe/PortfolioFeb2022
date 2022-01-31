@@ -49,6 +49,7 @@ nav {
   border-radius: 1.7vw;
   background: #A865C9;
   display:none;
+  box-shadow: 1vw 1vw #311432;
 }
 
 .drop:hover {
@@ -78,8 +79,8 @@ h2 {
 .header {
   flex-grow: inherit;
   text-align: center;
-  margin: 1vw 7vw 2vw 7vw;
-  padding: 5vw 5vw 5vw 5vw;
+  margin: 1vw 7vw 0vw 7vw;
+  padding: 5vw 5vw 3vw 5vw;
 }
 
 h1 {
@@ -98,33 +99,25 @@ h1 {
   font-family: 'DM Sans', sans-serif;
   color: #F5F5F5;
   box-shadow: 1vw 1vw #311432;
-}
-
-object {
   object-position: center;
 }
 
-/* The below is the set-up for the h3 and form on the contact page: */
-h3, .submit, #readMe, #readMeButton {
+
+/* The below is the set-up for the h3 on the contact and index pages and the form on the contact page: */
+h3, .submit {
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
   color: #311432;
   text-align: center;
 }
 
-
 h3 {
-  margin: -3vw 22vw 0vw 18vw;
-}
-
-.contactForm {
-  display: flex;
-  margin: 0vw 11vw;
+  margin: 0vw 20vw 0vw 20vw;
 }
 
 .formClass {
   display: flex;
-  margin: 2vw 13vw;
+  margin: 5vw 13vw;
   color: #311432;
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
@@ -144,7 +137,7 @@ h3 {
 
 #comment {
   width:70vw;
-  height:8vw;
+  height:15vw;
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
 }
@@ -197,7 +190,7 @@ h3 {
 }
 
 .second_in_row, .first_project, .second_project, .third_project {
-    background-image: url(images/OtherProjects.png);
+  background-image: url(images/OtherProjects.png);
 }
 
 .second_in_row:hover, .first_project:hover, .second_project:hover, .third_project:hover {
@@ -240,16 +233,15 @@ h3 {
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
   color: #311432;
-  margin: 2vw 45vw;
 }
-
 
 #readMe {
   display: none;
 }
 
-
-
+#readMeButton {
+  margin: 0vw 39vw 1vw 44vw;
+}
 
 
 /* The below is margin and font color setting for the Background and Goals pages: */
@@ -286,7 +278,6 @@ a:hover {
 }
 
 footer {
-
   align-self: flex-end;
   text-align: center;
   background-size: cover;
@@ -307,8 +298,13 @@ footer {
     margin: 5vw 10vw 5vw 10vw;
   }
 
-  a, .navBar {
+  #readMeButton {
     font-size: 3vw;
+      margin: 0vw 36vw 1vw 40vw;
+    }
+
+  a, .navBar {
+    font-size: 2.5vw;
   }
 
   .dropUl{
@@ -354,7 +350,7 @@ footer {
     margin-right: 2vw;
   }
 
-  h3, .submit {
+  h3, .submit, #readMe {
     font-size: 4vw;
   }
 
@@ -364,7 +360,7 @@ footer {
 
   #comment {
     width:70vw;
-    height:20vw;
+    height:35vw;
     font-size: 4vw;
   }
 
@@ -380,5 +376,6 @@ footer {
     align-items: center;
     margin: .3vw .3vw;
     padding: .1vw 7vw .1vw 0vw;
+    font-size: 3vw;
   }
 }
