@@ -58,6 +58,8 @@ nav {
 }
 
 .drop:hover > .dropUl{
+  -webkit-display:flex;
+  -webkit-align-items: left;
   display:flex;
   align-items: left;
 }
@@ -302,21 +304,6 @@ footer {
 
 /* The below is the set-up for all html files' smaller device views: */
 @media (max-width: 915px) {
-  .first_row {
-   column-count: 1;
-  }
-
-  .first_in_row, .second_in_row, .third_in_row, .first_game, .second_game, .third_game, .first_project, .second_project, .third_project  {
-    width: 70vw;
-    height: 40vw;
-    margin: 5vw 10vw 5vw 10vw;
-  }
-
-  #readMeButton {
-    font-size: 3vw;
-      margin: 0vw 36vw 1vw 40vw;
-    }
-
   a, .navBar {
     font-size: 2.5vw;
   }
@@ -327,9 +314,17 @@ footer {
     padding: 1vw 0vw 1vw 3vw;
   }
 
+  nav {
+      margin: 0vw 0vw 8vw 0vw;
+      padding: 3vw 0vw 3vw 0vw;
+      width: 100%;
+      position: sticky;
+      top: 0;
+    }
+
   .dropUl{
     position:absolute;
-    margin-top: 4.5vw;
+    margin-top: 3.5vw;
     padding: 1vw 2vw 2vw 2vw;
     width: 12vw;
     height: 8vw;
@@ -348,13 +343,20 @@ footer {
    font-size: 8vw;
   }
 
-  nav {
-    margin: 0vw 0vw 8vw 0vw;
-    padding: 3vw 0vw 3vw 0vw;
-    width: 100%;
-    position: sticky;
-    top: 0;
+  .first_row {
+   column-count: 1;
   }
+
+  .first_in_row, .second_in_row, .third_in_row, .first_game, .second_game, .third_game, .first_project, .second_project, .third_project  {
+    width: 70vw;
+    height: 40vw;
+    margin: 5vw 10vw 5vw 10vw;
+  }
+
+  #readMeButton {
+    font-size: 3vw;
+      margin: 0vw 36vw 1vw 40vw;
+    }
 
   .upperForm {
     display: flex;
