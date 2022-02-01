@@ -52,11 +52,8 @@ nav {
   box-shadow: 1vw 1vw #311432;
 }
 
--webkit-.drop:hover {
-  color: #F5F5F5;
-}
-
 .drop:hover {
+  -webkit-color: #F5F5F5;
   color: #F5F5F5;
 }
 
