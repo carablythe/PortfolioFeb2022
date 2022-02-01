@@ -266,6 +266,18 @@ p {
   color: #311432;
 }
 
+.goals {
+  display: flex;
+  margin-top: 0vw;
+}
+
+#myPic {
+  float:left;
+}
+
+#myGoals {
+  float:right;
+}
 /* The below is the set-up for all html files' navbar and footer: */
 li {
   list-style-type: none;
