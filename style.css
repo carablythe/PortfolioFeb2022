@@ -52,6 +52,10 @@ nav {
   box-shadow: 1vw 1vw #311432;
 }
 
+-webkit-.drop:hover {
+  color: #F5F5F5;
+}
+
 .drop:hover {
   color: #F5F5F5;
 }
@@ -249,10 +253,6 @@ h3 {
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
   color: #311432;
-}
-
-#readMe {
-  display: none;
 }
 
 #readMeButton {

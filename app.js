@@ -1,5 +1,9 @@
 /* The below is the set-up for my game page Read Me / more info buttons: */
 
+$(() => {
+  $('#readMe').css("display", "none")
+})
+
 const readMeText = () => {
   const readMessage = document.getElementById('readMe');
   if (readMessage.style.display === "none") {
@@ -7,6 +11,7 @@ const readMeText = () => {
   }
   else {readMessage.style.display = "none"}
 }
+
 
 
 /* The below is the set-up for my contact page submit message: */
