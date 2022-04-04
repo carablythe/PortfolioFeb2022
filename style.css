@@ -166,7 +166,7 @@ h3 {
 /* The below is the set-up of the center rows and image buttons for the index, game and project pages: */
 .first_row {
   column-count: 3;
-  margin: 4vw 2vw 4vw 2vw;
+  margin: 4vw 2vw 4vw 4vw;
 }
 
 .first_in_row, .first_game, .first_project {
@@ -174,27 +174,31 @@ h3 {
   width: 26vw;
   height: 18vw;
   background-color:#FFFFFF;
-  flex-grow: inherit;
-  background-size:cover;
-  box-shadow: 1vw 1vw #999999;
-  margin: 0vw 1vw 1vw 2vw;
+  background-size: cover;
   padding-top: .8vw;
 }
 
-.first_in_row {
-  background-image: url(images/GameSpace.png);
-}
 
 
 .second_in_row, .second_game, .second_project {
   flex: 2;
   width: 26vw;
   height: 18vw;
-  flex-grow: inherit;
-  background-size: cover;
-  box-shadow: 1vw 1vw #311432;
-  margin: 1vw 1vw 1.2vw 1vw;
   padding-top: .5vw;
+  background-size: cover;
+}
+
+
+.third_in_row, .third_game, .third_project  {
+  flex: 3;
+  width: 26vw;
+  height: 17.5vw;
+  padding-bottom: 1.2vw;
+  background-size: cover;
+}
+
+.first_in_row {
+  background-image: url(images/GameSpace.png);
 }
 
 .second_in_row, .first_project, .second_project, .third_project {
@@ -202,19 +206,21 @@ h3 {
 }
 
 
+.third_in_row {
+    background-image: url(images/Comments.png);
+}
+
+
 .first_game {
   background-image: url(images/RewardPlease.png);
-  background-size: cover;
 }
 
 .second_game {
   background-image: url(images/YourPantry.png);
-  background-size: cover;
 }
 
 .third_game {
   background-image: url(images/CozyFurniture.png);
-  background-size: cover;
 }
 
 .first_game:hover, .second_game:hover, .third_game:hover, .first_in_row:hover, .second_in_row:hover, .third_in_row:hover, .first_project:hover, .second_project:hover, .third_project:hover  {
@@ -222,20 +228,6 @@ h3 {
 }
 
 
-.third_in_row, .third_game, .third_project  {
-  width: 26vw;
-  height: 17.5vw;
-  flex: 3;
-  background-size: cover;
-  flex-grow: inherit;
-  box-shadow: 1vw 1vw #999999;
-  margin: 1vw 9vw 1vw 0vw;
-  padding-bottom: 1.2vw;
-}
-
-.third_in_row {
-    background-image: url(images/Comments.png);
-}
 
 
 /* The below is the read Me settings for the Games and Project pages: */
@@ -307,8 +299,74 @@ footer {
   box-shadow: 1vw 1vw #311432;
 }
 
+/* ======= GENERAL ======== */
+
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.container > img {
+	width: 50%;
+}
+.container > h1 {
+	font-family: 'DM Sans', sans-serif;
+	font-weight: 800;
+	font-size: 2.5em;
+	margin-top: -1%;
+	color: #4caaa8;
+	text-shadow: 1px 1px #f2cd99;
+	letter-spacing: 2px;
+}
+/* ======= CAROUSEL SECTION ======== */
+
+
+.carousel-container {
+	width: 70%;
+	display: flex;
+	justify-content: space-around;
+}
+.carousel-images {
+	width: 80%;
+	background: #fa8d8e;
+	padding: 10px;
+	border-radius: 10px;
+	box-sizing: border-box;
+	box-shadow: 2px 2px #f2cd99;
+}
+.carousel-images img {
+	width: 100%;
+	border-radius: 10px;
+	display: none;
+}
+.carousel-images img: first-of-type{
+	display: block;
+}
+.carousel-button {
+	align-self: center;
+	background: #f2cd99;
+	color: #888;
+	padding: 10px;
+	border-radius: 50%;
+	text-align: center;
+	box-shadow: 1px 1px #fa8d8e;
+}
+.carousel-button:hover {
+	cursor: pointer;
+	background: #fa8d8e;
+	box-shadow: 1px 1px #f2cd99;
+	color: white;
+}
+
+.carousel-images img:first-of-type {
+
+}
+
+
+
+
 /* The below is the set-up for all html files' smaller device views: */
-@media (max-width: 915px) {
+@media (max-width: 700px) {
   a, .navBar {
     font-size: 2.5vw;
   }

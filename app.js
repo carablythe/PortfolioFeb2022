@@ -34,6 +34,46 @@ $(() => {
 
 
 
+$(() => {
+  currentImgIndex = 0;
+  numOfImages = $('.carousel-images').children().length - 1
+  $('.next').on('click', () => {
+     $('.carousel-images').children().eq(currentImgIndex).css('display','none')
+     if(currentImgIndex < numOfImages) {
+       currentImgIndex++
+     } else {
+       currentImgIndex = 0
+     }
+    $('.carousel-images').children().eq(currentImgIndex).css('display','block')
+  })
+    $('.previous').on('click', () => {
+      $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
+    if(currentImgIndex > 0) {
+      currentImgIndex--
+    } else {
+      currentImgIndex = numOfImages
+    }
+    $('.carousel-images').children().eq(currentImgIndex).css('display','block')
+  })
+
+});
+
+
+
+
+// TOOK OUT OF HTML PAST PROJECTS, might use later:
+// </div>
+// <div class="first_row">
+// <a href="http://rewardplease.herokuapp.com/" target=”_blank”>
+//         <div class="first_game">     </div>
+//  <a href="http://yourpantryrecipes.herokuapp.com/" target=”_blank”>
+//       <div class="second_game">      </div>
+// <a href="https://buyfurniture.herokuapp.com/" target=”_blank”>
+//       <div class="third_game">  </div>
+// </div>
+
+
+
 //The following was an attempt to link my user input from the contact page into a Google Sheets file. DID NOT WORK. The script source is from https://medium.com/geekculture/link-your-html-form-to-a-spreadsheet-via-google-forms-9024f0611d82
 //
 //     function postToGoogle() {
