@@ -110,7 +110,7 @@ h1 {
 
 /* The below is the set-up for the h3 on the contact and index pages and the form on the contact page: */
 h3, .submit {
-  font-size: 1.7vw;
+  font-size: 2.0vw;
   font-family: 'DM Sans', sans-serif;
   color: #311432;
   text-align: center;
@@ -372,13 +372,13 @@ footer {
 /* The below is the set-up for all html files' smaller device views: */
 @media (max-width: 800px) {
   a, .navBar {
-    font-size: 2.5vw;
+    font-size: 3.5vw;
   }
 
   .navBar {
     align-content: center;
-    margin: 2vw 0vw 2vw 3vw;
-    padding: 1vw 0vw 1vw 3vw;
+    margin: 2vw 0vw 2vw 2vw;
+    padding: 1vw 0vw 1vw 1vw;
   }
 
   nav {
@@ -421,7 +421,7 @@ footer {
   }
 
   #readMeButton {
-    font-size: 3vw;
+    font-size: 3.5vw;
       margin: 0vw 36vw 1vw 40vw;
     }
 
@@ -439,8 +439,8 @@ footer {
     margin-right: 2vw;
   }
 
-  h3, .submit, #readMe {
-    font-size: 4vw;
+  h3, p, .submit, #readMe {
+    font-size: 3.5vw;
   }
 
   .formClass {
