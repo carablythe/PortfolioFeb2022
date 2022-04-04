@@ -17,7 +17,7 @@ const readMeText = () => {
 
 $(() => {
   $('.submit').on('click', () => {
-    $('.imResponse').text("Thank you for contacting me! I look forward to reading your message and will be in touch soon. Have a great day!   - Cara")})
+    $('.imResponse').text("Thank you! I will be in touch soon！ - Cara")})
 })
 
 

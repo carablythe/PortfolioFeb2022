@@ -22,7 +22,7 @@ nav {
   text-align: center;
   margin: 2vw 0vw 2vw 5vw;
   padding: 1vw 0vw 1vw 5vw;
-  font-size: 1.7vw;
+  font-size: 2vw;
   font-family: 'DM Sans', sans-serif;
   color: #FAE6FA
 }
@@ -84,8 +84,8 @@ h2 {
 .header {
   flex-grow: inherit;
   text-align: center;
-  margin: 3vw 7vw 0vw 7vw;
-  padding: 5vw 5vw 5vw 5vw;
+  margin: 2vw 7vw 0vw 7vw;
+  padding: 4vw 5vw 5vw 5vw;
 }
 
 h1 {
@@ -233,10 +233,13 @@ h3 {
 /* The below is the read Me settings for the Games and Project pages: */
 
 #readMe, #readMeButton {
-  font-size: 1.7vw;
+  font-size: 2.2vw;
   font-family: 'DM Sans', sans-serif;
-  color: #311432;
+  color: #006400;
+  background: url("https://files.123freevectors.com/wp-content/original/149759-abstract-grey-and-white-business-background-template.jpg");
+  filter: invert(1)
 }
+
 
 #readMeButton {
   margin: 0vw 39vw 1vw 44vw;
@@ -248,6 +251,7 @@ h3 {
 p {
   margin: 3vw 3vw;
   color: #311432;
+  font-size: 2vw;
 }
 
 .goals {
@@ -262,6 +266,8 @@ p {
 #myGoals {
   float:right;
 }
+
+
 /* The below is the set-up for all html files' navbar and footer: */
 li {
   list-style-type: none;
@@ -273,7 +279,7 @@ a {
   text-decoration: none;
   color: #311432;
   font-family: 'DM Sans', sans-serif;
-  font-size: 1.7vw;
+  font-size: 2vw;
 }
 
 a:hover {
@@ -299,7 +305,8 @@ footer {
   box-shadow: 1vw 1vw #311432;
 }
 
-/* ======= GENERAL ======== */
+
+/* The below is for the carousel images in the Projects sections: */
 
 .container {
 	display: flex;
@@ -318,11 +325,9 @@ footer {
 	text-shadow: 1px 1px #f2cd99;
 	letter-spacing: 2px;
 }
-/* ======= CAROUSEL SECTION ======== */
-
 
 .carousel-container {
-	width: 70%;
+	width: 60%;
 	display: flex;
 	justify-content: space-around;
 }
@@ -364,9 +369,8 @@ footer {
 
 
 
-
 /* The below is the set-up for all html files' smaller device views: */
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   a, .navBar {
     font-size: 2.5vw;
   }
