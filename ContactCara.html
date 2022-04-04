@@ -49,26 +49,26 @@
         <h1 class= "header">Send a Message<br>to Cara</h1>
         <h3>Whether an introduction, helpful feedback, constructive criticism or just a "hello", I would love to hear from you!</h3>
       </div>
-      <div class="formClass" id=”contact” onsubmit=”return postToGoogle();”>
+      <form class="formClass" id=”contact” action = "https://formsubmit.co/carablythephillips@gmail.com" method = "POST">
           <div class= "upperForm">
             <div>
               <label for="firstName">First/Given name:</label><br>
-              <input type="text" class="nameInput" name="entry.847406057" id="firstName" value="">
+              <input type="text" class="nameInput" name="firstName" id="firstName" required>
             </div>
             <div>
               <label for="lastName">Last/Family name:</label><br>
-              <input type="text" class="nameInput" name="entry.1603159707" id="lastName" value="">
+              <input type="text" class="nameInput" name="lastName" id="lastName" required>
             </div>
           </div>
           <div class= lowerForm>
               <label for="email">Email address:</label><br>
-              <input type="text" class="emailInput" name="entry.1613149320" id="email" value="">
+              <input type="text" class="emailInput" name="email" id="email" required>
               <label for="comment">Your message:</label><br>
-              <textarea name="entry.910551304" id="comment"></textarea><br>
-              <input type="submit" class="submit" value="Submit" id=”contact” onsubmit=”return postToGoogle();”>
+              <textarea name="message" id="comment" required></textarea><br>
+              <input type="submit" class="submit" id=”contact”>
               <p class="imResponse"></p>
           </div>
-      </div>
+      </form>
       <footer>
         <ul class = "icons">
           <li class="foot"><a href="index.html" class="fa fa-home"></a></li>

@@ -23,14 +23,14 @@ $(() => {
 
 //hover effect on pics
 
-$(document).ready(function() {
-    $('.first_game').mouseenter(function() {
-    $('.first_game').css("background-image", "url(images/TreasureInverted.png)")
-    })
-    $('.first_game').mouseleave(function() {
-    $('.first_game').css("background-image", "url(images/Treasure.png)")
-    })
-  })
+// $(document).ready(function() {
+//     $('.first_game').mouseenter(function() {
+//     $('.first_game').css("background-image", "url(images/TreasureInverted.png)")
+//     })
+//     $('.first_game').mouseleave(function() {
+//     $('.first_game').css("background-image", "url(images/Treasure.png)")
+//     })
+//   })
 
 
 

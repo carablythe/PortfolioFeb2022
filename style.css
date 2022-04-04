@@ -185,19 +185,6 @@ h3 {
   background-image: url(images/GameSpace.png);
 }
 
-.first_in_row:hover, .third_game:hover {
-  background-image: url(images/GameSpaceInverted.png);
-  background-size: cover;
-}
-
-.first_game {
-  background-image: url(images/RewardPlease.png);
-}
-
-/* .first_game:hover {
-  background-image: url(images/TreasureInverted.png);
-  background-size: cover;
-} */
 
 .second_in_row, .second_game, .second_project {
   flex: 2;
@@ -214,28 +201,26 @@ h3 {
   background-image: url(images/OtherProjects.png);
 }
 
-.second_in_row:hover, .first_project:hover, .second_project:hover, .third_project:hover {
-  background-image: url(images/OtherProjectsInverted.png);
+
+.first_game {
+  background-image: url(images/RewardPlease.png);
   background-size: cover;
 }
 
 .second_game {
-  background-image: url(images/YourPantry.png);
-}
-
-.second_game:hover {
   background-image: url(images/YourPantry.png);
   background-size: cover;
 }
 
 .third_game {
   background-image: url(images/CozyFurniture.png);
-}
-
-.third_game:hover {
-  background-image: url(images/CozyFurniture.png);
   background-size: cover;
 }
+
+.first_game:hover, .second_game:hover, .third_game:hover, .first_in_row:hover, .second_in_row:hover, .third_in_row:hover, .first_project:hover, .second_project:hover, .third_project:hover  {
+  filter: invert(1);
+}
+
 
 .third_in_row, .third_game, .third_project  {
   width: 26vw;
@@ -252,10 +237,6 @@ h3 {
     background-image: url(images/Comments.png);
 }
 
-.third_in_row:hover {
-  background-image: url(images/CommentsInverted.png);
-  background-size: cover;
-}
 
 /* The below is the read Me settings for the Games and Project pages: */
 
