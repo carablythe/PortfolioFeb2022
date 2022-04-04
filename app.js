@@ -13,7 +13,6 @@ const readMeText = () => {
 }
 
 
-
 /* The below is the set-up for my contact page submit message: */
 
 $(() => {

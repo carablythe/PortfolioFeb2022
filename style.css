@@ -8,11 +8,13 @@ html {
 
 /* The below is the set-up for all html files' navbar and drop-down menus: */
 nav {
-  background: #A865C9;
+  background-color: #9921e8;
+  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
   text-align: center;
   background-size: cover;
   margin: .5vw 0vw 1vw 0vw;
   box-shadow: 1vw 1vw #311432;
+  color: #FAE6FA
 }
 
 .navBar {
@@ -20,9 +22,9 @@ nav {
   text-align: center;
   margin: 2vw 0vw 2vw 5vw;
   padding: 1vw 0vw 1vw 5vw;
-  color: #311432;
   font-size: 1.7vw;
   font-family: 'DM Sans', sans-serif;
+  color: #FAE6FA
 }
 
 .dropdown {
@@ -32,6 +34,7 @@ nav {
   align-items: center;
   width: 80%;
   margin: 0vw 0vw;
+  color: #FAE6FA
 }
 
 .drop {
@@ -47,25 +50,24 @@ nav {
   flex-direction: column;
   list-style:none;
   border-radius: 1.7vw;
-  background: #A865C9;
+  background-color: #9921e8;
+  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
   display:none;
   box-shadow: 1vw 1vw #311432;
 }
 
 .drop:hover {
-  -webkit-color: #F5F5F5;
   color: #F5F5F5;
 }
 
 .drop:hover > .dropUl{
-  -webkit-display:flex;
-  -webkit-align-items: left;
   display:flex;
   align-items: left;
 }
 
 .dropLi {
   text-align: left;
+  color: #FAE6FA
 }
 
 /* The below is the set-up for all html files' headers: */
@@ -179,7 +181,7 @@ h3 {
   padding-top: .8vw;
 }
 
-.first_in_row, .third_game {
+.first_in_row {
   background-image: url(images/GameSpace.png);
 }
 
@@ -189,7 +191,7 @@ h3 {
 }
 
 .first_game {
-  background-image: url(images/Treasure.png);
+  background-image: url(images/RewardPlease.png);
 }
 
 /* .first_game:hover {
@@ -218,11 +220,20 @@ h3 {
 }
 
 .second_game {
-  background-image: url(images/Smiley.png);
+  background-image: url(images/YourPantry.png);
 }
 
 .second_game:hover {
-  background-image: url(images/SmileyInverted.png);
+  background-image: url(images/YourPantry.png);
+  background-size: cover;
+}
+
+.third_game {
+  background-image: url(images/CozyFurniture.png);
+}
+
+.third_game:hover {
+  background-image: url(images/CozyFurniture.png);
   background-size: cover;
 }
 
@@ -308,7 +319,8 @@ footer {
   align-self: flex-end;
   text-align: center;
   background-size: cover;
-  background: #A865C9;
+  background-color: #9921e8;
+  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
   margin: 1vw 0vw 0vw 0vw;
   padding: .5vw 3vw .5vw 4vw;
   box-shadow: 1vw 1vw #311432;
