@@ -1,10 +1,11 @@
 /* The below is the set-up for all html files: */
 
 html {
-  background: url("https://files.123freevectors.com/wp-content/original/149759-abstract-grey-and-white-business-background-template.jpg");
   background-size: cover;
+  background-image: url("https://images.pexels.com/photos/1242348/pexels-photo-1242348.jpeg");
   font-family: 'DM Sans', sans-serif;
 }
+
 
 /* The below is the set-up for all html files' navbar and drop-down menus: */
 nav {
@@ -179,8 +180,6 @@ h3 {
   padding-top: .8vw;
 }
 
-
-
 .second_in_row, .second_game, .second_project {
   flex: 2;
   width: 26vw;
@@ -188,7 +187,6 @@ h3 {
   padding-top: .5vw;
   background-size: cover;
 }
-
 
 .third_in_row, .third_game, .third_project  {
   flex: 3;
@@ -208,7 +206,7 @@ h3 {
 
 
 .third_in_row {
-    background-image: url(images/Comments.png);
+    background-image: url(images/Typing.jpeg);
 }
 
 
@@ -227,7 +225,6 @@ h3 {
 .first_game:hover, .second_game:hover, .third_game:hover, .first_in_row:hover, .second_in_row:hover, .third_in_row:hover, .first_project:hover, .second_project:hover, .third_project:hover  {
   filter: invert(1);
 }
-
 
 
 
@@ -251,7 +248,6 @@ h3 {
 
 p {
   margin: 3vw 3vw;
-  color: #311432;
   font-size: 2vw;
 }
 
@@ -260,12 +256,33 @@ p {
   margin-top: 0vw;
 }
 
-#myPic {
+.myPic {
   float:left;
+  background-color: black;
+  width: 30%;
 }
 
-#myGoals {
+h4 {
+  background-image: url(images/CaraPhillips.jpeg);
+  line-height: 100%;
+  background-size: 100%;
+  font-size: .75vw;
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 1;
+}
+
+.myGoals {
   float:right;
+  width: 70%;
+}
+
+.myPic2 {
+  float:left;
+  width: 30%;
+  background-size: 100%;
+  background-image: url(images/CaraPhillips.jpeg);
+  background-repeat: no-repeat;
 }
 
 
@@ -326,15 +343,14 @@ footer {
 	text-shadow: 1px 1px #f2cd99;
 	letter-spacing: 2px;
 }
-
 .carousel-container {
 	width: 60%;
-	display: flex;
 	justify-content: space-around;
 }
 .carousel-images {
-	width: 80%;
-	background: #5f72be;
+	width: 100%;
+  height: 100%;
+  background-color: #9921e8;
 	padding: 10px;
 	border-radius: 10px;
 	box-sizing: border-box;
@@ -349,26 +365,20 @@ footer {
 	display: block;
 }
 .carousel-button {
-	align-self: center;
-	background: #5f72be;
-	color: #888;
-	padding: 10px;
-	border-radius: 10%;
-	text-align: center;
-	box-shadow: 1px 1px #9921e8;
+  padding: .3vw;
+  flex-grow: inherit;
+  font-size: 4.5vw;
+  text-align: center;
+  background: #999999;
+  font-family: 'DM Sans', sans-serif;
+  color: #F5F5F5;
+  box-shadow: 1vw 1vw #311432;
+  object-position: center;
 }
 .carousel-button:hover {
 	cursor: pointer;
-	background: #9921e8;
-	box-shadow: 1px 1px #5f72be;
-	color: white;
+  filter: invert(1);
 }
-
-.carousel-images img:first-of-type {
-
-}
-
-
 
 /* The below is the set-up for all html files' smaller device views: */
 @media (max-width: 800px) {
@@ -409,6 +419,10 @@ footer {
 
   h1{
    font-size: 8vw;
+  }
+
+  .myPic {
+    height: 30%;
   }
 
   .first_row {
@@ -472,7 +486,7 @@ footer {
   .foot {
     align-items: center;
     margin: .3vw .3vw;
-    padding: .1vw 7vw .1vw 0vw;
-    font-size: 3vw;
+    padding: .1vw 9vw .1vw 0vw;
+    font-size: 4vw;
   }
 }
