@@ -100,7 +100,7 @@ h1 {
 #headerObject {
   padding: .3vw;
   flex-grow: inherit;
-  font-size: 2.5vw;
+  font-size: 2vw;
   background: #999999;
   font-family: 'DM Sans', sans-serif;
   color: #F5F5F5;
@@ -367,7 +367,7 @@ footer {
 .carousel-button {
   padding: .3vw;
   flex-grow: inherit;
-  font-size: 4.5vw;
+  font-size: 3vw;
   text-align: center;
   background: #999999;
   font-family: 'DM Sans', sans-serif;
