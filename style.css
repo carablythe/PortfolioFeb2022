@@ -46,7 +46,7 @@ nav {
   position:absolute;
   margin-top: 2.5vw;
   padding: 1vw 1vw 0vw 3vw;
-  width: 8vw;
+  width: 20vw;
   height:6vw;
   flex-direction: column;
   list-style:none;
@@ -73,20 +73,20 @@ nav {
 
 /* The below is the set-up for all html files' headers: */
 h2 {
-  margin: 1vw 1vw 1vw 1vw;
+  margin: 0vw 1vw 1vw 1vw;
   font-size: 2.7vw;
   color: #F5F5F5;
   text-align: center;
   justify-content: center;
   text-shadow: .5vw .5vw black;
-  padding: 5vw 5vw 5vw 7vw;
+  padding: 5vw 5vw 5vw 5vw;
 }
 
 .header {
   flex-grow: inherit;
   text-align: center;
   margin: 2vw 7vw 0vw 7vw;
-  padding: 4vw 5vw 5vw 5vw;
+  padding: 4vw 5vw 3vw 5vw;
 }
 
 h1 {
@@ -100,8 +100,9 @@ h1 {
 #headerObject {
   padding: .3vw;
   flex-grow: inherit;
-  font-size: 2vw;
-  background: #999999;
+  font-size: 3vw;
+  background-color: #9921e8;
+  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
   font-family: 'DM Sans', sans-serif;
   color: #F5F5F5;
   box-shadow: 1vw 1vw #311432;
@@ -110,22 +111,16 @@ h1 {
 
 
 /* The below is the set-up for the h3 on the contact and index pages and the form on the contact page: */
-h3, .submit {
+h3 {
   font-size: 2.0vw;
   font-family: 'DM Sans', sans-serif;
   color: #311432;
-  text-align: center;
 }
 
-
-h3 {
-  margin: 0vw 20vw 0vw 20vw;
-}
-
-.formClass {
+.formClass, .sendMessageIntro {
   margin: 5vw 13vw;
   color: #311432;
-  font-size: 1.7vw;
+  font-size: 2vw;
   font-family: 'DM Sans', sans-serif;
 }
 
@@ -158,6 +153,10 @@ h3 {
   font-family: 'DM Sans', sans-serif;
 }
 
+.submit{
+  margin-bottom: 3vw;
+  }
+
 .imResponse {
   width: 70vw;
   height: 7vw;
@@ -165,26 +164,37 @@ h3 {
   text-align: center;
 }
 
+
+
 /* The below is the set-up of the center rows and image buttons for the index, game and project pages: */
+
+
 .first_row {
+  column-count: 1;
+  margin: 4vw 2vw 4vw 4vw;
+}
+
+.heroInfo {
+  margin: 0vw 3vw 1vw 3vw;
+}
+
+.second_row {
   column-count: 3;
   margin: 4vw 2vw 4vw 4vw;
+  text-align: center;
 }
 
 .first_in_row, .first_game, .first_project {
   flex: 1;
   width: 26vw;
-  height: 18vw;
-  background-color:#FFFFFF;
+  height: 17.5vw;
   background-size: cover;
-  padding-top: .8vw;
 }
 
 .second_in_row, .second_game, .second_project {
   flex: 2;
   width: 26vw;
-  height: 18vw;
-  padding-top: .5vw;
+  height: 17.5vw;
   background-size: cover;
 }
 
@@ -192,23 +202,20 @@ h3 {
   flex: 3;
   width: 26vw;
   height: 17.5vw;
-  padding-bottom: 1.2vw;
   background-size: cover;
 }
 
 .first_in_row {
-  background-image: url(images/GameSpace.png);
-}
-
-.second_in_row, .first_project, .second_project, .third_project {
   background-image: url(images/OtherProjects.png);
 }
 
+.second_in_row {
+  background-image: url(images/GameSpace.png);
+}
 
 .third_in_row {
     background-image: url(images/Typing.jpeg);
 }
-
 
 .first_game {
   background-image: url(images/RewardPlease.png);
@@ -227,49 +234,58 @@ h3 {
 }
 
 
+/* PROJECT PAGE ReadMe : The below is the Read Me settings for the Project pages: */
 
-/* The below is the read Me settings for the Games and Project pages: */
-
-#readMe, #readMeButton {
+#readMe {
+  object-position: center;
   font-size: 2.2vw;
   font-family: 'DM Sans', sans-serif;
-  color: #006400;
-  background: url("https://files.123freevectors.com/wp-content/original/149759-abstract-grey-and-white-business-background-template.jpg");
-  filter: invert(1)
+  color: #311432;
 }
 
+#readMeButton{
+  margin: 0vw 36vw 3vw 42vw;
+  }
 
-#readMeButton {
-  margin: 0vw 39vw 1vw 44vw;
-}
-
-
-/* The below is margin and font color setting for the Background and Goals pages: */
+/* GOALS page: The below is margin and font color setting for the Goals page: */
 
 p {
-  margin: 3vw 3vw;
+  margin: 0vw 3vw 1vw 3vw;
   font-size: 2vw;
 }
 
 .goals {
   display: flex;
-  margin-top: 0vw;
+  margin: 4vw 2vw 4vw 4vw;
 }
 
 .myPic {
   float:left;
   background-color: black;
-  width: 30%;
-}
+  background-repeat: no-repeat;
+  width: 25%;
+  height: 25%;
+  margin-right: 5vw;
+  }
 
 h4 {
   background-image: url(images/CaraPhillips.jpeg);
+  background-repeat: no-repeat;
   line-height: 100%;
   background-size: 100%;
   font-size: .75vw;
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 1;
+}
+
+h4:hover {
+  opacity: 0;
+}
+
+.myPic:hover {
+  background-image: url(images/CaraPhillips.jpeg);
+  background-size: 100%;
 }
 
 .myGoals {
@@ -287,24 +303,26 @@ h4 {
 
 
 /* The below is the set-up for all html files' navbar and footer: */
+
 li {
   list-style-type: none;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
+  font-size: 2vw;
 }
 
 a {
   text-decoration: none;
   color: #311432;
   font-family: 'DM Sans', sans-serif;
-  font-size: 2vw;
 }
 
 a:hover {
   color: #F5F5F5;
 }
 
-/* The below is the set-up for all html files' footer: */
+/* FOOTER:The below is the set-up for all html files' footer: */
+
 .foot {
   display: inline;
   font-size: 2.5vw;
@@ -324,7 +342,7 @@ footer {
 }
 
 
-/* The below is for the carousel images in the Projects sections: */
+/* PROJECTS CAROUSEL: The below is for the carousel images in the Projects sections: */
 
 .container {
 	display: flex;
@@ -348,8 +366,6 @@ footer {
 	justify-content: space-around;
 }
 .carousel-images {
-	width: 100%;
-  height: 100%;
   background-color: #9921e8;
 	padding: 10px;
 	border-radius: 10px;
@@ -364,26 +380,27 @@ footer {
 .carousel-images img: first-of-type{
 	display: block;
 }
-.carousel-button {
+.carousel-button, #readMeButton, .submit {
   padding: .3vw;
   flex-grow: inherit;
-  font-size: 3vw;
+  font-size: 2.5vw;
   text-align: center;
-  background: #999999;
+  background-color: #9921e8;
+  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
   font-family: 'DM Sans', sans-serif;
   color: #F5F5F5;
   box-shadow: 1vw 1vw #311432;
   object-position: center;
 }
-.carousel-button:hover {
+.carousel-button:hover, #readMeButton:hover, .submit:hover {
 	cursor: pointer;
   filter: invert(1);
 }
 
-/* The below is the set-up for all html files' smaller device views: */
+/* RESPONSIVENESS: The below is the set-up for all html files' smaller device views: */
 @media (max-width: 800px) {
-  a, .navBar {
-    font-size: 3.5vw;
+  li, .navBar {
+    font-size: 3vw;
   }
 
   .navBar {
@@ -401,16 +418,15 @@ footer {
     }
 
   .dropUl{
-    position:absolute;
-    margin-top: 3.5vw;
-    padding: 1vw 2vw 2vw 2vw;
-    width: 12vw;
-    height: 8vw;
-    flex-direction: column;
+    margin-top: 7.5vw;
+    padding: 1vw 2vw 2.5vw 2vw;
+    width: 16vw;
+    height: 15vw;
   }
 
+
   h2, #headerObject {
-     font-size: 6vw;
+     font-size: 5vw;
   }
 
   h2{
@@ -421,11 +437,15 @@ footer {
    font-size: 8vw;
   }
 
-  .myPic {
-    height: 30%;
+  .first_row  {
+    margin: 5vw -3vw 5vw 14vw;
   }
 
-  .first_row {
+  .heroInfo  {
+    margin-right: 15.5vw;
+  }
+
+  .second_row {
    column-count: 1;
   }
 
@@ -435,9 +455,12 @@ footer {
     margin: 5vw 10vw 5vw 10vw;
   }
 
-  #readMeButton {
+  #readMeButton, .submit, .carousel-button {
     font-size: 3.5vw;
-      margin: 0vw 36vw 1vw 40vw;
+    }
+
+  h3, p, #readMe {
+    font-size: 3vw;
     }
 
   .upperForm {
@@ -454,12 +477,8 @@ footer {
     margin-right: 2vw;
   }
 
-  h3, p, .submit, #readMe {
+  .formClass, .sendMessageIntro {
     font-size: 3.5vw;
-  }
-
-  .formClass {
-    font-size: 4vw;
   }
 
   #comment {
