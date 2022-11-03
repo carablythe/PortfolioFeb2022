@@ -240,19 +240,21 @@ h3 {
 .myGoals {
   margin: 0vw 3vw 1vw 3vw;
   font-size: 2vw;
+  float:right;
+  width: 70%;
 }
 
 .goals {
   display: flex;
-  margin: 4vw 12vw 4vw 10vw;
+  margin: 4vw 12vw 4vw 8vw;
 }
 
 .myPic {
   float:left;
   background-color: black;
   background-repeat: no-repeat;
-  width: 25%;
-  height: 25%;
+  width: 30%;
+  height: 30%;
   margin-right: 5vw;
   }
 
@@ -274,11 +276,6 @@ h4:hover {
 .myPic:hover {
   background-image: url(images/CaraPhillips.jpeg);
   background-size: 100%;
-}
-
-.myGoals {
-  float:right;
-  width: 70%;
 }
 
 .myPic2 {
@@ -436,6 +433,10 @@ footer {
 
   h1{
    font-size: 6.5vw;
+  }
+
+  h4 {
+    font-size: .9vw;
   }
 
   .first_row  {
