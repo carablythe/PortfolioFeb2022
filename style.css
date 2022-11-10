@@ -25,7 +25,6 @@ nav {
   padding: 1vw 0vw 1vw 5vw;
   font-size: 2vw;
   font-family: 'DM Sans', sans-serif;
-  color: #FAE6FA
 }
 
 .dropdown {
@@ -35,7 +34,6 @@ nav {
   align-items: center;
   width: 80%;
   margin: 0vw 0vw;
-  color: #FAE6FA
 }
 
 .drop {
@@ -55,10 +53,8 @@ nav {
   background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
   display:none;
   box-shadow: 1vw 1vw #311432;
-}
-
-.drop:hover {
-  color: #F5F5F5;
+  font-family: 'DM Sans', sans-serif;
+  
 }
 
 .drop:hover > .dropUl{
@@ -68,8 +64,16 @@ nav {
 
 .dropLi {
   text-align: left;
-  color: #FAE6FA
+  color: #311432;
 }
+
+.dropLi:hover {
+  color: white;
+}
+
+
+/* The below is the set-up for all html files' navbar and footer: */
+
 
 /* The below is the set-up for all html files' headers: */
 
@@ -94,8 +98,8 @@ h2 {
 .header {
   flex-grow: inherit;
   text-align: center;
-  margin: 2vw 10vw 0vw 10vw;
-  padding: 4vw 5vw 0vw 5vw;
+  margin: 2vw 12vw 0vw 12vw;
+  padding: 3vw 5vw 3vw 5vw;
 }
 
 
@@ -176,10 +180,6 @@ h3 {
   margin: 4vw 13vw 4vw 13vw;
 }
 
-.heroInfo {
-  margin: 0vw 3vw 1vw 3vw;
-}
-
 .second_row {
   column-count: 3;
   margin: 4vw 13vw 4vw 13vw;
@@ -249,35 +249,6 @@ h3 {
   margin: 4vw 12vw 4vw 8vw;
 }
 
-.myPic {
-  float:left;
-  background-color: black;
-  background-repeat: no-repeat;
-  width: 30%;
-  height: 30%;
-  margin-right: 5vw;
-  }
-
-h4 {
-  background-image: url(images/CaraPhillips.jpeg);
-  background-repeat: no-repeat;
-  line-height: 100%;
-  background-size: 100%;
-  font-size: .75vw;
-  background-clip: text;
-  -webkit-background-clip: text;
-  opacity: 1;
-}
-
-h4:hover {
-  opacity: 0;
-}
-
-.myPic:hover {
-  background-image: url(images/CaraPhillips.jpeg);
-  background-size: 100%;
-}
-
 .myPic2 {
   float:left;
   width: 30%;
@@ -288,24 +259,46 @@ h4:hover {
 }
 
 
-/* The below is the set-up for all html files' navbar and footer: */
+/* Index page intro and pic of Cara */
 
-li {
-  list-style-type: none;
+.heroInfo {
+  margin: 0vw 3vw 1vw 3vw;
+}
+
+.myPic {
+  background-image: url(images/CaraPhillips.jpeg);
+  background-size: 100%;
+  float:left;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 30%;
+  margin-right: 5vw;
+}
+
+.myPic:hover {
+  background-image: none;
+  background-color: rgb(72, 38, 73);
+  }
+
+h4 {
+  line-height: 100%;
+  background-size: 100%;
+  font-size: .75vw;
+  opacity: 0;
+}
+
+.linkToGoals:hover, h4:hover {
+  background-image: url(images/MyPicHighContrast.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  opacity: 1;
+}
+
+a, .linkToGoals:hover {
   text-decoration: none;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 2vw;
 }
 
-a {
-  text-decoration: none;
-  color: #311432;
-  font-family: 'DM Sans', sans-serif;
-}
 
-a:hover {
-  color: #F5F5F5;
-}
 
 /* FOOTER:The below is the set-up for all html files' footer: */
 
@@ -314,6 +307,14 @@ a:hover {
   font-size: 2.5vw;
   padding: 1vw 3vw 1vw 1vw;
   margin: .5vw 4vw .5vw 4vw;
+}
+
+.fa, .gitHub {
+  color: #311432;
+}
+
+.fa:hover, .gitHub:hover  {
+  color: white;
 }
 
 footer {
@@ -519,5 +520,8 @@ footer {
     margin: .3vw .3vw;
     padding: .1vw 9vw .1vw 0vw;
     font-size: 4vw;
+    
+
+    
   }
 }
