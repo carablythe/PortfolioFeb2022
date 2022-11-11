@@ -72,8 +72,6 @@ nav {
 }
 
 
-/* The below is the set-up for all html files' navbar and footer: */
-
 
 /* The below is the set-up for all html files' headers: */
 
@@ -114,6 +112,46 @@ h2 {
   box-shadow: 1vw 1vw #311432;
   object-position: center;
 }
+
+/* Index page intro and pic of Cara */
+
+.heroInfo {
+  margin: 0vw 3vw 1vw 3vw;
+}
+
+.myPic {
+  background-image: url(images/CaraPhillips.jpeg);
+  background-size: 100%;
+  float:left;
+  background-repeat: no-repeat;
+  width: 30%;
+  height: 30%;
+  margin-right: 5vw;
+}
+
+.myPic:hover {
+  background-image: none;
+  background-color: rgb(72, 38, 73);
+  }
+
+h4 {
+  line-height: 100%;
+  background-size: 100%;
+  font-size: .75vw;
+  opacity: 0;
+}
+
+.linkToGoals:hover, .linkToGoals:active, .linkToGoals:visited, h4:hover {
+  background-image: url(images/MyPicHighContrast.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  opacity: 1;
+}
+
+a, .linkToGoals:hover {
+  text-decoration: none;
+}
+
 
 
 /* The below is the set-up for the h3 on the contact and index pages and the form on the contact page: */
@@ -259,75 +297,6 @@ h3 {
 }
 
 
-/* Index page intro and pic of Cara */
-
-.heroInfo {
-  margin: 0vw 3vw 1vw 3vw;
-}
-
-.myPic {
-  background-image: url(images/CaraPhillips.jpeg);
-  background-size: 100%;
-  float:left;
-  background-repeat: no-repeat;
-  width: 30%;
-  height: 30%;
-  margin-right: 5vw;
-}
-
-.myPic:hover {
-  background-image: none;
-  background-color: rgb(72, 38, 73);
-  }
-
-h4 {
-  line-height: 100%;
-  background-size: 100%;
-  font-size: .75vw;
-  opacity: 0;
-}
-
-.linkToGoals:hover, h4:hover {
-  background-image: url(images/MyPicHighContrast.jpg);
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  opacity: 1;
-}
-
-a, .linkToGoals:hover {
-  text-decoration: none;
-}
-
-
-
-/* FOOTER:The below is the set-up for all html files' footer: */
-
-.foot {
-  display: inline;
-  font-size: 2.5vw;
-  padding: 1vw 3vw 1vw 1vw;
-  margin: .5vw 4vw .5vw 4vw;
-}
-
-.fa, .gitHub {
-  color: #311432;
-}
-
-.fa:hover, .gitHub:hover  {
-  color: white;
-}
-
-footer {
-  align-self: flex-end;
-  text-align: center;
-  background-size: cover;
-  background-color: #9921e8;
-  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
-  margin: 1vw 0vw 0vw 0vw;
-  padding: .5vw 3vw .5vw 4vw;
-  box-shadow: 1vw 1vw #311432;
-}
-
 
 /* PROJECTS CAROUSEL: The below is for the carousel images in the Projects sections: */
 
@@ -374,7 +343,7 @@ footer {
 	display: block;
 }
 
-.carousel-button, #readMeButton, .submit {
+.carousel-button, #readMeButton, #readMeButton2,  .submit {
   padding: .3vw;
   flex-grow: inherit;
   font-size: 2.5vw;
@@ -387,13 +356,41 @@ footer {
   object-position: center;
 }
 
-.carousel-button:hover, #readMeButton:hover, .submit:hover {
+.carousel-button:hover, #readMeButton:hover, #readMeButton2:hover, .submit:hover {
 	cursor: pointer;
   filter: invert(1);
 }
 
-#readMeButton{
+#readMeButton, #readMeButton2{
 	margin: 1vw 10vw 1vw 10vw;
+}
+
+/* FOOTER:The below is the set-up for all html files' footer: */
+
+.foot {
+  display: inline;
+  font-size: 2.5vw;
+  padding: 1vw 3vw 1vw 1vw;
+  margin: .5vw 4vw .5vw 4vw;
+}
+
+.fa, .gitHub {
+  color: #311432;
+}
+
+.fa:hover, .gitHub:hover  {
+  color: white;
+}
+
+footer {
+  align-self: flex-end;
+  text-align: center;
+  background-size: cover;
+  background-color: #9921e8;
+  background-image: linear-gradient(315deg, #9921e8 0%, #5f72be 74%);
+  margin: 1vw 0vw 0vw 0vw;
+  padding: .5vw 3vw .5vw 4vw;
+  box-shadow: 1vw 1vw #311432;
 }
 
 /* RESPONSIVENESS: The below is the set-up for all html files' smaller device views: */
@@ -468,7 +465,7 @@ footer {
     margin: 1vw 5vw 1vw 25vw;
   }
 
-  h3, p, #readMe {
+  h3, p, #readMe, #readMe2 {
     font-size: 3vw;
   }
 
@@ -520,8 +517,5 @@ footer {
     margin: .3vw .3vw;
     padding: .1vw 9vw .1vw 0vw;
     font-size: 4vw;
-    
-
-    
   }
 }

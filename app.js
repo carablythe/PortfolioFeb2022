@@ -4,6 +4,7 @@ $(() => {
   $('#readMe').css("display", "none")
 })
 
+
 const readMeText = () => {
   const readMessage = document.getElementById('readMe');
   if (readMessage.style.display === "none") {
@@ -11,6 +12,21 @@ const readMeText = () => {
   }
   else {readMessage.style.display = "none"}
 }
+
+$(() => {
+  $('#readMe2').css("display", "none")
+})
+
+
+const readMeText2 = () => {
+  const readMessage2 = document.getElementById('readMe2');
+  if (readMessage2.style.display === "none") {
+    readMessage2.style.display = "block"
+  }
+  else {readMessage2.style.display = "none"}
+}
+
+
 
 
 /* The below is the set-up for my contact page submit message: */
