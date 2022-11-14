@@ -400,14 +400,11 @@ footer {
     font-size: 3.5vw;
   }
 
-  #readMeButton {
-    font-size: 3vw;
-    margin: 1vw 5vw 1vw 25vw;
+  #readMeButton,  #readMeButton2 {
+    margin: 1vw 25vw 1vw 25vw;
+    font-size: 20px;
   }
 
-  #readMe, #readMe2 {
-    font-size: 20vw;
-  }
 
   .upperForm {
     display: flex;
