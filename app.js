@@ -33,7 +33,7 @@ const readMeText2 = () => {
 
 $(() => {
   $('.submit').on('click', () => {
-    $('.imResponse').text("Thank you! Cara will be in touch with you soon！")})
+    $('.imResponse').text("Thank you! Cara will be in touch with you soon! (provided you have supplied a valid e-mail address ; ) )")})
 })
 
 
