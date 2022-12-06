@@ -153,6 +153,67 @@ a, .linkToGoals:hover {
   text-decoration: none;
 }
 
+/* Artwork page */
+
+.artworkIntro, .first, .second, .third {
+  position:static;
+  border-radius: 12px;
+  background-size:contain;
+  width: 600px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+
+.painting1, .painting2, .painting3 {
+  font-size: 20px;
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 38px;
+  text-align: left;
+  position: relative;
+  bottom: 0;
+  margin: auto;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+}
+
+small {
+  opacity: 0;
+}
+
+.show-description {
+  height: 150px;
+}
+
+.show-description small{
+  opacity: 1;
+}
+
+.details {
+  float: right;
+}
+
+.first{
+  background-image: url("https://i.imgur.com/BhclhTY.png");
+  height: 750px;
+}
+.second{
+  background-image: url("https://i.imgur.com/ZzyR8Ub.png");
+   height: 450px;
+}
+.third{
+  background-image: url("https://i.imgur.com/P9mGnxb.png");
+  height: 450px;
+}
+
+
+
 /* CONTACT page form, submit set-up */
 
 
@@ -441,5 +502,23 @@ footer {
     align-items: center;
     margin: .3vw .3vw;
     padding: .1vw 9vw .1vw 0vw;
+  }
+
+  small {
+    font-size: 16px;
+  }
+
+  .first{
+  width: 80vw;
+  height: 100vw;
+  }
+
+  .second, .third{
+   width: 80vw;
+   height: 60vw;
+  }
+
+  .artworkIntro {
+    width: 80vw;
   }
 }

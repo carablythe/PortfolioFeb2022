@@ -26,6 +26,21 @@ const readMeText2 = () => {
   else {readMessage2.style.display = "none"}
 }
 
+/* ARTWORK page: The below is the show description function of each piece of artwork: */
+$(() => {$('.first').on('click', () => {
+  $('.painting1').toggleClass("show-description")
+})
+})
+
+$(() => {$('.second').on('click', () => {
+  $('.painting2').toggleClass("show-description")
+})
+})
+
+$(() => {$('.third').on('click', () => {
+  $('.painting3').toggleClass("show-description")
+})
+})
 
 
 
@@ -37,18 +52,7 @@ $(() => {
 })
 
 
-//hover effect on pics
-
-// $(document).ready(function() {
-//     $('.first_game').mouseenter(function() {
-//     $('.first_game').css("background-image", "url(images/TreasureInverted.png)")
-//     })
-//     $('.first_game').mouseleave(function() {
-//     $('.first_game').css("background-image", "url(images/Treasure.png)")
-//     })
-//   })
-
-
+//carousel of projects for both ID and SE pages
 
 $(() => {
   currentImgIndex = 0;
@@ -65,29 +69,7 @@ $(() => {
 });
 
 
-// $(() => {
-//   currentImgIndex = 0;
-//   numOfImages = $('.carousel-images').children().length - 1
-//   $('.next').on('click', () => {
-//      $('.carousel-images').children().eq(currentImgIndex).css('display','none')
-//      if(currentImgIndex < numOfImages) {
-//        currentImgIndex++
-//      } else {
-//        currentImgIndex = 0
-//      }
-//     $('.carousel-images').children().eq(currentImgIndex).css('display','block')
-//   })
-//     $('.previous').on('click', () => {
-//       $('.carousel-images').children().eq(currentImgIndex).css('display', 'none')
-//     if(currentImgIndex > 0) {
-//       currentImgIndex--
-//     } else {
-//       currentImgIndex = numOfImages
-//     }
-//     $('.carousel-images').children().eq(currentImgIndex).css('display','block')
-//   })
 
-// });
 
 
 // TOOK OUT OF HTML PAST PROJECTS, might use later:
@@ -102,47 +84,8 @@ $(() => {
 // </div>
 
 
-/* <div class="container">
-<div class="carousel-container">
-  <!-- previous button -->
-  <div class="carousel-button previous">
-    <!-- from linearicons icon font -->
-    <span class="lnr lnr-chevron-left"></span>
-  </div>
-  <!-- images -->
-  <div class="carousel-images">
-    <img
-     src="images/RewardPlease.png" alt="Reward, Please!"/>
-    <img
-      src="images/YourPantry.png" alt="Your Pantry"/>
-    <img
-      src="images/CozyFurniture.png"
-      alt="Cozy Furniture"/>
-  </div>
-  <!-- next button -->
-  <div class="carousel-button next">
-    <!-- from linearicons icon font -->
-    <span class="lnr lnr-chevron-right"></span>
-  </div>
-</div>
-</div> */
 
-//TOOK OUT THE BELOW CSS related to the carousel buttons:
-// .carousel-button {
-// 	align-self: center;
-// 	background: #5f72be;
-// 	color: #888;
-// 	padding: 10px;
-// 	border-radius: 10%;
-// 	text-align: center;
-// 	box-shadow: 1px 1px #9921e8;
-// }
-// .carousel-button:hover {
-// 	cursor: pointer;
-// 	background: #9921e8;
-// 	box-shadow: 1px 1px #5f72be;
-// 	color: white;
-// }
+
 
 
 
