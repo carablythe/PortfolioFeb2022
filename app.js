@@ -1,9 +1,12 @@
-/* The below is the set-up for my game page Read Me / more info buttons: */
+/* The below is the set-up for the Read Me button/ more info sections in the ID projects page: */
 
 $(() => {
   $('#readMe').css("display", "none")
 })
 
+$(() => {
+  $('#readMe2').css("display", "none")
+})
 
 const readMeText = () => {
   const readMessage = document.getElementById('readMe');
@@ -12,10 +15,6 @@ const readMeText = () => {
   }
   else {readMessage.style.display = "none"}
 }
-
-$(() => {
-  $('#readMe2').css("display", "none")
-})
 
 
 const readMeText2 = () => {
@@ -52,11 +51,11 @@ $(() => {
 })
 
 
-//carousel of projects for both ID and SE pages
+//Image carousel of projects for both ID and SE pages
 
 $(() => {
   currentImgIndex = 0;
-  numOfImages = $('.carousel-images').children().length - 1
+  numOfImages = $('.carousel-images').children().length -1
   $('.next').on('click', () => {
      $('.carousel-images').children().eq(currentImgIndex).css('display','none')
      if(currentImgIndex < numOfImages) {
@@ -68,24 +67,17 @@ $(() => {
   })
 });
 
+$(() => {
+  $('.next').on('click', () => {
+     $('.spaceFiller').css('display','none')
+     })
+});
 
-
-
-
-// TOOK OUT OF HTML PAST PROJECTS, might use later:
-// </div>
-// <div class="first_row">
-// <a href="http://rewardplease.herokuapp.com/" target=”_blank”>
-//         <div class="first_game">     </div>
-//  <a href="http://yourpantryrecipes.herokuapp.com/" target=”_blank”>
-//       <div class="second_game">      </div>
-// <a href="https://buyfurniture.herokuapp.com/" target=”_blank”>
-//       <div class="third_game">  </div>
-// </div>
-
-
-
-
+$(() => {
+  $('.next').on('click', () => {
+     $('.spaceFiller2').css('display','none')
+     })
+});
 
 
 
