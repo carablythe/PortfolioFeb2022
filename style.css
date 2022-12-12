@@ -99,6 +99,7 @@ h3, p {
   font-size: 20px;
 }
 
+
 .header {
   flex-grow: inherit;
   text-align: center;
@@ -153,7 +154,12 @@ a, .linkToGoals:hover {
   text-decoration: none;
 }
 
-/* Artwork page */
+/* Icon div on index page*/
+.iconSection {
+  text-align: center;
+}
+
+/* Artwork page via GOAL section*/
 
 .artworkIntro, .first, .second, .third {
   position:static;
@@ -428,6 +434,18 @@ footer {
   position: sticky;
 }
 
+
+
+
+/* RESPONSIVENESS: The below is the set-up for all html files' larger screen views: */
+@media (min-width: 1300px) {
+
+  h3, p {
+    font-size: 23px;
+  }
+}
+
+
 /* RESPONSIVENESS: The below is the set-up for all html files' smaller device views: */
 @media (max-width: 800px) {
 
@@ -459,6 +477,9 @@ footer {
     font-size: 35px;
   }
 
+  h3{
+    font-size: 20px;
+  }
 
   .second_row {
    column-count: 1;
@@ -479,7 +500,6 @@ footer {
     margin: 1vw 25vw 1vw 25vw;
     font-size: 20px;
   }
-
 
   .upperForm {
     display: flex;
