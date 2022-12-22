@@ -327,16 +327,16 @@ small {
 
 .spaceFiller {
   background-image: url(images/OtherProjects.png);
-  width: 65vw;
-  height: 40vw;
+  width: 50vw;
+  height: 30vw;
   background-size: cover;
   margin: auto;
 }
 
 .spaceFiller2 {
   background-image: url(images/GameSpace.png);
-  width: 65vw;
-  height: 40vw;
+  width: 50vw;
+  height: 30vw;
   background-size: cover;
   margin: auto;
 }
