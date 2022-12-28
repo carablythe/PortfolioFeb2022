@@ -1,10 +1,22 @@
-/* The below is the set-up for the Read Me button/ more info sections in the ID projects page: */
+/* Scroll to and toggle AboutME/GOALS section*/
+
+$(() => {
+  $('.aboutMe').css("display", "none")
+  $('.aboutMeLink').on('click', () => {
+     $('.aboutMe').toggle()
+     $("html, body").animate({ scrollTop: $(".aboutMeStart").position().top + (-55)
+    }, 500);
+  })
+});
+
+
+/* The below is the set-up for the Read Me button/ more info sections in the ID projects section: */
 
 $(() => {
   $('#readMe').css("display", "none")
 })
 
-$(() => {
+$(() => {{}
   $('#readMe2').css("display", "none")
 })
 
@@ -16,7 +28,6 @@ const readMeText = () => {
   else {readMessage.style.display = "none"}
 }
 
-
 const readMeText2 = () => {
   const readMessage2 = document.getElementById('readMe2');
   if (readMessage2.style.display === "none") {
@@ -25,25 +36,37 @@ const readMeText2 = () => {
   else {readMessage2.style.display = "none"}
 }
 
+
+
+
 /* ARTWORK page: The below is the show description function of each piece of artwork: */
 $(() => {$('.first').on('click', () => {
   $('.painting1').toggleClass("show-description")
-})
+ })
 })
 
 $(() => {$('.second').on('click', () => {
   $('.painting2').toggleClass("show-description")
-})
+ })
 })
 
 $(() => {$('.third').on('click', () => {
   $('.painting3').toggleClass("show-description")
+ })
 })
-})
 
+/* Scroll to Contacts section*/
 
+$(() => {
+  $('.contactCara').css("display", "none")
+  $('.contactLink').on('click', () => {
+     $('.contactCara').toggle()
+     $("html, body").animate({ scrollTop: $(".contactCara").position().top + (-55)
+    }, 500);
+  })
+});
 
-/* The below is the set-up for my contact page submit message: */
+/* The below is the set-up for my contact submit message: */
 
 $(() => {
   $('.submit').on('click', () => {
@@ -51,34 +74,110 @@ $(() => {
 })
 
 
-//Image carousel of projects for both ID and SE pages
+//Scroll to ID and SE project buttons
 
 $(() => {
-  currentImgIndex = 0;
-  numOfImages = $('.carousel-images').children().length -1
-  $('.next').on('click', () => {
-     $('.carousel-images').children().eq(currentImgIndex).css('display','none')
-     if(currentImgIndex < numOfImages) {
-       currentImgIndex++
-     } else {
-       currentImgIndex = 0
-     }
-    $('.carousel-images').children().eq(currentImgIndex).css('display','block')
+  $('.projectsLink').on('click', () => {
+     $("html, body").animate({ scrollTop: $(".second_row").position().top + (-55)
+    }, 500)
+  })
+});
+
+//Image carousels for both ID and SE projects
+
+$(() => {
+  currentIDImgIndex = 0;
+  numOfIDImages = $('.carousel-images').children().length -1
+  $('.idStart').on('click', () => {
+     $('.carousel-images').children().eq(currentIDImgIndex).toggle()
+     $('.carousel-images2').children().css('display','none')
+     $("html, body").animate({ scrollTop: $(".container").position().top + (-55)
+    }, 500)
   })
 });
 
 $(() => {
-  $('.next').on('click', () => {
-     $('.spaceFiller').css('display','none')
-     })
+  currentSEImgIndex = 0;
+  numOfSEImages = $('.carousel-images2').children().length -1
+  $('.seStart').on('click', () => {
+     $('.carousel-images2').children().eq(currentSEImgIndex).toggle()
+     $('.carousel-images').children().css('display','none')
+     $("html, body").animate({ scrollTop: $(".container").position().top  + (-55)
+    }, 500)
+  })  
 });
 
 $(() => {
+  currentIDImgIndex = 0;
+  currentSEImgIndex = 0;
+  numOfIDImages = $('.carousel-images').children().length -1
+  numOfSEImages = $('.carousel-images2').children().length -1
   $('.next').on('click', () => {
-     $('.spaceFiller2').css('display','none')
-     })
+     $('.carousel-images').children().eq(currentIDImgIndex).css('display','none')
+     $('.carousel-images2').children().eq(currentIDImgIndex).css('display','none')
+     if(currentIDImgIndex < numOfIDImages) {
+       currentIDImgIndex++
+     } else {
+       currentIDImgIndex = 0
+     }
+    $('.carousel-images').children().eq(currentIDImgIndex).css('display','block')
+  })
 });
 
+$(() => {
+  currentIDImgIndex = 0;
+  currentSEImgIndex = 0;
+  numOfIDImages = $('.carousel-images').children().length -1
+  numOfSEImages = $('.carousel-images2').children().length -1
+  $('.previous').on('click', () => {
+     $('.carousel-images').children().eq(currentIDImgIndex).css('display','none')
+     $('.carousel-images2').children().eq(currentIDImgIndex).css('display','none')
+     if(currentIDImgIndex < numOfIDImages) {
+       currentIDImgIndex--
+     } else {
+       currentIDImgIndex = 0
+     }
+    $('.carousel-images').children().eq(currentIDImgIndex).css('display','block')
+  })
+});
+
+$(() => {
+  currentIDImgIndex = 0;
+  currentSEImgIndex = 0;
+  numOfIDImages = $('.carousel-images').children().length -1
+  numOfSEImages = $('.carousel-images2').children().length -1
+  $('.next2').on('click', () => {
+     $('.carousel-images2').children().eq(currentSEImgIndex).css('display','none')
+     $('.carousel-images').children().eq(currentSEImgIndex).css('display','none')
+     if(currentSEImgIndex < numOfSEImages) {
+       currentSEImgIndex++
+     } else {
+       currentSEImgIndex = 0
+     }
+    $('.carousel-images2').children().eq(currentSEImgIndex).css('display','block')
+  })
+});
+
+$(() => {
+  currentIDImgIndex = 0;
+  currentSEImgIndex = 0;
+  numOfIDImages = $('.carousel-images').children().length -1
+  numOfSEImages = $('.carousel-images2').children().length -1
+  $('.previous2').on('click', () => {
+     $('.carousel-images2').children().eq(currentSEImgIndex).css('display','none')
+     $('.carousel-images').children().eq(currentSEImgIndex).css('display','none')
+     if(currentSEImgIndex < numOfSEImages) {
+       currentSEImgIndex--
+     } else {
+       currentSEImgIndex = 0
+     }
+    $('.carousel-images2').children().eq(currentSEImgIndex).css('display','block')
+  })
+});
+
+
+
+  
 
 
 //The following was an attempt to link my user input from the contact page into a Google Sheets file. DID NOT WORK. The script source is from https://medium.com/geekculture/link-your-html-form-to-a-spreadsheet-via-google-forms-9024f0611d82
@@ -109,12 +208,6 @@ $(() => {
 //       });
 //       return false;
 //     }
-//
-//
-//
-//
-//
-//
 //
 //
 //
