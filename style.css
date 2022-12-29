@@ -279,17 +279,19 @@ a {
   box-shadow: 5px 5px 5px #311432;
 }
 
-.carouselPeruse, .readMe, .readMe2, .projectTitle  {
+.carouselPeruse, .readMe, .readMe2, .projectHeader  {
   display: flex;
   justify-content: center;
   margin: auto;
 }
 
-.projectTitle {
-  text-align: center;
+.projectHeader  {
   font-size: 25px;
   text-shadow: 1px 1px 1px #311432;
-  margin: auto;
+}
+
+.projectTitle {
+  text-shadow: 1px 1px 1px #311432;
 }
 
 .next, .next2 {
@@ -309,7 +311,7 @@ a {
 }
 
 
-/* Artwork page via GOAL section*/
+/* A R T W O R K  page via GOAL section*/
 
 .artworkIntro, .first, .second, .third {
   position:static;
@@ -373,14 +375,10 @@ small {
 }
 
 
-/* CONTACT page form, submit set-up */
+/* C O N T A C T page form, submit set-up */
 
-#contactCara {
-  offset: auto;
-}
-
-.contactFormHeader {
-  padding: 15px 0px;
+.contactFormHeader, .projectHeader {
+  padding: 10px 0px;
 }
 
 .formClass, .sendMessageIntro {
@@ -505,7 +503,7 @@ footer {
 
   h2{
     padding: 12vw 0vw 12vw 0vw;
-    font-size: 37px;
+    font-size: 35px;
   }
 
   h3{
