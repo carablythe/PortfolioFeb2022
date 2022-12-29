@@ -505,7 +505,7 @@ footer {
 
   h2{
     padding: 12vw 0vw 12vw 0vw;
-    font-size: 40px;
+    font-size: 37px;
   }
 
   h3{
@@ -547,6 +547,11 @@ footer {
 
   .carousel-images div, .carousel-images2 div {
     column-count: 1;
+  }
+
+  .carousel-images img, .carousel-images2 img {
+    width: 70vw;
+    height: 55vw;
   }
 
   footer {
