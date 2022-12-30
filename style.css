@@ -254,6 +254,8 @@ a {
 	padding: 7px;
 	border-radius: 9px;
 	box-sizing: border-box;
+  text-align: center;
+  margin: auto;
 }
 
 .carousel-images div, .carousel-images2 div {
@@ -263,8 +265,8 @@ a {
 }
 
 .carousel-images img, .carousel-images2 img {
-	width: 35vw;
-  height: 27vw;
+	width: 36vw;
+  height: 25vw;
 	border-radius: 10px;
 }
 
@@ -548,8 +550,8 @@ footer {
   }
 
   .carousel-images img, .carousel-images2 img {
-    width: 70vw;
-    height: 55vw;
+    width: 60vw;
+    height: 45vw;
   }
 
   footer {
