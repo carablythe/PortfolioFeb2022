@@ -307,6 +307,13 @@ a {
   margin-bottom: 10px;
 }
 
+.next:hover, .next2:hover {
+  transform: scale(1.1);
+}
+
+.previous:hover, .previous2:hover {
+  transform: scale(1.1);
+}
 
 .carousel-button:hover, #readMeButton:hover, #readMeButton2:hover, .submit:hover {
 	cursor: pointer;
