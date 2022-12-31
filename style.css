@@ -261,12 +261,12 @@ a {
 .carousel-images div, .carousel-images2 div {
 	width: 100%;
   display: none;
-  column-count: 2;
+  columns: 2;
 }
 
 .carousel-images img, .carousel-images2 img {
-	width: 36vw;
-  height: 25vw;
+	width: 28vw;
+  height: 20vw;
 	border-radius: 10px;
 }
 
@@ -550,8 +550,8 @@ footer {
   }
 
   .carousel-images img, .carousel-images2 img {
-    width: 60vw;
-    height: 45vw;
+    width: 50vw;
+    height: 35vw;
   }
 
   footer {
