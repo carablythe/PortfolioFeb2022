@@ -4,7 +4,7 @@ $(() => {
   $('.aboutMe').css("display", "none")
   $('.aboutMeLink').on('click', () => {
      $('.aboutMe').toggle()
-     $("html, body").animate({ scrollTop: $(".aboutMeStart").position().top + (-55)
+     $("html, body").animate({ scrollTop: $("html").position().top + (-110)
     }, 500);
   })
 });
@@ -58,10 +58,8 @@ $(() => {$('.third').on('click', () => {
 /* Scroll to Contacts section*/
 
 $(() => {
-  $('.contactCara').css("display", "none")
   $('.contactLink').on('click', () => {
-     $('.contactCara').toggle()
-     $("html, body").animate({ scrollTop: $(".contactCara").position().top + (-55)
+     $("html, body").animate({ scrollTop: $(".contactCara").position().top + (-110)
     }, 500);
   })
 });
@@ -74,106 +72,92 @@ $(() => {
 })
 
 
-//Scroll to ID and SE project buttons
+//Scroll to ID and SE projects
 
 $(() => {
-  $('.projectsLink').on('click', () => {
-     $("html, body").animate({ scrollTop: $(".second_row").position().top + (-55)
-    }, 500)
-  })
-});
-
-//Image carousels for both ID and SE projects
-
-$(() => {
-  currentIDImgIndex = 0;
-  numOfIDImages = $('.carousel-images').children().length -1
   $('.idStart').on('click', () => {
-     $('.carousel-images').children().eq(currentIDImgIndex).toggle()
-     $('.carousel-images2').children().css('display','none')
-     $("html, body").animate({ scrollTop: $(".container").position().top + (-55)
+     $("html, body").animate({ scrollTop: $(".idProjects").position().top + (-110)
     }, 500)
   })
 });
 
 $(() => {
-  currentSEImgIndex = 0;
-  numOfSEImages = $('.carousel-images2').children().length -1
   $('.seStart').on('click', () => {
-     $('.carousel-images2').children().eq(currentSEImgIndex).toggle()
-     $('.carousel-images').children().css('display','none')
-     $("html, body").animate({ scrollTop: $(".container").position().top  + (-55)
+     $("html, body").animate({ scrollTop: $(".seProjects").position().top  + (-110)
     }, 500)
   })  
 });
 
-$(() => {
-  currentIDImgIndex = 0;
-  currentSEImgIndex = 0;
-  numOfIDImages = $('.carousel-images').children().length -1
-  numOfSEImages = $('.carousel-images2').children().length -1
-  $('.next').on('click', () => {
-     $('.carousel-images').children().eq(currentIDImgIndex).css('display','none')
-     $('.carousel-images2').children().eq(currentIDImgIndex).css('display','none')
-     if(currentIDImgIndex < numOfIDImages) {
-       currentIDImgIndex++
-     } else {
-       currentIDImgIndex = 0
-     }
-    $('.carousel-images').children().eq(currentIDImgIndex).css('display','block')
-  })
-});
+//The following was when I had projects appear in carousels and PROJECT divs that appeared (toggled) only upon clicking their respective tabs:
+//
 
-$(() => {
-  currentIDImgIndex = 0;
-  currentSEImgIndex = 0;
-  numOfIDImages = $('.carousel-images').children().length -1
-  numOfSEImages = $('.carousel-images2').children().length -1
-  $('.previous').on('click', () => {
-     $('.carousel-images').children().eq(currentIDImgIndex).css('display','none')
-     $('.carousel-images2').children().eq(currentIDImgIndex).css('display','none')
-     if(currentIDImgIndex < numOfIDImages) {
-       currentIDImgIndex--
-     } else {
-       currentIDImgIndex = 0
-     }
-    $('.carousel-images').children().eq(currentIDImgIndex).css('display','block')
-  })
-});
+// $(() => {
+//   currentIDImgIndex = 0;
+//   currentSEImgIndex = 0;
+//   numOfIDImages = $('.carousel-images').children().length -1
+//   numOfSEImages = $('.carousel-images2').children().length -1
+//   $('.next').on('click', () => {
+//      $('.carousel-images').children().eq(currentIDImgIndex).css('display','none')
+//      $('.carousel-images2').children().eq(currentIDImgIndex).css('display','none')
+//      if(currentIDImgIndex < numOfIDImages) {
+//        currentIDImgIndex++
+//      } else {
+//        currentIDImgIndex = 0
+//      }
+//     $('.carousel-images').children().eq(currentIDImgIndex).css('display','block')
+//   })
+// });
 
-$(() => {
-  currentIDImgIndex = 0;
-  currentSEImgIndex = 0;
-  numOfIDImages = $('.carousel-images').children().length -1
-  numOfSEImages = $('.carousel-images2').children().length -1
-  $('.next2').on('click', () => {
-     $('.carousel-images2').children().eq(currentSEImgIndex).css('display','none')
-     $('.carousel-images').children().eq(currentSEImgIndex).css('display','none')
-     if(currentSEImgIndex < numOfSEImages) {
-       currentSEImgIndex++
-     } else {
-       currentSEImgIndex = 0
-     }
-    $('.carousel-images2').children().eq(currentSEImgIndex).css('display','block')
-  })
-});
+// $(() => {
+//   currentIDImgIndex = 0;
+//   currentSEImgIndex = 0;
+//   numOfIDImages = $('.carousel-images').children().length -1
+//   numOfSEImages = $('.carousel-images2').children().length -1
+//   $('.previous').on('click', () => {
+//      $('.carousel-images').children().eq(currentIDImgIndex).css('display','none')
+//      $('.carousel-images2').children().eq(currentIDImgIndex).css('display','none')
+//      if(currentIDImgIndex < numOfIDImages) {
+//        currentIDImgIndex--
+//      } else {
+//        currentIDImgIndex = 0
+//      }
+//     $('.carousel-images').children().eq(currentIDImgIndex).css('display','block')
+//   })
+// });
 
-$(() => {
-  currentIDImgIndex = 0;
-  currentSEImgIndex = 0;
-  numOfIDImages = $('.carousel-images').children().length -1
-  numOfSEImages = $('.carousel-images2').children().length -1
-  $('.previous2').on('click', () => {
-     $('.carousel-images2').children().eq(currentSEImgIndex).css('display','none')
-     $('.carousel-images').children().eq(currentSEImgIndex).css('display','none')
-     if(currentSEImgIndex < numOfSEImages) {
-       currentSEImgIndex--
-     } else {
-       currentSEImgIndex = 0
-     }
-    $('.carousel-images2').children().eq(currentSEImgIndex).css('display','block')
-  })
-});
+// $(() => {
+//   currentIDImgIndex = 0;
+//   currentSEImgIndex = 0;
+//   numOfIDImages = $('.carousel-images').children().length -1
+//   numOfSEImages = $('.carousel-images2').children().length -1
+//   $('.next2').on('click', () => {
+//      $('.carousel-images2').children().eq(currentSEImgIndex).css('display','none')
+//      $('.carousel-images').children().eq(currentSEImgIndex).css('display','none')
+//      if(currentSEImgIndex < numOfSEImages) {
+//        currentSEImgIndex++
+//      } else {
+//        currentSEImgIndex = 0
+//      }
+//     $('.carousel-images2').children().eq(currentSEImgIndex).css('display','block')
+//   })
+// });
+
+// $(() => {
+//   currentIDImgIndex = 0;
+//   currentSEImgIndex = 0;
+//   numOfIDImages = $('.carousel-images').children().length -1
+//   numOfSEImages = $('.carousel-images2').children().length -1
+//   $('.previous2').on('click', () => {
+//      $('.carousel-images2').children().eq(currentSEImgIndex).css('display','none')
+//      $('.carousel-images').children().eq(currentSEImgIndex).css('display','none')
+//      if(currentSEImgIndex < numOfSEImages) {
+//        currentSEImgIndex--
+//      } else {
+//        currentSEImgIndex = 0
+//      }
+//     $('.carousel-images2').children().eq(currentSEImgIndex).css('display','block')
+//   })
+// });
 
 
 

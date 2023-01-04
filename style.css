@@ -1,107 +1,100 @@
 /* The below is the set-up for all html files: */
 
 html {
-  background-size: cover;
-  background-image: url("images/backgroundColor.png");
-  font-family: 'DM Sans', sans-serif;
+  background: #F4DEC8;
+  font-family: 'Didact Gothic', sans-serif;
 }
 
 
 /* The below is the set-up for all html files' navbar and drop-down menus: */
 nav {
-  background-color: #A865C9;
-  background-image: linear-gradient(315deg, #A865C9 0%, #5f72be 74%);
+  background-color: #94618E;
   background-size: cover;
-  box-shadow: 5px 5px 5px #311432;
-  color: #FFFAFA;
-  top: 0;
   position: sticky;
   z-index: 5;
-}
-
-.navBar {
-  display: inline-flex;
+  width: 100%;
   text-align: center;
-  font-family: 'DM Sans', sans-serif;
-  font-size: 20px;
-  margin-right: -80px;
-  text-shadow: 5px 5px 5px #311432;
-}
-
-.dropdown {
-  height: 70px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  width: 80%;
-}
-
-.drop {
-  position: relative;
-}
-
-.dropUl{
-  position: absolute;
-  margin-top: 25px;
-  flex-direction: column;
-  list-style: none;
-  background-color: #A865C9;
-  background-image: linear-gradient(315deg, #A865C9 0%, #5f72be 74%);
-  display: none;
-  box-shadow: 5px 5px 5px #311432;
-  font-family: 'DM Sans', sans-serif;
-}
-
-.drop:hover > .dropUl{
-  display:flex;
-  align-items: left;
-}
-
-.dropLi {
-  text-align: left;
   color: #FFFAFA;
-  font-size: 20px;
-  margin: 8px 3px 2px -5px;
-  height: 35px;
-  width: 210px;
-  text-shadow: 5px 5px 5px #311432;
+  margin: 0;
+  top: 0;
 }
 
-.dropLi:hover {
-  color: #311432;
+.topNameDiv {
+  border: solid #311432;
+  border-width: 0px 0px 2px 0px;
+  position: sticky;
+  padding: 1vw;
+  font-size: 20px;
   text-shadow: 1px 1px 1px #311432;
 }
 
-#topName {
-  color: #311432;
-  font-weight: 1000;
-  font-size: 25px;
-  text-shadow: 2px 2px 2px  #A865C9;
+.navMain {
+  border: solid #F4DEC8;
+  border-width: 3px 0px 0px 0px;
 }
+
+.navBar, .navTopRight {
+  display: inline-flex;
+  font-size: 20px;
+  padding: 1vw;
+  margin: 0vw 1vw 1vw 1vw;
+  position: sticky;
+}
+
+
+.navRightLeft {
+  font-size: 35px;
+}
+
+.navTopLeft {
+  display: inline-flex;
+  margin: 1.7vw;
+  float: left;
+  filter: invert(1);
+}
+
+.navTopRight {
+  float: right;
+}
+
+.contactButton {
+  background-color:  #F4DEC8;
+  color: #311432;
+  padding: 5px 5px 5px 5px;
+	margin-top: 1.5vw;
+  margin-right: 1.5vw;
+}
+
+.contactButton:hover {
+  background-color: #311432;
+  color: #F4DEC8;
+}
+
 
 /* The below is the set-up for all html files' headers: */
 
 h1 {
   color: #311432;
-  font-size: 45px;
-  font-family: 'DM Sans', sans-serif;
-  text-shadow: 5px 5px 5px #FFFAFA;
+  font-size: 40px;
+  text-align: center;
 }
 
 h2 {
-  margin: 0vw 1vw 1vw 1vw;
-  font-size: 30px;
-  color:  black;
+  font-size: 25px;
+  color:  #FFFAFA;
   text-align: center;
-  justify-content: center;
-  padding: 5vw 0vw 5vw 0vw;
-  text-shadow: 5px 5px 5px #FFFAFA;
+  margin-top: 2vw;
+  text-shadow: 1px 1px 1px #311432;
 }
 
 h3, p {
   color: #311432;
   font-size: 20px;
   text-align: left;
+}
+
+h3 {
+  margin-top: -.5px;
 }
 
 .header {
@@ -112,34 +105,35 @@ h3, p {
 
 #headerObject {
   flex-grow: inherit;
-  font-size: 40px;
-  background-color: #A865C9;
-  background-image: linear-gradient(315deg, #A865C9 0%, #5f72be 74%);
+  background-color: #94618E;
   font-family: 'DM Sans', sans-serif;
   color: #FFFAFA;
-  box-shadow: 5px 5px 5px #311432;
   object-position: center;
 }
 
-/* INDEX page intro, GOALS page, pic of Cara */
+/* INDEX page intro, ABOUT/ GOALS, pic of Cara */
+
+.about {
+  column-count: 1;
+  margin: 1vw 13vw 4vw 13vw;
+}
 
 .myPic {
   background-image: url(images/CaraPhillips.jpeg);
   background-size: 100%;
   float:left;
   background-repeat: no-repeat;
-  width: 200px;
-  height: 355px;
-  margin-top: 25px;
+  width: 150px;
+  height: 245px;
+  margin-top: 10px;
   margin-right: 35px;
   margin-bottom: 15px;
-  box-shadow: 5px 5px 5px #311432;
 }
 
 .myPic:hover {
   background-image: none;
   background-color: #311432;
-  }
+}
 
 h4 {
   line-height: 100%;
@@ -156,133 +150,92 @@ h4:hover {
 }
 
 a {
-  text-decoration: none;
+  color:#311432;
 }
 
-.gitHub, .artworkLink, .contactLink, .projectsLink {
+a, .aboutMeLink, .idStart, .seStart {
+  text-shadow: 1px 1px 1px #311432;
+}
+
+a:hover, .contactLink:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
+  cursor: pointer;
+}
+
+a:hover {
+  color:#94618E;
+}
+
+.aboutMeLink:hover, .idStart:hover, .seStart:hover {
   color: #311432;
-  text-shadow: 2px 2px 2px  #A865C9;
-}
-
-.gitHub:hover, .artworkLink:hover, .contactLink:hover, .projectsLink:hover {
-  color: #A865C9;
-  text-shadow: 1px 1px 1px black;
-}
-
-/* Icon div on index page*/
-.iconSection {
-  text-align: center;
 }
 
 
-/* ROW and COLUMN organization: he below is the set-up of the center rows and image buttons for the index, game and project pages: */
+/* PROJECT SECTION: The below is for the project summaries in the Projects sections: */
 
-.first_row {
-  column-count: 1;
-  margin: 1vw 13vw 4vw 13vw;
-}
-
-.second_row {
-  column-count: 3;
-  margin: 4vw 13vw 2vw 13vw;
-}
-
-.first_in_row {
-  flex: 1;
-}
-
-.second_in_row {
-  flex: 2;
-}
-
-.third_in_row {
-  flex: 3;
-}
-
-.first_in_row, .second_in_row, .third_in_row  {
-  width: 24vw;
-  height: 17.5vw;
-  background-size: cover;
-  filter: invert(1);
-  box-shadow: 5px 5px 5px #FFFAFA;
-}
-
-.first_in_row {
-  background-image: url(images/OtherProjectsB&W.png);
-}
-
-.second_in_row {
-  background-image: url(images/GameSpaceB&W.png); 
-}
-
-.third_in_row {
-  background-image: url(images/TypingB&W.png);
-}
-
-.first_in_row:hover, .second_in_row:hover, .third_in_row:hover {
-  filter: invert(0);
-  box-shadow: 5px 5px 5px #311432;
-}
-
-
-/* PROJECTS CAROUSEL: The below is for the carousel images in the Projects sections: */
-
-.container {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.seProjects, .idProjects {
+  background-color: #94618E;
   margin: 2vw 13vw 2vw 13vw;
 }
 
-.container > div {
-	width: 100%;
+.first_tier, .second_tier {
+  display: flex;
+  column-count: 2;
 }
 
-.container > h1 {
-	font-family: 'DM Sans', sans-serif;
-	font-weight: 800;
-	color: #5f72be;
-	text-shadow: 1px 1px #FFFAFA;
-	letter-spacing: 2px;
+.first_block {
+  margin: 1vw .5vw 1vw 1vw;
 }
 
-.carousel-container {
-	justify-content: space-around;
+.second_block {
+  margin: 1vw 1vw 1vw .5vw;
 }
 
-.carousel-images, .carousel-images2 {
-  width: 100%;
-	padding: 7px;
-	border-radius: 9px;
-	box-sizing: border-box;
-  text-align: center;
-  margin: auto;
+.third_block {
+  margin: 0vw .5vw 1vw 1vw;
 }
 
-.carousel-images div, .carousel-images2 div {
-	width: 100%;
-  display: none;
-  columns: 2;
+.fourth_block {
+  margin: 0vw 1vw 1vw .5vw;
 }
 
-.carousel-images img, .carousel-images2 img {
-	width: 28vw;
-  height: 20vw;
-	border-radius: 10px;
+.first_block, .third_block, .second_block, .fourth_block {
+  background-color: #f8EEE7;
+  width: 35vw;
+  padding: 2vw 2vw;
+  border: solid #311432;
+  border-width: 5px 5px;
 }
 
-.carousel-button, #readMeButton, #readMeButton2, .submit {
+.singleColumn_tier {
+  display: flex;
+}
+
+.instructionalVideoBlock {
+  background-color: #f8EEE7;
+  width: 72vw;
+  padding: 2vw 2vw;
+  margin: 0vw 1vw 1vw 1vw;
+  border: solid #311432;
+  border-width: 5px 5px;
+}
+
+.projectIMG {
+  float: left;
+	width: 150px;
+  height: 110px;
+	border-radius: 5px;
+  margin-right: 1vw;
+}
+
+#readMeButton, #readMeButton2, .submit {
   padding: 5px 5px 5px 5px;
 	text-align: center;
-  flex-grow: inherit;
   font-size: 20px;
-  background-color:  #5f72be;
-  font-family: 'DM Sans', sans-serif;
+  background-color:  #94618E;
   color: #FFFAFA;
-  box-shadow: 5px 5px 5px #311432;
 }
 
-.carouselPeruse, .readMe, .readMe2, .projectHeader  {
+.readMe, .readMe2, .projectHeader  {
   display: flex;
   justify-content: center;
   margin: auto;
@@ -290,32 +243,14 @@ a {
 
 .projectHeader  {
   font-size: 25px;
-  text-shadow: 1px 1px 1px #311432;
+  margin-bottom: 15px;
 }
 
-.projectTitle {
-  text-shadow: 1px 1px 1px #311432;
+.projectTitle, .skills {
+  text-shadow: 1px 1px 1px #94618E;
 }
 
-.next, .next2 {
-  margin-left: 5px;
-  margin-bottom: 10px;
-}
-
-.previous, .previous2 {
-  margin-right: 5px;
-  margin-bottom: 10px;
-}
-
-.next:hover, .next2:hover {
-  transform: scale(1.1);
-}
-
-.previous:hover, .previous2:hover {
-  transform: scale(1.1);
-}
-
-.carousel-button:hover, #readMeButton:hover, #readMeButton2:hover, .submit:hover {
+#readMeButton:hover, #readMeButton2:hover, .submit:hover {
 	cursor: pointer;
   color: #311432;
 }
@@ -387,50 +322,58 @@ small {
 
 /* C O N T A C T page form, submit set-up */
 
-.contactFormHeader, .projectHeader {
-  padding: 10px 0px;
+.contactCara {
+  background-color:  #94618E;
+  margin: 2vw 13vw 2vw 13vw;
+  padding-bottom: .1vw;
+  padding-top: .5vw;
+}
+
+.contactFormHeader {
+  margin-top: 1vw;
+}
+
+.contactFormContainer {
+  display: block;
+  width: 70.5vw;
+  margin: 1vw auto;
+}
+
+.contactForm {
+  background-color: #f8EEE7;
+  padding: 2vw 2vw;
+  border: solid #311432;
+  border-width: 5px 5px;
 }
 
 .formClass, .sendMessageIntro {
-  margin: -1vw 13vw 2vw 13vw ;
   font-size: 20px;
 }
 
 .sendMessageIntro {
-padding: 0vw;
-}
-
-.upperForm {
-  margin-bottom: 1vw;
+  padding: 0vw 0vw 1vw 0vw;
 }
 
 .nameInput{
-  width:70vw;
-  height:2.5vw;
+  width:63vw;
+  height:24px;
   font-size: 20px;
-  margin-right: 2vw;
 }
 
 .emailInput{
-  width:70vw;
-  height:2.5vw;
+  width:63vw;
+  height:24px;
   font-size: 20px;
-  margin-right: 2vw;
-}
-
-.lowerForm {
-  margin-top: 1vw;
 }
 
 #comment {
-  width:70vw;
-  height:10vw;
+  width:63vw;
+  height:75px;
   font-size: 20px;
-  font-family: 'DM Sans', sans-serif;
 }
 
 .submit {
-  margin-bottom: 2vw;
+  margin-bottom: 10px;
 }
 
 
@@ -438,128 +381,50 @@ padding: 0vw;
 
 .foot {
   display: inline;
-  font-size: 25px;
   padding: 1vw 3vw 1vw 1vw;
   margin: .5vw 4vw .5vw 4vw;
+  font-size: 30px;
 }
 
 .fa {
-  color: #FFFAFA;
-  text-shadow: 5px 5px 5px #311432;
+  color: black;
+  font-family: 'DM Sans', sans-serif;
+  text-decoration: none;
+  text-shadow: 1px 1px 1px #FFFAFA;
 }
 
 .fa:hover {
-  color: #311432;
-  text-shadow: 5px 5px 5px #FFFAFA;
+  color: #FFFAFA;
+  text-shadow: 1px 1px 1px black;
 }
 
 footer {
   align-self: flex-end;
   text-align: center;
   background-size: cover;
-  background-color: #A865C9;
-  background-image: linear-gradient(315deg, #A865C9 0%, #5f72be 74%);
+  background-color:  #F4DEC8;
   margin: 1vw 0vw 0vw 0vw;
   padding: .5vw 3vw .5vw 4vw;
   bottom: 0;
-  position: sticky;
-  box-shadow: 5px 5px 5px #311432;
 }
-
-
-
-/* RESPONSIVENESS: The below is the set-up for all html files' larger screen views: */
-@media (min-width: 1300px) {
-
-  h2{
-   font-size: 40px;
-  }
-
-  h3, p {
-    font-size: 23px;
-  }
-
-  .navBar {
-    font-size: 25px;
-  }
-}
-
 
 /* RESPONSIVENESS: The below is the set-up for all html files' smaller device views: */
 @media (max-width: 800px) {
 
-
-  .navBar {
-    align-content: center;
-    margin: 2vw 0vw 2vw 2vw;
-    padding: 1vw 0vw 1vw 1vw;
-  }
-
-  nav {
-      margin: 0vw 0vw 8vw 0vw;
-      width: 100%;
-    }
-
-  .dropUl{
-    width: 100px;
-    height: 130px;
-  }
-
-  .dropLi {
-    font-size: 18px;
-    width: 80px;
-    height: 100px;
-  }
-
-  h2{
-    padding: 12vw 0vw 12vw 0vw;
-    font-size: 35px;
-  }
-
-  h3{
-    font-size: 20px;
-  }
-
-  .second_row {
-   column-count: 1;
-   margin: 5vw -3vw 5vw 14vw;
-  }
-
-  .first_in_row, .second_in_row, .third_in_row  {
-    width: 70vw;
-    height: 40vw;
-    margin-bottom: 4vw;
-  }
-
-  .upperForm {
-    display: flex;
-    margin-bottom: 1vw;
-    flex-direction: column;
-    columns:2
-  }
-
-  .nameInput, .emailInput{
-    width:70vw;
-    height:4vw;
-    margin-right: 2vw;
-  }
-
-  .sendMessageIntro, .contactFormHeader {
-    margin: 0vw 13vw 3vw 13vw ;
-  }
-
-  #comment {
-    width:70vw;
-    height:15vw;
-  }
-
-  .carousel-images div, .carousel-images2 div {
+  .first_tier, .second_tier, .singleColumn_tier {
+    display: block;
     column-count: 1;
+    margin-top: -1vw;
   }
 
-  .carousel-images img, .carousel-images2 img {
-    width: 50vw;
-    height: 35vw;
+  .first_block, .third_block, .second_block, .fourth_block, .instructionalVideoBlock {
+    width: 65vw;
+    margin: 1.5vw auto;
+  }
+
+  .projectIMG {
+    width: 22vw;
+    height: 15vw;
   }
 
   footer {
@@ -579,8 +444,8 @@ footer {
   }
 
   .first{
-  width: 80vw;
-  height: 100vw;
+   width: 80vw;
+   height: 100vw;
   }
 
   .second, .third{
