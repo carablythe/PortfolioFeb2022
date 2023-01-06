@@ -1,6 +1,44 @@
 
 /* Hamburger Menu on Nav for Mobile View:*/
 
+// FOR NAV: USING MOUSEOVER AND MOUSEOUT on Hamburger Menu:
+
+$(() => {
+  $('nav').on('mouseout', () => {
+  if ($('html').css('width') <= '800') {
+   $('.navBar').css("display", "none")
+  }
+  else {
+    $('.navBar').css("display","inline-flex")
+  }
+  })
+});
+
+$(() => {
+  $('nav').on('mouseover', () => {
+    if ($('html').css('width') <= '800') {
+   $('.navBar').css("display", "block")
+   }
+   else {
+    $('.navBar').css("display","inline-flex")
+  }
+  })
+});
+
+// FOR NAV: IF USING ONCLICK instead of ABOVE MOUSEOVER/MOUSEOUT on Hamburger Menu:
+
+// $(() => {
+//   $('.hamburgerMenu').on('click', () => {
+//     if ($('.navBar').css("display") == "none") {
+//    $('.navBar').css("display", "block")
+//    }
+//    else if ($('.navBar').css("display") == "block") {
+//     $('.navBar').css("display","none")
+//   }
+//   })
+// });
+
+
 $(() => {
   $('html').on('mouseover', () => {
    if ($('.mobileNav').css('display') == 'none') {
@@ -20,18 +58,6 @@ $(() => {
 
 
 $(() => {
-  $('.hamburgerMenu').on('click', () => {
-    if ($('.navBar').css("display") == "none") {
-   $('.navBar').css("display", "block")
-   }
-   else if ($('.navBar').css("display") == "block") {
-    $('.navBar').css("display","none")
-  }
-  })
-});
-
-
-$(() => {
   $(window).on('resize', () => {
     if ($('html').css('width') <= '800px') { 
       $('.navBar').css("display", "none")
@@ -43,31 +69,6 @@ $(() => {
 });
 
 
-
-
-// FOR NAV: IF USING MOUSEOVER AND MOUSEOUT instead of click on Hamburger Menu:
-
-//$(() => {
-//   $('nav').on('mouseout', () => {
-//   if ($('html').css('width') <= '800') {
-//    $('.navBar').css("display", "none")
-//   }
-//   else {
-//     $('.navBar').css("display","inline-flex")
-//   }
-//   })
-// });
-
-// $(() => {
-//   $('nav').on('mouseover', () => {
-//     if ($('html').css('width') <= '800') {
-//    $('.navBar').css("display", "block")
-//    }
-//    else {
-//     $('.navBar').css("display","inline-flex")
-//   }
-//   })
-// });
 
 
 

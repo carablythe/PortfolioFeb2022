@@ -8,7 +8,6 @@ html {
 
 /* The below is the set-up for all html files' navbar and drop-down menus: */
 nav {
-  background-color: #94618E;
   position: sticky;
   z-index: 5;
   width: 100%;
@@ -19,6 +18,7 @@ nav {
 }
 
 .topNameDiv {
+  background-color: #94618E;
   border: solid #311432;
   border-width: 0px 0px 2px 0px;
   position: sticky;
@@ -28,6 +28,7 @@ nav {
 }
 
 .navMain {
+  background-color: #94618E;
   border: solid #F4DEC8;
   border-width: 3px 0px 0px 0px;
 }
@@ -423,6 +424,7 @@ footer {
   .navBar {
     display: none;
   }
+
 
   .regularNav {
     margin: 0vw 0vw;
