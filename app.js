@@ -18,27 +18,26 @@ $(() => {
 });
 
 
-$(() => {
-  $('nav').on('mouseout', () => {
-  if ($('html').css('width') <= '800') {
-   $('.navBar').css("display", "none")
-   }
-  })
-});
 
 $(() => {
-  $('nav').on('mouseover', () => {
-    if ($('html').css('width') <= '800') {
+  $('.hamburgerMenu').on('click', () => {
+    if ($('.navBar').css("display") == "none") {
    $('.navBar').css("display", "block")
    }
+   else if ($('.navBar').css("display") == "block") {
+    $('.navBar').css("display","none")
+  }
   })
 });
 
 
 $(() => {
   $(window).on('resize', () => {
-    if ($('html').css('width') <= '800') { 
+    if ($('html').css('width') <= '800px') { 
       $('.navBar').css("display", "none")
+    }
+    else {
+      $('.navBar').css("display","inline-flex")
     }
   })
 });
@@ -46,66 +45,28 @@ $(() => {
 
 
 
+// FOR NAV: IF USING MOUSEOVER AND MOUSEOUT instead of click on Hamburger Menu:
 
-// $(() => {
-//   $('.hamburgerMenu').on('click', () => {
-//   if($('.navBar').css('display') == 'none') {
-//    $('.navBar').css("display","block")
+//$(() => {
+//   $('nav').on('mouseout', () => {
+//   if ($('html').css('width') <= '800') {
+//    $('.navBar').css("display", "none")
 //   }
-//   else if($('.navBar').css('display') == 'block') {
-//     $('.navBar').css("display","none")
-//    }
-//  }) 
-// });
-
-
-// $(() => {
-//   $('.hamburgerMenu').on('mouseover', () => {
-//    $('.regularNav').css("display","inline-flex")
+//   else {
+//     $('.navBar').css("display","inline-flex")
+//   }
 //   })
 // });
 
-
-
 // $(() => {
-//   $('.hamburgerMenu').on('click', () => {
-//   if($('.navBar').css('display') == 'none') {
-//    $('.navBar').css("display","block")
-//   }
-//   else if($('.navBar').css('display') == 'block') {
-//     $('.navBar').css("display","none")
+//   $('nav').on('mouseover', () => {
+//     if ($('html').css('width') <= '800') {
+//    $('.navBar').css("display", "block")
 //    }
-//  }) 
-// });
-
-// $(() => {
-//   if($('.mobileNav').css('display') == 'none' && 
-//   $('.navBar').css('display') == 'none') {
-//    $('.navBar').css("display","inline-flex")
+//    else {
+//     $('.navBar').css("display","inline-flex")
 //   }
-//   else if ($('.mobileNav').css('display') == 'none' && 
-//   $('.navBar').css('display') == 'block') {
-//    $('.navBar').css("display","inline-flex")
-//   }
-// });
-
-// $(() => {
-//   if($(html).css('width') >= '800px') {
-//    $('.navBar').css("display","inline-flex")
-//   }
-// });
-
-
-// $(() => {
-//   $('.hamburgerMenu').on('click', () => {
-//   $('.navBar').toggle()
-//    })
-// });
-
-// $(() => {
-//   if($('.hamburgerMenu').css('display') == 'none') {
-//    $('.navBar').css("display","inline-flex")
-//   }
+//   })
 // });
 
 
@@ -274,6 +235,69 @@ $(() => {
 // });
 
 
+
+//HAMBURGER MENU FAILS BELOW
+
+// $(() => {
+//   $('.hamburgerMenu').on('click', () => {
+//   if($('.navBar').css('display') == 'none') {
+//    $('.navBar').css("display","block")
+//   }
+//   else if($('.navBar').css('display') == 'block') {
+//     $('.navBar').css("display","none")
+//    }
+//  }) 
+// });
+
+
+// $(() => {
+//   $('.hamburgerMenu').on('mouseover', () => {
+//    $('.regularNav').css("display","inline-flex")
+//   })
+// });
+
+
+
+// $(() => {
+//   $('.hamburgerMenu').on('click', () => {
+//   if($('.navBar').css('display') == 'none') {
+//    $('.navBar').css("display","block")
+//   }
+//   else if($('.navBar').css('display') == 'block') {
+//     $('.navBar').css("display","none")
+//    }
+//  }) 
+// });
+
+// $(() => {
+//   if($('.mobileNav').css('display') == 'none' && 
+//   $('.navBar').css('display') == 'none') {
+//    $('.navBar').css("display","inline-flex")
+//   }
+//   else if ($('.mobileNav').css('display') == 'none' && 
+//   $('.navBar').css('display') == 'block') {
+//    $('.navBar').css("display","inline-flex")
+//   }
+// });
+
+// $(() => {
+//   if($(html).css('width') >= '800px') {
+//    $('.navBar').css("display","inline-flex")
+//   }
+// });
+
+
+// $(() => {
+//   $('.hamburgerMenu').on('click', () => {
+//   $('.navBar').toggle()
+//    })
+// });
+
+// $(() => {
+//   if($('.hamburgerMenu').css('display') == 'none') {
+//    $('.navBar').css("display","inline-flex")
+//   }
+// });
 
   
 
