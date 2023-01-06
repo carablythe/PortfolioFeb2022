@@ -9,7 +9,6 @@ html {
 /* The below is the set-up for all html files' navbar and drop-down menus: */
 nav {
   background-color: #94618E;
-  background-size: cover;
   position: sticky;
   z-index: 5;
   width: 100%;
@@ -33,41 +32,45 @@ nav {
   border-width: 3px 0px 0px 0px;
 }
 
-.navBar, .navTopRight {
+
+.navBar {
   display: inline-flex;
   font-size: 20px;
   padding: 1vw;
   margin: 0vw 1vw 1vw 1vw;
   position: sticky;
+  list-style: none;
+  text-align: center;
 }
 
-
-.navRightLeft {
-  font-size: 35px;
-}
-
-.navTopLeft {
-  display: inline-flex;
-  margin: 1.7vw;
-  float: left;
-  filter: invert(1);
-}
-
-.navTopRight {
-  float: right;
+.mobileNav {
+  font-size: 23px;
+  display: none;
+  position: sticky;
+  list-style: none;
+  margin: 0vw 0vw;
+  padding: 1vw 1vw;
 }
 
 .contactButton {
+  font-size: 18px;
   background-color:  #F4DEC8;
   color: #311432;
   padding: 5px 5px 5px 5px;
-	margin-top: 1.5vw;
-  margin-right: 1.5vw;
 }
 
 .contactButton:hover {
   background-color: #311432;
   color: #F4DEC8;
+}
+
+.hamburgerMenu {
+  display: inline-flex;
+  font-size: 20px;
+  padding: 1vw;
+  text-align: center;
+  position: sticky;
+  filter: invert(1);
 }
 
 
@@ -153,7 +156,7 @@ a {
   color:#311432;
 }
 
-a, .aboutMeLink, .idStart, .seStart {
+.aboutMeLink, .idStart, .seStart {
   text-shadow: 1px 1px 1px #311432;
 }
 
@@ -163,6 +166,7 @@ a:hover, .contactLink:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover 
 
 a:hover {
   color:#94618E;
+  text-shadow: 1px 1px 1px #311432;
 }
 
 .aboutMeLink:hover, .idStart:hover, .seStart:hover {
@@ -410,6 +414,27 @@ footer {
 
 /* RESPONSIVENESS: The below is the set-up for all html files' smaller device views: */
 @media (max-width: 800px) {
+
+
+  .mobileNav {
+    display: inline-flex;
+  }
+
+  .navBar {
+    display: none;
+  }
+
+  .regularNav {
+    margin: 0vw 0vw;
+    padding: 0vw 1vw 1vw 1vw;
+    background: black;
+    background: linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
+    transition: height .5s;
+    -webkit-transition: height .5s;
+    -moz-transition: height .5s;
+  }
 
   .first_tier, .second_tier, .singleColumn_tier {
     display: block;

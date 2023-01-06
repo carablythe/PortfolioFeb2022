@@ -1,3 +1,117 @@
+
+/* Hamburger Menu on Nav for Mobile View:*/
+
+$(() => {
+  $('html').on('mouseover', () => {
+   if ($('.mobileNav').css('display') == 'none') {
+    $('.navBar').css("display","inline-flex")
+  }
+  })
+});
+
+$(() => {
+  $('html').on('mouseout', () => {
+   if ($('.mobileNav').css('display') == 'none') {
+    $('.navBar').css("display","inline-flex")
+  }
+  })
+});
+
+
+$(() => {
+  $('nav').on('mouseout', () => {
+  if ($('html').css('width') <= '800') {
+   $('.navBar').css("display", "none")
+   }
+  })
+});
+
+$(() => {
+  $('nav').on('mouseover', () => {
+    if ($('html').css('width') <= '800') {
+   $('.navBar').css("display", "block")
+   }
+  })
+});
+
+
+$(() => {
+  $(window).on('resize', () => {
+    if ($('html').css('width') <= '800') { 
+      $('.navBar').css("display", "none")
+    }
+  })
+});
+
+
+
+
+
+// $(() => {
+//   $('.hamburgerMenu').on('click', () => {
+//   if($('.navBar').css('display') == 'none') {
+//    $('.navBar').css("display","block")
+//   }
+//   else if($('.navBar').css('display') == 'block') {
+//     $('.navBar').css("display","none")
+//    }
+//  }) 
+// });
+
+
+// $(() => {
+//   $('.hamburgerMenu').on('mouseover', () => {
+//    $('.regularNav').css("display","inline-flex")
+//   })
+// });
+
+
+
+// $(() => {
+//   $('.hamburgerMenu').on('click', () => {
+//   if($('.navBar').css('display') == 'none') {
+//    $('.navBar').css("display","block")
+//   }
+//   else if($('.navBar').css('display') == 'block') {
+//     $('.navBar').css("display","none")
+//    }
+//  }) 
+// });
+
+// $(() => {
+//   if($('.mobileNav').css('display') == 'none' && 
+//   $('.navBar').css('display') == 'none') {
+//    $('.navBar').css("display","inline-flex")
+//   }
+//   else if ($('.mobileNav').css('display') == 'none' && 
+//   $('.navBar').css('display') == 'block') {
+//    $('.navBar').css("display","inline-flex")
+//   }
+// });
+
+// $(() => {
+//   if($(html).css('width') >= '800px') {
+//    $('.navBar').css("display","inline-flex")
+//   }
+// });
+
+
+// $(() => {
+//   $('.hamburgerMenu').on('click', () => {
+//   $('.navBar').toggle()
+//    })
+// });
+
+// $(() => {
+//   if($('.hamburgerMenu').css('display') == 'none') {
+//    $('.navBar').css("display","inline-flex")
+//   }
+// });
+
+
+
+
+
 /* Scroll to and toggle AboutME/GOALS section*/
 
 $(() => {
@@ -16,7 +130,7 @@ $(() => {
   $('#readMe').css("display", "none")
 })
 
-$(() => {{}
+$(() => {
   $('#readMe2').css("display", "none")
 })
 
