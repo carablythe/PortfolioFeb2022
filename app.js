@@ -1,7 +1,6 @@
 
-/* Hamburger Menu on Nav for Mobile View:*/
-
-// FOR NAV: USING MOUSEOVER AND MOUSEOUT on Hamburger Menu:
+/* N A V :  Hamburger Menu on Nav for Mobile View:*/
+// USING MOUSEOVER AND MOUSEOUT:
 
 $(() => {
   $('nav').on('mouseout', () => {
@@ -56,7 +55,6 @@ $(() => {
 });
 
 
-
 $(() => {
   $(window).on('resize', () => {
     if ($('html').css('width') <= '800px') { 
@@ -67,10 +65,6 @@ $(() => {
     }
   })
 });
-
-
-
-
 
 
 
@@ -114,7 +108,6 @@ const readMeText2 = () => {
 
 
 
-
 /* ARTWORK page: The below is the show description function of each piece of artwork: */
 $(() => {$('.first').on('click', () => {
   $('.painting1').toggleClass("show-description")
@@ -124,12 +117,12 @@ $(() => {$('.first').on('click', () => {
 $(() => {$('.second').on('click', () => {
   $('.painting2').toggleClass("show-description")
  })
-})
+});
 
 $(() => {$('.third').on('click', () => {
   $('.painting3').toggleClass("show-description")
  })
-})
+});
 
 /* Scroll to Contacts section*/
 
@@ -140,12 +133,14 @@ $(() => {
   })
 });
 
+
+
 /* The below is the set-up for my contact submit message: */
 
 $(() => {
   $('.submit').on('click', () => {
     $('.imResponse').text("Thank you! Cara will be in touch with you soon! (provided you have supplied a valid e-mail address ; ) )")})
-})
+});
 
 
 //Scroll to ID and SE projects

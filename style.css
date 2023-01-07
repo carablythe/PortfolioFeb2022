@@ -27,6 +27,15 @@ nav {
   text-shadow: 1px 1px 1px #311432;
 }
 
+.topName {
+  text-decoration: none;
+  color: #FFFAFA;
+}
+
+.topName:hover {
+  color: #311432;
+}
+
 .navMain {
   background-color: #94618E;
   border: solid #F4DEC8;
@@ -120,6 +129,10 @@ h3 {
 .about {
   column-count: 1;
   margin: 1vw 13vw 4vw 13vw;
+}
+
+.aboutMe {
+  display: none;
 }
 
 .myPic {
