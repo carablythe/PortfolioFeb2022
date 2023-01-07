@@ -160,6 +160,7 @@ h4 {
 }
 
 h4:hover {
+  color: transparent;
   background-image: url(images/MyPicHighContrast.jpg);
   background-repeat: no-repeat;
   -webkit-background-clip: text;
@@ -373,19 +374,19 @@ small {
 }
 
 .nameInput{
-  width:63vw;
+  width:60vw;
   height:24px;
   font-size: 20px;
 }
 
 .emailInput{
-  width:63vw;
+  width:60vw;
   height:24px;
   font-size: 20px;
 }
 
 #comment {
-  width:63vw;
+  width:60vw;
   height:75px;
   font-size: 20px;
 }
@@ -438,7 +439,6 @@ footer {
     display: none;
   }
 
-
   .regularNav {
     margin: 0vw 0vw;
     padding: 0vw 1vw 1vw 1vw;
@@ -451,6 +451,7 @@ footer {
     -moz-transition: height .5s;
   }
 
+
   .first_tier, .second_tier, .singleColumn_tier {
     display: block;
     column-count: 1;
@@ -458,7 +459,7 @@ footer {
   }
 
   .first_block, .third_block, .second_block, .fourth_block, .instructionalVideoBlock {
-    width: 65vw;
+    width: 63vw;
     margin: 1.5vw auto;
   }
 
