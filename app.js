@@ -79,6 +79,15 @@ $(() => {
   })
 });
 
+$(() => {
+  $('.aboutMe').css("display", "none")
+  $('.aboutMeLinkPic').on('click', () => {
+     $('.aboutMe').toggle()
+     $("html, body").animate({ scrollTop: $("html").position().top + (-110)
+    }, 500);
+  })
+});
+
 
 /* The below is the set-up for the Read Me button/ more info sections in the ID projects section: */
 

@@ -456,7 +456,17 @@ footer {
     -moz-transition: height .5s;
   }
 
+  .myPic:hover {
+    background-image: url(images/CaraPhillips.jpeg);
+    border: solid #94618E;
+    border-width: 3px 3px 3px 3px;
+  }
 
+  h4:hover {
+    color: transparent;
+    background-image: none;
+  }
+  
   .first_tier, .second_tier, .singleColumn_tier {
     display: block;
     column-count: 1;
