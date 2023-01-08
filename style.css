@@ -2,7 +2,7 @@
 
 html {
   background: #F4DEC8;
-  font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 
@@ -41,7 +41,6 @@ nav {
   border: solid #F4DEC8;
   border-width: 3px 0px 0px 0px;
 }
-
 
 .navBar {
   display: inline-flex;
@@ -127,12 +126,49 @@ h3 {
 /* INDEX page intro, ABOUT/ GOALS, pic of Cara */
 
 .about {
-  column-count: 1;
-  margin: 1vw 13vw 4vw 13vw;
+  margin: 5vw 13vw 5vw 13vw;
+  padding: 5vw 0vw 5vw 0vw;
+  column-count: 2;
+  display: flex;
 }
 
-.aboutMe {
-  display: none;
+.intro {
+  margin-left: 4vw;
+}
+
+.introHeader {
+  text-align: left;
+  padding: 0vw 0vw 1.8vw 0vw;
+  text-shadow: 1px 1px 1px #311432;
+}
+
+.introText {
+  font-size: 35px;
+  color:  #94618E;
+  text-align: left;
+  text-shadow: 1px 1px 1px #311432;
+}
+
+.myPicIntro {
+  background-image: none;
+  background-color: #311432;
+  background-size: contain;
+  width: 275px;
+  height: 360px;
+  margin-bottom: 15px;
+}
+
+h4 {
+  color: transparent;
+  background-image: url(images/MyPicHighContrast.jpg);
+  background-repeat: no-repeat;
+  -webkit-background-clip: text;
+  opacity: 1;
+  background-size: 100%;
+  font-size: 5px;
+  margin-top: -1px;
+  width: 275px;
+  height: 360px;
 }
 
 .myPic {
@@ -141,35 +177,10 @@ h3 {
   float:left;
   background-repeat: no-repeat;
   width: 150px;
-  height: 245px;
-  margin-top: 10px;
+  height: 240px;
+  margin-top: 25px;
   margin-right: 35px;
   margin-bottom: 15px;
-}
-
-.myPic:hover {
-  background-image: none;
-  background-color: #311432;
-}
-
-h4 {
-  line-height: 100%;
-  background-size: 100%;
-  width: 150px;
-  height: 245px;
-  font-size: 5px;
-  opacity: 0;
-}
-
-h4:hover {
-  color: transparent;
-  background-image: url(images/MyPicHighContrast.jpg);
-  background-repeat: no-repeat;
-  -webkit-background-clip: text;
-  opacity: 1;
-  background-size: 100%;
-  width: 150px;
-  height: 245px;
 }
 
 a {
@@ -196,9 +207,9 @@ a:hover {
 
 /* PROJECT SECTION: The below is for the project summaries in the Projects sections: */
 
-.seProjects, .idProjects {
+.seProjects, .idProjects, .aboutMe {
   background-color: #94618E;
-  margin: 2vw 13vw 2vw 13vw;
+  margin: 2vw 13vw 7vw 13vw;
 }
 
 .first_tier, .second_tier {
@@ -234,7 +245,7 @@ a:hover {
   display: flex;
 }
 
-.instructionalVideoBlock {
+.singleColumnBlock {
   background-color: #f8EEE7;
   width: 72vw;
   padding: 2vw 2vw;
@@ -271,7 +282,7 @@ a:hover {
 }
 
 .projectTitle, .skills {
-  text-shadow: 1px 1px 1px #94618E;
+  font-family: 'Nunito Sans', sans-serif;
 }
 
 #readMeButton:hover, #readMeButton2:hover, .submit:hover {
@@ -456,22 +467,38 @@ footer {
     -moz-transition: height .5s;
   }
 
-  .myPic:hover {
-    background-image: url(images/CaraCSS.png);
+  .about {
+    column-count: 1;
+    display: block;
   }
 
-  h4:hover {
-    color: transparent;
-    background-image: none;
+  .intro {
+    margin: auto;
+    padding: auto;
+  }
+
+  .myPicIntro{
+    margin: auto;
+  }
+
+  .introHeader, .introText {
+    text-align: center;
+    margin: auto;
+    padding: auto;
   }
   
+  h4 {
+    color: transparent;
+    opacity: 1;
+  }
+
   .first_tier, .second_tier, .singleColumn_tier {
     display: block;
     column-count: 1;
     margin-top: -1vw;
   }
 
-  .first_block, .third_block, .second_block, .fourth_block, .instructionalVideoBlock {
+  .first_block, .third_block, .second_block, .fourth_block, .singleColumnBlock {
     width: 63vw;
     margin: 1.5vw auto;
   }

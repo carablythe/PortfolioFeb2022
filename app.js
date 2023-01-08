@@ -68,25 +68,16 @@ $(() => {
 
 
 
+
 /* Scroll to and toggle AboutME/GOALS section*/
 
 $(() => {
-  $('.aboutMe').css("display", "none")
   $('.aboutMeLink').on('click', () => {
-     $('.aboutMe').toggle()
-     $("html, body").animate({ scrollTop: $("html").position().top + (-110)
+     $("html, body").animate({ scrollTop: $(".aboutMe").position().top + (-110)
     }, 500);
   })
 });
 
-$(() => {
-  $('.aboutMe').css("display", "none")
-  $('.aboutMeLinkPic').on('click', () => {
-     $('.aboutMe').toggle()
-     $("html, body").animate({ scrollTop: $("html").position().top + (-110)
-    }, 500);
-  })
-});
 
 
 /* The below is the set-up for the Read Me button/ more info sections in the ID projects section: */
