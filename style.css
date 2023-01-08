@@ -103,6 +103,7 @@ h3, p {
   color: #311432;
   font-size: 20px;
   text-align: left;
+  font-weight: 400;
 }
 
 h3 {
@@ -153,9 +154,8 @@ h3 {
   background-image: none;
   background-color: #311432;
   background-size: contain;
-  width: 275px;
+  width: 260px;
   height: 360px;
-  margin-bottom: 15px;
 }
 
 h4 {
@@ -178,13 +178,13 @@ h4 {
   background-repeat: no-repeat;
   width: 150px;
   height: 240px;
-  margin-top: 25px;
-  margin-right: 35px;
+  margin-right: 15px;
   margin-bottom: 15px;
 }
 
 a {
   color:#311432;
+  font-weight: 700;
 }
 
 .aboutMeLink, .idStart, .seStart {
@@ -283,6 +283,7 @@ a:hover {
 
 .projectTitle, .skills {
   font-family: 'Nunito Sans', sans-serif;
+  font-weight: 700;
 }
 
 #readMeButton:hover, #readMeButton2:hover, .submit:hover {
