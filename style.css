@@ -366,7 +366,8 @@ small {
 }
 
 .contactFormHeader {
-  margin-top: 1vw;
+  margin: auto;
+  padding: 2vw 2vw;
 }
 
 .contactFormContainer {
