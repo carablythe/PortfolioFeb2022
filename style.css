@@ -167,6 +167,9 @@ h4:hover {
   background-repeat: no-repeat;
   -webkit-background-clip: text;
   opacity: 1;
+  background-size: 100%;
+  width: 150px;
+  height: 245px;
 }
 
 a {
