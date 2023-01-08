@@ -457,9 +457,7 @@ footer {
   }
 
   .myPic:hover {
-    background-image: url(images/CaraPhillips.jpeg);
-    border: solid #94618E;
-    border-width: 3px 3px 3px 3px;
+    background-image: url(images/CaraCSS.png);
   }
 
   h4:hover {
