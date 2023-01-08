@@ -46,8 +46,8 @@ nav {
 .navBar {
   display: inline-flex;
   font-size: 20px;
-  padding: 1vw;
-  margin: 0vw 1vw 1vw 1vw;
+  padding: 1vw 3.5vw 1vw 3.5vw;
+  margin: 0vw 0vw 1vw 0vw;
   position: sticky;
   list-style: none;
   text-align: center;
