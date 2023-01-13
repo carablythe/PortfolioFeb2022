@@ -1,7 +1,7 @@
 /* The below is the set-up for all html files: */
 
 html {
-  background: #F4DEC8;
+  background: #f8EEE7;
   font-family: 'Nunito Sans', sans-serif;
 }
 
@@ -18,38 +18,38 @@ nav {
 }
 
 .topNameDiv {
-  background-color: #94618E;
-  border: solid #311432;
-  border-width: 0px 0px 2px 0px;
+  background-color: #490d63;
   position: sticky;
-  padding: 1vw;
-  font-size: 20px;
-  text-shadow: 1px 1px 1px #311432;
+  padding: 1.5vw;
+  font-size: 22px;
 }
 
 .topName {
   text-decoration: none;
   color: #FFFAFA;
+  font-family: 'Russo One', sans-serif;
 }
 
 .topName:hover {
-  color: #311432;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .navMain {
-  background-color: #94618E;
+  background-color: #490d63;
   border: solid #F4DEC8;
   border-width: 3px 0px 0px 0px;
+  
 }
 
 .navBar {
   display: inline-flex;
   font-size: 20px;
-  padding: 1vw 3.5vw 1vw 3.5vw;
-  margin: 0vw 0vw 1vw 0vw;
+  margin: 1vw 0vw 1vw 0vw;
   position: sticky;
   list-style: none;
   text-align: center;
+  padding: 1vw 2vw 1vw 2vw;
 }
 
 .mobileNav {
@@ -64,12 +64,13 @@ nav {
 .contactButton {
   font-size: 18px;
   background-color:  #F4DEC8;
-  color: #311432;
-  padding: 5px 5px 5px 5px;
+  color: #490d63;
+  padding: 15px 15px 15px 15px;
+  border-radius: 3px;
 }
 
 .contactButton:hover {
-  background-color: #311432;
+  background-color: #94618E;
   color: #F4DEC8;
 }
 
@@ -86,21 +87,22 @@ nav {
 /* The below is the set-up for all html files' headers: */
 
 h1 {
-  color: #311432;
-  font-size: 40px;
+  color: #490d63;
+  font-size: 45px;
   text-align: center;
+  font-family: 'Russo One', sans-serif;
 }
 
 h2 {
-  font-size: 25px;
-  color:  #FFFAFA;
+  font-size: 30px;
+  color:  #490d63;
   text-align: center;
   margin-top: 2vw;
-  text-shadow: 1px 1px 1px #311432;
+  font-family: 'Russo One', sans-serif;
 }
 
 h3, p {
-  color: #311432;
+  color: #490d63;
   font-size: 20px;
   text-align: left;
   font-weight: 400;
@@ -110,44 +112,31 @@ h3 {
   margin-top: -.5px;
 }
 
-.header {
-  flex-grow: inherit;
-  text-align: center;
-  margin: 60px 12vw 0px 12vw;
-}
-
-#headerObject {
-  flex-grow: inherit;
-  background-color: #94618E;
-  font-family: 'DM Sans', sans-serif;
-  color: #FFFAFA;
-  object-position: center;
-}
 
 /* INDEX page intro, ABOUT/ GOALS, pic of Cara */
 
 .about {
-  margin: 5vw 13vw 5vw 13vw;
+  margin: 5vw 13vw 10vw 13vw;
   padding: 5vw 0vw 5vw 0vw;
   column-count: 2;
   display: flex;
 }
 
 .intro {
-  margin-left: 4vw;
+  margin-right: 10vw;
+  width: 40vw;
+  height: 305px;
 }
 
 .introHeader {
   text-align: left;
   padding: 0vw 0vw 1.8vw 0vw;
-  text-shadow: 1px 1px 1px #311432;
 }
 
 .introText {
   font-size: 35px;
-  color:  #94618E;
+  color:  #923d88;
   text-align: left;
-  text-shadow: 1px 1px 1px #311432;
 }
 
 .myPicIntro {
@@ -155,7 +144,7 @@ h3 {
   background-color: #311432;
   background-size: contain;
   width: 260px;
-  height: 360px;
+  height: 305px;
 }
 
 h4 {
@@ -183,32 +172,21 @@ h4 {
 }
 
 a {
-  color:#311432;
   font-weight: 700;
+  text-decoration: none;
 }
 
-.aboutMeLink, .idStart, .seStart {
-  text-shadow: 1px 1px 1px #311432;
-}
 
-a:hover, .contactLink:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
+a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
-a:hover {
-  color:#94618E;
-  text-shadow: 1px 1px 1px #311432;
-}
-
-.aboutMeLink:hover, .idStart:hover, .seStart:hover {
-  color: #311432;
-}
 
 
 /* PROJECT SECTION: The below is for the project summaries in the Projects sections: */
 
 .seProjects, .idProjects, .aboutMe {
-  background-color: #94618E;
   margin: 2vw 13vw 7vw 13vw;
 }
 
@@ -217,28 +195,16 @@ a:hover {
   column-count: 2;
 }
 
-.first_block {
-  margin: 1vw .5vw 1vw 1vw;
-}
-
-.second_block {
-  margin: 1vw 1vw 1vw .5vw;
-}
-
-.third_block {
-  margin: 0vw .5vw 1vw 1vw;
-}
-
-.fourth_block {
-  margin: 0vw 1vw 1vw .5vw;
+.first_block, .third_block, .second_block, .fourth_block, .singleColumnBlock {
+  background-color: #FFFAFA;
+  padding: 6vw 6vw;
+  box-shadow: 0 2px 10px #b185ac;
+  margin: 1vw;
+  border-radius: 3px;
 }
 
 .first_block, .third_block, .second_block, .fourth_block {
-  background-color: #f8EEE7;
   width: 35vw;
-  padding: 2vw 2vw;
-  border: solid #311432;
-  border-width: 5px 5px;
 }
 
 .singleColumn_tier {
@@ -246,13 +212,15 @@ a:hover {
 }
 
 .singleColumnBlock {
-  background-color: #f8EEE7;
   width: 72vw;
-  padding: 2vw 2vw;
-  margin: 0vw 1vw 1vw 1vw;
-  border: solid #311432;
-  border-width: 5px 5px;
+  margin: 1vw;
 }
+
+.noBlock {
+  width: 72vw;
+  padding: 3vw 1vw;
+}
+
 
 .projectIMG {
   float: left;
@@ -262,33 +230,47 @@ a:hover {
   margin-right: 15px;
 }
 
-#readMeButton, #readMeButton2, .submit {
-  padding: 5px 5px 5px 5px;
+#readMeButton, #readMeButton2, .projectButton, .gitHubButton, .submit {
+  padding: 12px 20px 12px 20px;
 	text-align: center;
   font-size: 20px;
-  background-color:  #94618E;
+  background-color:  #490d63;
   color: #FFFAFA;
+  border-radius: 3px;
 }
 
-.readMe, .readMe2, .projectHeader  {
+.projectButton, .gitHubButton {
+  margin: 1vw 0vw 1vw 0vw;
+}
+
+.readMe, .readMe2 {
   display: flex;
-  justify-content: center;
   margin: auto;
 }
 
-.projectHeader  {
-  font-size: 25px;
-  margin-bottom: 15px;
+.headingOverheadLine {
+  height: 5px;
+  width: 90px;
+  margin: 0vw 0vw -1vw 1vw;
+  background: #490d63;
 }
 
-.projectTitle, .skills {
+.projectHeader  {
+  margin-bottom: 15px;
+  text-align: left;
+  margin: auto;
+  padding: 2vw 1vw;
+}
+
+.skills {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: 700;
 }
 
-#readMeButton:hover, #readMeButton2:hover, .submit:hover {
+#readMeButton:hover, #readMeButton2:hover, .projectButton:hover, .gitHubButton:hover, .submit:hover {
 	cursor: pointer;
   color: #311432;
+  background-color: #F4DEC8;
 }
 
 
@@ -359,7 +341,6 @@ small {
 /* C O N T A C T page form, submit set-up */
 
 .contactCara {
-  background-color:  #94618E;
   margin: 2vw 13vw 2vw 13vw;
   padding-bottom: .1vw;
   padding-top: .5vw;
@@ -367,7 +348,8 @@ small {
 
 .contactFormHeader {
   margin: auto;
-  padding: 2vw 2vw;
+  padding: 2vw 1vw;
+  text-align: left;
 }
 
 .contactFormContainer {
@@ -377,10 +359,9 @@ small {
 }
 
 .contactForm {
-  background-color: #f8EEE7;
-  padding: 2vw 2vw;
-  border: solid #311432;
-  border-width: 5px 5px;
+  background-color: #FFFAFA;
+  padding: 6vw 6vw;
+  box-shadow: 0 2px 10px #b185ac;
 }
 
 .formClass, .sendMessageIntro {
@@ -431,7 +412,7 @@ small {
 }
 
 .fa:hover {
-  color: #FFFAFA;
+  color: black;
   text-shadow: 1px 1px 1px black;
 }
 
@@ -439,7 +420,7 @@ footer {
   align-self: flex-end;
   text-align: center;
   background-size: cover;
-  background-color:  #F4DEC8;
+  background-color:  #f8EEE7;
   margin: 1vw 0vw 0vw 0vw;
   padding: .5vw 3vw .5vw 4vw;
   bottom: 0;
@@ -460,10 +441,9 @@ footer {
   .regularNav {
     margin: 0vw 0vw;
     padding: 0vw 1vw 1vw 1vw;
-    background: black;
-    background: linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
-    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
-    background: -moz-linear-gradient(bottom, rgba(0,0,0,.4), rgba(0,0,0,.4));
+    background: linear-gradient(bottom, rgba(123, 15, 112, 0.3), rgba(0,0,0,.3));
+    background: -webkit-linear-gradient(bottom, rgba(0,0,0,.3), rgba(0,0,0,.3));
+    background: -moz-linear-gradient(bottom, rgba(0,0,0,.3), rgba(0,0,0,.3));
     transition: height .5s;
     -webkit-transition: height .5s;
     -moz-transition: height .5s;

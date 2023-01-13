@@ -73,7 +73,7 @@ $(() => {
 
 $(() => {
   $('.aboutMeLink').on('click', () => {
-     $("html, body").animate({ scrollTop: $(".aboutMe").position().top + (-110)
+     $("html, body").animate({ scrollTop: $(".aboutMe").position().top + (-140)
     }, 500);
   })
 });
@@ -128,7 +128,7 @@ $(() => {$('.third').on('click', () => {
 
 $(() => {
   $('.contactLink').on('click', () => {
-     $("html, body").animate({ scrollTop: $(".contactCara").position().top + (-110)
+     $("html, body").animate({ scrollTop: $(".contactCara").position().top + (-140)
     }, 500);
   })
 });
@@ -147,14 +147,14 @@ $(() => {
 
 $(() => {
   $('.idStart').on('click', () => {
-     $("html, body").animate({ scrollTop: $(".idProjects").position().top + (-110)
+     $("html, body").animate({ scrollTop: $(".idProjects").position().top + (-140)
     }, 500)
   })
 });
 
 $(() => {
   $('.seStart').on('click', () => {
-     $("html, body").animate({ scrollTop: $(".seProjects").position().top  + (-110)
+     $("html, body").animate({ scrollTop: $(".seProjects").position().top  + (-140)
     }, 500)
   })  
 });
