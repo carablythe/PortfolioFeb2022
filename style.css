@@ -240,7 +240,7 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 
 .projectInfoDiv {
   flex: 2;
-  padding: 2vw;
+  padding: 3vw;
 }
 
 #readMeButton, #readMeButton2, .projectButton, .gitHubButton, .submit {
