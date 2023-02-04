@@ -39,25 +39,29 @@ nav {
   background-color: #490d63;
   border: solid #F4DEC8;
   border-width: 3px 0px 0px 0px;
-  
+  width: 100%;
+}
+
+.regularNav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .navBar {
   display: inline-flex;
   font-size: 20px;
-  margin: 1vw 0vw 1vw 0vw;
+  margin: 1vw 1vw 2vw 1vw;
   position: sticky;
   list-style: none;
-  text-align: center;
-  padding: 1vw 2vw 1vw 2vw;
 }
-
+ 
 .mobileNav {
   font-size: 23px;
   display: none;
   position: sticky;
   list-style: none;
-  margin: 0vw 0vw;
+  margin: 1vw 0vw;
   padding: 1vw 1vw;
 }
 
@@ -116,7 +120,7 @@ h3 {
 /* INDEX page intro, ABOUT/ GOALS, pic of Cara */
 
 .about {
-  margin: 5vw 13vw 10vw 13vw;
+  margin: 5vw 10vw 10vw 10vw;
   padding: 5vw 0vw 5vw 0vw;
   column-count: 2;
   display: flex;
@@ -187,24 +191,25 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 /* PROJECT SECTION: The below is for the project summaries in the Projects sections: */
 
 .seProjects, .idProjects, .aboutMe {
-  margin: 2vw 13vw 7vw 13vw;
+  margin: 2vw 10vw 7vw 10vw;
 }
 
 .first_tier, .second_tier {
   display: flex;
   column-count: 2;
+  width: 78.5vw;
 }
 
 .first_block, .third_block, .second_block, .fourth_block, .singleColumnBlock {
   background-color: #FFFAFA;
-  padding: 6vw 6vw;
   box-shadow: 0 2px 10px #b185ac;
   margin: 1vw;
   border-radius: 3px;
 }
 
 .first_block, .third_block, .second_block, .fourth_block {
-  width: 35vw;
+  display: flex;
+  width: 37.25vw;
 }
 
 .singleColumn_tier {
@@ -212,22 +217,28 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 }
 
 .singleColumnBlock {
-  width: 72vw;
-  margin: 1vw;
+  width: 76.5vw;
+  padding: 6vw;
 }
 
 .noBlock {
-  width: 72vw;
+  width: 76.5vw;
   padding: 3vw 1vw;
 }
 
+.projectIMGDiv {
+  flex: 1;
+}
 
 .projectIMG {
-  float: left;
-	width: 150px;
-  height: 110px;
+	width: 15vw;
+  height: 16vw;
 	border-radius: 5px;
-  margin-right: 15px;
+}
+
+.projectInfoDiv {
+  flex: 2;
+  padding: 2vw;
 }
 
 #readMeButton, #readMeButton2, .projectButton, .gitHubButton, .submit {
@@ -341,7 +352,7 @@ small {
 /* C O N T A C T page form, submit set-up */
 
 .contactCara {
-  margin: 2vw 13vw 2vw 13vw;
+  margin: 2vw 10vw 2vw 10vw;
   padding-bottom: .1vw;
   padding-top: .5vw;
 }
@@ -354,7 +365,7 @@ small {
 
 .contactFormContainer {
   display: block;
-  width: 70.5vw;
+  width: 76.5vw;
   margin: 1vw auto;
 }
 
@@ -370,22 +381,23 @@ small {
 
 .sendMessageIntro {
   padding: 0vw 0vw 1vw 0vw;
+  width:62vw;
 }
 
 .nameInput{
-  width:60vw;
+  width:62vw;
   height:24px;
   font-size: 20px;
 }
 
 .emailInput{
-  width:60vw;
+  width:62vw;
   height:24px;
   font-size: 20px;
 }
 
 #comment {
-  width:60vw;
+  width:62vw;
   height:75px;
   font-size: 20px;
 }
@@ -436,9 +448,11 @@ footer {
 
   .navBar {
     display: none;
+    padding: 1vw;
   }
 
   .regularNav {
+    display: block;
     margin: 0vw 0vw;
     padding: 0vw 1vw 1vw 1vw;
     background: linear-gradient(bottom, rgba(123, 15, 112, 0.3), rgba(0,0,0,.3));
@@ -481,13 +495,17 @@ footer {
   }
 
   .first_block, .third_block, .second_block, .fourth_block, .singleColumnBlock {
-    width: 63vw;
+    width: 76.5vw;
     margin: 1.5vw auto;
   }
 
   .projectIMG {
-    width: 22vw;
-    height: 15vw;
+    width: 35vw;
+    height: 27vw;
+  }
+
+  .projectInfoDiv {
+    margin: 2vw 4vw 2vw 4vw;
   }
 
   footer {
