@@ -160,8 +160,8 @@ h4 {
   background-size: 100%;
   font-size: 5px;
   margin-top: -1px;
-  width: 275px;
-  height: 360px;
+  width: 260px;
+  height: 305px;
 }
 
 .myPic {
@@ -204,7 +204,7 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 .first_block, .third_block, .second_block, .fourth_block, .singleColumnBlock {
   background-color: #FFFAFA;
   box-shadow: 0 2px 10px #b185ac;
-  margin: 1vw;
+  margin: 1vw 1vw 2vw 1vw;
   border-radius: 3px;
 }
 
@@ -234,7 +234,7 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 
 .projectIMG {
 	width: 15vw;
-  height: 16vw;
+  height: 100%;
 	border-radius: 5px;
 }
 
@@ -441,7 +441,30 @@ footer {
   bottom: 0;
 }
 
-/* RESPONSIVENESS: The below is the set-up for all html files' smaller device views: */
+/* RESPONSIVENESS: The below is the set-up for all html files' laptop or smaller device views: */
+@media (max-width: 1100px) {
+
+  .first_tier, .second_tier {
+    display: block;
+    column-count: 1;
+  }
+
+  .first_block, .third_block, .second_block, .fourth_block {
+    width: 76.5vw;
+    margin-bottom: 5vw;
+  }
+
+  .projectIMG {
+    width: 30vw;
+  }
+
+  .projectInfoDiv {
+    margin: 2vw 4vw 2vw 4vw;
+  }
+
+}
+
+/* RESPONSIVENESS: The below is the set-up for all html files' tablet or smaller device views: */
 @media (max-width: 800px) {
 
 
@@ -490,29 +513,8 @@ footer {
   h4 {
     color: transparent;
     opacity: 1;
-    width: 260px;
-    height: 305px;
   }
 
-  .first_tier, .second_tier {
-    display: block;
-    column-count: 1;
-  }
-
-  .first_block, .third_block, .second_block, .fourth_block {
-    width: 76.5vw;
-    margin-bottom: 5vw;
-  }
-
-
-  .projectIMG {
-    width: 30vw;
-    height: 25vw;
-  }
-
-  .projectInfoDiv {
-    margin: 2vw 4vw 2vw 4vw;
-  }
 
   footer {
     margin: .3vw .3vw;
