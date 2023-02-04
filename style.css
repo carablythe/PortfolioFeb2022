@@ -200,6 +200,7 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
   width: 78.5vw;
 }
 
+
 .first_block, .third_block, .second_block, .fourth_block, .singleColumnBlock {
   background-color: #FFFAFA;
   box-shadow: 0 2px 10px #b185ac;
@@ -214,6 +215,7 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 
 .singleColumn_tier {
   display: flex;
+  width: 78.5vw;
 }
 
 .singleColumnBlock {
@@ -242,11 +244,10 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 }
 
 #readMeButton, #readMeButton2, .projectButton, .gitHubButton, .submit {
-  padding: 12px 20px 12px 20px;
-	text-align: center;
-  font-size: 20px;
   background-color:  #490d63;
   color: #FFFAFA;
+  font-size: 18px;
+  padding: 15px 15px 15px 15px;
   border-radius: 3px;
 }
 
@@ -267,9 +268,9 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 }
 
 .projectHeader  {
-  margin-bottom: 15px;
+  margin-bottom: 20px;
+  margin-top: 5px;
   text-align: left;
-  margin: auto;
   padding: 2vw 1vw;
 }
 
@@ -358,9 +359,11 @@ small {
 }
 
 .contactFormHeader {
-  margin: auto;
   padding: 2vw 1vw;
   text-align: left;
+  margin-bottom: 20px;
+  margin-top: 5px;
+
 }
 
 .contactFormContainer {
@@ -477,6 +480,7 @@ footer {
     margin: auto;
   }
 
+
   .introHeader, .introText {
     text-align: center;
     margin: auto;
@@ -486,22 +490,24 @@ footer {
   h4 {
     color: transparent;
     opacity: 1;
+    width: 260px;
+    height: 305px;
   }
 
-  .first_tier, .second_tier, .singleColumn_tier {
+  .first_tier, .second_tier {
     display: block;
     column-count: 1;
-    margin-top: -1vw;
   }
 
-  .first_block, .third_block, .second_block, .fourth_block, .singleColumnBlock {
+  .first_block, .third_block, .second_block, .fourth_block {
     width: 76.5vw;
-    margin: 1.5vw auto;
+    margin-bottom: 5vw;
   }
+
 
   .projectIMG {
-    width: 35vw;
-    height: 27vw;
+    width: 30vw;
+    height: 25vw;
   }
 
   .projectInfoDiv {
