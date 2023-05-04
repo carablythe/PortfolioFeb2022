@@ -1,0 +1,666 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
+ 	<channel>
+		<title>Homemade English - The Creative Learning House -</title>
+		<link>http://carasensei.com/</link>
+		<description></description>
+		<language>en</language>
+		<lastBuildDate>Tue, 04 Nov 2014 00:47:16 +0900</lastBuildDate>
+		<docs>http://blogs.law.harvard.edu/tech/rss</docs>
+		<generator>Sandvox 2.8.9</generator>
+		<item>
+			<title>契約書</title>
+			<link>http://carasensei.com/contracts.html</link>
+			<description>
+				&lt;div class="article-summary"&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;下記の契約書は定期的なレッスンを希望している方用です。体験レッスン後、授業を継続したい方は契約書にサインして、契約書に書いてある条件に従って頂きます。&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="color: rgb(147, 13, 80); background-color: rgb(255, 255, 255); font-size: 14px;"&gt;&lt;a href="http://carasensei.com/contract_adult.htm" target="_blank"&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;大人（２０才以上）（ここをクリックして下さい）&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="color: rgb(147, 13, 80); background-color: rgb(255, 255, 255); font-size: 14px;"&gt;&lt;a href="http://carasensei.com/contract_minorsover10years.htm" target="_blank"&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;子供（１９才未満）（ここをクリックして下さい）&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style="font-variant: normal;"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans';"&gt;&lt;a href="http://carasensei.com/contract_minorsunder10years.htm" target="_blank"&gt;&lt;span style="color: rgb(147, 13, 80); background-color: rgb(255, 255, 255);"&gt;子供（９才未満）（ここをクリックして下さい）&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style="color: rgb(136, 0, 51); font-size: 14px; font-family: 'Lucida Sans';"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p style="color: rgb(0, 0, 0); font-variant: normal;"&gt;&lt;span style="color: rgb(147, 13, 80); background-color: rgb(255, 255, 255); font-size: 14px;"&gt;&lt;a href="http://carasensei.com/contract_skype.htm" target="_blank"&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;スカイプレッスン（６才以上）&lt;/span&gt;&lt;span style="color: rgb(136, 0, 51); font-family: 'Lucida Sans';"&gt;（ここをクリックして下さい）&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+			</description>
+			<pubDate>Fri, 08 Aug 2014 18:31:54 +0900</pubDate>
+			<guid>http://carasensei.com/contracts.html</guid>
+            
+			
+		</item>
+		<item>
+			<title>For Moto and Kanako's wedding</title>
+			<link>http://carasensei.com/for-moto-and-kanakos-weddin/</link>
+			<description>
+				&lt;div class="article-summary"&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+					&lt;div class="first graphic-container wide center VideoElement"&gt;
+						&lt;div class="graphic"&gt;
+							&lt;div class="figure-content"&gt;
+								&lt;!-- sandvox.VideoElement --&gt;
+								&lt;video controls="controls" preload="none" width="430" height="243" id="video"&gt;
+									&lt;source src="" type="video/x-m4v" onerror="fallback(this.parentNode)" /&gt;&lt;object id="player_flv_maxi.swf" type="application/x-shockwave-flash" data="http://carasensei.com/_Resources/player_flv_maxi.swf" width="430" height="243"&gt;
+										&lt;param name="movie" value="http://carasensei.com/_Resources/player_flv_maxi.swf" /&gt;
+										&lt;param name="flashvars" value="flv=&amp;amp;margin=0&amp;amp;showplayer=autohide" /&gt;
+										&lt;div style="width:430px; height:243px;" id="unrecognized"&gt;
+											&lt;p&gt;This browser cannot play the embedded video file.&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;/object&gt;
+								&lt;/video&gt;
+								&lt;script&gt;
+								var video = document.getElementById('video');
+								if (video.canPlayType &amp;&amp; video.canPlayType('video/x-m4v')) {
+									// canPlayType is overoptimistic, so we have browser sniff.
+									var ua = navigator.userAgent;
+									if ((ua.indexOf('WebKit/') &lt; 0 &amp;&amp; ua.indexOf('MSIE') &lt; 0) || ua.match(/MSIE [1-8]\./)) {
+										// Only webkit-browsers can currently play this natively
+										fallback(video);
+									}
+								} else {
+									fallback(video);
+								}
+								&lt;/script&gt;
+								&lt;!-- /sandvox.VideoElement --&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;&lt;br /&gt;
+				&lt;/div&gt;
+			</description>
+			<pubDate>Fri, 05 Apr 2013 00:38:46 +0900</pubDate>
+			<guid>http://carasensei.com/for-moto-and-kanakos-weddin/</guid>
+            
+			
+		</item>
+		<item>
+			<title>Cara's Blog</title>
+			<link>http://carasensei.com/blog/</link>
+			<description>
+				&lt;div class="article-summary"&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+					&lt;div class="first graphic-container wide center"&gt;
+						&lt;div style="" class="general-index graphic"&gt;
+							&lt;div class="figure-content"&gt;
+								&lt;!-- sandvox.GeneralIndex --&gt;
+								&lt;div class="i1 o article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/Thanksgiving.html" title="「 感謝祭 」 英語でクッキングレッスンとパーティー"&gt;&lt;span class="in"&gt;「 感謝祭 」 英語でクッキングレッスンとパーティー&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18px; font-family: 'Lucida Sans Unicode'; color: windowtext; text-decoration: none; "&gt;Thanksgiving Cooking Lesson and Party!&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/thanksgivingspread_med.jpeg" alt="" width="224" height="299" class="first narrow right graphic-container" /&gt;&lt;p style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;Are you interested in cooking and American culture? I would like to invite you
+																																to make and eat an American Thanksgiving meal with me.   &lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;アメリカの文化と料理に興味がありますか？
+																																一緒にアメリカの感謝祭のディナーを作って食べるために皆さんを招待します。&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/image001_med.jpeg" alt="" width="218" height="164" class="not-first-item narrow left graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メ&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;ニュー(menu)：&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;前菜： 洋梨、クルミ、ブルーチーズの&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;サラダ&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メイン： ターキーとグレービー&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;サイド：スタッフィング（トウモロコシ粉）、インゲンとパプリカ、クランベリーソース、にんにくのマッシュポテト&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;デザート：パンプキンパイ&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;飲み物：コーヒー、お茶、ワイン！&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/dsc07672_med.jpeg" alt="" width="217" height="162" class="not-first-item narrow right graphic-container" /&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;日時 (date and time)：11月24日（日） 10:00~15:00  &lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;料金 (fee)：4000円/1人。料理にかかる費用を含みます。    &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;場所(location)：キャラの家、東京都足立区綾瀬７丁目&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;（参加者に住所と地図を後で送ります。）&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/dsc06345_med.jpeg" alt="" width="215" height="161" class="not-first-item narrow left graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;連絡先(contact)：carasensei@gmail.com
+																																&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;予約締め切り日(RSVP by)：11月19日　（水） &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; *5人のレッスンのため、1人募集中です。* &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;目的(Purpose)：英語でクッキングクラスを受ける事は、趣味を楽しみ、新しいレシピと料理や接待の仕方を習い、英語のスキルを上達させるのに最適です。キャラは料理の腕前に関わらずどの英語のレベルの方にも『英語でクッキング』を提供しますのでお気軽に。&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; Are you able to come that day?  Or do you have any friends or family who
+																																might be interested in English cooking classes or Thanksgiving? Please pass
+																																this on to anyone who might be interested.   &lt;br /&gt;ご都合はどうですか？どなたかお友達やご家族で、英語でクッキングのクラスか感謝祭に興味がある方がいますか？ 他に興味がある方へこのブログを送って下さい。&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; I hope to see you then!  &lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;Thank you,&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Cara&lt;/span&gt;&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/Thanksgiving.html" title="「 感謝祭 」 英語でクッキングレッスンとパーティー"&gt;Nov 2, 2014 5:28 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i2 e article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/AutumnDesserts.html" title="「秋のデザート」 英語でクッキングレッスン"&gt;&lt;span class="in"&gt;「秋のデザート」 英語でクッキングレッスン&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/berrycrumble_med.png" alt="BerryCrumble" width="176" height="189" class="first narrow right graphic-container" /&gt;
+										&lt;p style="background-color: rgb(254, 253, 250); " class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;Are you interested in American autumn
+																																																						desserts?&lt;/span&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; " class="il"&gt;  So,&lt;/span&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; " class="apple-converted-space"&gt; &lt;/span&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;I
+																																																						would like to invite you to make several kinds of desserts with me to welcome
+																																																						the fall season!&lt;br /&gt;
+																																																						アメリカの秋のデザートに興味がありますか？ 一緒に色々なデザートを作るために私の家に皆さんを招待します。&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;メニュー(menu)：&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: rgb(254, 253, 250); " class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;ベリークランブル、 チョコレート・キャラメル・くるみパイ、アップルダンプリング、 パンプキンプリン&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;飲み物：コーヒー、お茶 &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;日時 (date and time)：10月12日（日） 13:00~16:00 &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;&lt;img src="http://carasensei.com/_Media/apple_dumplings_med.jpeg" alt="apple_dumplings" width="222" height="190" class="not-first-item narrow left graphic-container" /&gt; &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;料金 (fee)：3000円/1人。料理にかかる費用を含みます。    &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;場所(location)：キャラの家、東京都足立区綾瀬７丁目（参加者に住所と地図を後で送ります。）&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;連絡先(contact)：carasensei@gmail.com&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;予約締め切り日(RSVP by)：10月8日( 水)&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;*5人のレッスンのため、5人募集中です。*&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;&lt;img src="http://carasensei.com/_Media/img_0921_med.jpeg" alt="IMG_0921" width="221" height="165" class="not-first-item narrow right graphic-container" /&gt;目 的(Purpose)：英語でクッキングクラスを受ける事は、趣味を楽しみ、新しいレシピと料理やおもてなしの仕方を習い、英語のスキルを上達させるのに 最適です。キャラは料理の腕前に関わらず、どの英語のレベルの方にも『英語でクッキング』を提供しますのでお気軽に。 &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;Are you able to come that day?
+																																																						 Or do you have any friends or family who might be interested in English
+																																																						cooking classes? Please pass this on to anyone who might be interested.  &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;img src="http://carasensei.com/_Media/pumpkinpudding_med.png" alt="pumpkinpudding" width="216" height="157" class="not-first-item narrow left graphic-container" /&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;都合はどうですか？どなたかお友達やご家族で、英語でクッキングのクラスに興味がある方がいますか？ 他に興味がある方へこのブログを送って下さい。&lt;/span&gt;&lt;/p&gt;&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt; I hope to see you then!  &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;Thank you,&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: rgb(254, 253, 250); " class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans'; "&gt;Cara&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: rgb(254, 253, 250); border-width: initial; border-color: initial; " class="MsoNormal"&gt;&lt;span style="font-family: Arial; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/AutumnDesserts.html" title="「秋のデザート」 英語でクッキングレッスン"&gt;Sep 5, 2014 5:28 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i3 o article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/LebaneseFood.html" title="「レバノン料理」 英語でクッキングレッスン 2"&gt;&lt;span class="in"&gt;「レバノン料理」 英語でクッキングレッスン 2&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;img src="http://carasensei.com/_Media/kebabs_med.jpeg" alt="kebabs" width="261" height="196" class="first narrow right graphic-container" /&gt;&lt;h3 style="background-color: white; "&gt;&lt;span style="font-family: Arial; font-weight: normal; "&gt;Are you interested in
+																																cooking and other cultures? I would like to invite you to make and eat Lebanese
+																																food with me!  It’s one of my
+																																favorites! Have you ever had it before?&lt;/span&gt;&lt;br /&gt;&lt;/h3&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;料理と異文化に興味がありますか？&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;レバノン料理を作って食べるレッスンに皆さんを招待します。私の大好きな料理の中の&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;1&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;つです！食べた事がありますか？&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;メニュー&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;(menu)&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;：&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;おつまみ：オリーブ、フェッタチーズ、ピタパン&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; " class="MsoNormal"&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;メイン：&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;チキンシャワールマ、ファラフェル&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;(&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;ひよこ豆のコロッケ&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;) &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;ケバブ&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/img_0577_med.jpeg" alt="IMG_0577" width="245" height="183" class="not-first-item narrow left graphic-container" /&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;付け合わせ：ババガヌーシュ&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;(&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;茄子のディップ&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;), &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;ハマス&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;  (&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;ひよこ豆のディップ&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;), &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;パセリサラダ、マジャードラ（レンズ豆とご飯）&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;デザート：スフーフ（アーモンドケーキ）&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;飲み物：コーヒー、お茶、&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;ミントのお水等&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;日時&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; (date and time)&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;：&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;9&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;月&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;21&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;日（日）&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; 11:00~15:00 &lt;/span&gt;&lt;/p&gt;
+										&lt;img src="http://carasensei.com/_Media/falafel_med.png" alt="falafel" width="216" height="154" class="not-first-item narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;料金&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; (fee)&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;：&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;3500&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;円&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;/1&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;人。料理にかかる費用を含みます。&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;    &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;場所&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;(location)&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;：キャラの家、東京都足立区綾瀬７丁目（参加者に住所と地図を後で送ります。）&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;連絡先&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;(contact)&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;：&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;carasensei@gmail.com&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;予約締め切り日&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;(RSVP by)&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;：&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;9&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;月&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;17&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;日&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;( &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;水&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;)&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;*5&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;人のレッスンのため、&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;2&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;人募集中です。&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;*&lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;img src="http://carasensei.com/_Media/chicken_shawarma_med.png" alt="chicken_shawarma" width="255" height="164" class="not-first-item narrow left graphic-container" /&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;目&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;的&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;(Purpose)&lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;：英語でクッキングクラスを受ける事は、趣味を楽しみ、新しいレシピと料理やおもてなしの仕方を習い、英語のスキルを上達させるのに&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;最適です。キャラは料理の腕前に関わらず、どの英語のレベルの方にも『英語でクッキング』を提供しますのでお気軽に。&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt;Are you able to come that day?
+																																 Or do you have any friends or family who might be interested in English
+																																cooking classes? Please pass this on to anyone who might be interested.  &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="background-color: white; "&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;ご都合はどうですか？どなたかお友達やご家族で、英語でクッキングのクラスに興味がある方がいますか？&lt;/span&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; &lt;/span&gt;&lt;span style="font-family: 'ＭＳ 明朝'; font-size: 14px; "&gt;他に興味がある方へこのブログを送って下さい。&lt;/span&gt;&lt;/p&gt;&lt;p style="background-color: white; "&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; I hope to see you then!  &lt;/span&gt;&lt;/p&gt;&lt;p style="background-color: white; "&gt;&lt;span style="font-family: Arial; font-size: 14px; "&gt; Cara &lt;/span&gt;&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/LebaneseFood.html" title="「レバノン料理」 英語でクッキングレッスン 2"&gt;Sep 3, 2014 5:28 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i4 e article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/spring_party.html" title="Spring Party - 4月5日パーティー"&gt;&lt;span class="in"&gt;Spring Party - 4月5日パーティー&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;Cara and Kosuke will host a Spring Party at their home in Ayase or if weather and flowers permit, in &lt;a href="http://www.tokyo-park.or.jp/park/format/index015.html" target="_blank"&gt;Higashi Ayase Kouen&lt;/a&gt;! Saturday, April 5&lt;sup&gt;th&lt;/sup&gt; , from 3p.m
+																																																																																																					until you get tired! &lt;/span&gt;&lt;span style="background-color: rgb(255, 255, 255); color: rgb(0, 0, 0); font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; (Kosuke will reserve the spot early with beer and snacks for those who want to go earlier.) &lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;The more the
+																																																																																																					merrier, so bring your family and friends, too!&lt;/span&gt;&lt;/p&gt;
+										&lt;img src="http://carasensei.com/_Media/img_0125_med.jpeg" alt="IMG_0125" width="228" height="304" class="first narrow left graphic-container" /&gt;&lt;h6&gt;&lt;span style="font-size: 14px; font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;キャラと耕介が綾瀬の家で（または、天気が良くて桜が咲いていれば東綾瀬公園で）春のパーティーを開きます。日時は４月5日（土）、午後３時から疲れるまで！（耕介がビールやおやつを持って、ピクニックの場所を早めに取るので、もっと早く行きたい方もどうぞ。）　　人数が多ければ多いほど、楽しくなるので、ご家族やお友達と一緒に来てください！&lt;/span&gt;&lt;/h6&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;/p&gt;&lt;h6&gt;&lt;span style="font-size: 14px; font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;Participation is free, but please
+																																																																																																					bring drinks to share (alcoholic AND/OR non-alcoholic). Cara will serve Tex-Mex
+																																																																																																					food and you are also welcome to bring food/snacks to share.  And bring your batting arm because we will
+																																																																																																					have a piñata!                            &lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; font-weight: normal; "&gt;参加費は無料ですが、皆で飲むお酒やソフトドリンク等を持って来て下さい。キャラと生徒が色々なテキサス風のメキシコ料理 を用意します。でも、皆で食べるための料理やおやつも持って来てくれるとありがたいです。（当日のレッスンの参加者は何も持参しなくてもいいです。）また、ピニャータ（キャンディが入っている飾り）をバットで叩き割るので、野球が上手な人は是非！&lt;/span&gt;&lt;/h6&gt;
+										&lt;img src="http://carasensei.com/_Media/dsc06999_med.jpeg" alt="" width="246" height="185" class="not-first-item narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;/p&gt;
+										&lt;h6&gt;&lt;span style="font-size: 14px; font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;If you would like to join, please
+																																																																																																					RSVP: &lt;a href="mailto:carasensei@gmail.com"&gt;carasensei@gmail.com&lt;/a&gt; (Cara). She will send a map of her home if you
+																																																																																																					haven’t been there before. &lt;/span&gt;&lt;/h6&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;参加したい方は (キャラ)に連絡してください。 私の家に来た事がない方には地図と行き方を送ります。&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/beeftaco_med.png" alt="beeftaco" width="245" height="222" class="not-first-item narrow left graphic-container" /&gt;
+										&lt;img src="http://carasensei.com/_Media/001_med.jpeg" alt="" width="240" height="180" class="not-first-item narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Moreover, if you are also interested in
+																																																																																																					making the Tex-Mex, Cara will be teaching an English Cooking lesson at her home
+																																																																																																					that same day, from 11:00a.m .until 2~3p.m.  Please see: &lt;a href="http://carasensei.com/blog/TexMex.html"&gt;Tex-Mex Cooking Lesson  &lt;/a&gt;for more information. Please let Cara know if you’d like to join the
+																																																																																																					cooking lesson. &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;また、テキサス風のメキシコ料理 を作りたい方をキャラが教える英語でクッキングレッスンに 招待します。同日の午前１１時から午後２〜３時までキャラの家でレッスンをします。詳しくは、&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt; &lt;a href="http://carasensei.com/blog/TexMex.html" style="color: rgb(136, 0, 51); "&gt;Tex-Mex Cooking Lesson &lt;/a&gt;を見て、参加希望者はキャラにお知らせください。&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Thank you!  - Cara and Kosuke (Koss)&lt;/span&gt;&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/spring_party.html" title="Spring Party - 4月5日パーティー"&gt;Apr 29, 2014 8:53 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i5 o article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/TexMex.html" title="「テキサス風のメキシコ料理」英語でクッキングレッスン"&gt;&lt;span class="in"&gt;「テキサス風のメキシコ料理」英語でクッキングレッスン&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;h3&gt;&lt;span style="font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;Tex-Mex
+																																																						English Cooking Lesson &lt;/span&gt;&lt;/h3&gt;
+										&lt;img src="http://carasensei.com/_Media/dsc06049_med.jpeg" alt="" width="157" height="209" class="first narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;Are you interested in cooking and other
+																																																						cultures? Cinco De Mayo, a Mexican holiday often celebrated in the southwest
+																																																						U.S. is May 5th, but this year let's celebrate it early: April 5th AND 6th! during cherry blossom season.&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;異文化と料理に興味がありますか？ シンコデマーヨ、アメリカの南西部でよくお祝いしているメキシコの祭日が５月５日にあります。でも、今年は早めに祝いましょう：４月５日にも４月６日にも！&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;花見の時に。&lt;/span&gt;&lt;/p&gt;
+										&lt;img src="http://carasensei.com/_Media/img_0221_med.jpeg" alt="" width="201" height="151" class="not-first-item narrow left graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;メニュー(menu)：&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;軽食： エンペナダ、グアカモレ、チップス、サルサ、クリームチーズ・トルティーヤ&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メイン：ファヒータスやチミチャンガズ、スパニッシュ・ライス、メキシコ風の豆&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;デザート： ソパピアズ、果物&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;飲み物：コーヒー、お茶、マルガリータ&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/margarita_med.png" alt="" width="186" height="186" class="not-first-item narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;日時 (date and
+																																																						time)：４月５日（土）、４月6日（日） 11:00~15:00    (土曜日の３時から花見パーティーを開きます！！もし、天気が悪いか桜がなければ、キャラの家でパーティーを開きます。)&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;料金 (fee)：3500円/1人。料理にかかる費用を含みます。    &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;場所(location)：キャラの家、東京都足立区綾瀬７丁目&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;(参加者に住所と地図を後で送ります。）&lt;br /&gt;&lt;br /&gt;
+																																																						&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;連絡先(contact)：carasensei@gmail.com&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;予約締め切り日(RSVP
+																																																						by)：４月02日（水） &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;*5人のレッスンのため、５人募集中です。*&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/img_0064_med.jpeg" alt="" width="188" height="141" class="not-first-item narrow left graphic-container" /&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;目的(Purpose)：英語でクッキングクラスを受ける事は、趣味を楽しみ、新しいレシピと料理やおもてなしの仕方を習い、英語のスキルを上達させるのに最適です。キャラは料理の腕前に関わらず、どの英語のレベルの方にも『英語でクッキング』を提供しますのでお気軽に。 &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/dsc06026_med.jpeg" alt="" width="202" height="151" class="not-first-item narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;土曜日の午後３時からキャラがパーティーを（教師宅か近くの公園で）開きます。出来れば、参加してくださいね！詳しくは、&lt;a href="http://carasensei.com/blog/spring_party.html"&gt;Spring Party &lt;/a&gt;を見てください。&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;ご都合はどうですか？どなたかお友達やご家族で、英語でクッキングのクラスに興味がある方がいますか？ 他に興味がある方へこのブログを送って下さい。&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; I hope to see you then!  &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Thank you,&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; color: rgb(136, 136, 136); font-size: 14px; "&gt;--&lt;br /&gt;
+																																																						Cara Phillips&lt;br /&gt;
+																																																						Homemade English&lt;/span&gt;&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/TexMex.html" title="「テキサス風のメキシコ料理」英語でクッキングレッスン"&gt;Apr 20, 2014 10:36 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i6 e article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/IrishCooking.html" title="「聖パトリック祭のアイルランド料理」 英語でクッキングレッスン"&gt;&lt;span class="in"&gt;「聖パトリック祭のアイルランド料理」 英語でクッキングレッスン&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;h3 class="MsoNormal"&gt;&lt;span style="font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;St. Patrick’s Day Irish Food– English Cooking Lesson&lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; Are
+																					 you interested in cooking and other cultures? I
+																					would like to invite you to make and eat Irish Food with me on St. 
+																					Patrick’s Day! St. Patrick’s Day is on March 17, and is a holiday in
+																					Ireland and America in which people celebrate their Irish heritage. 
+																					These days
+																					not just the Irish, but anyone who likes to party and drink green beer 
+																					joins
+																					the celebration. We also have to wear green that day for good luck. &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/greenbeer_cheers_med.png" alt="" width="286" height="121" class="first narrow right graphic-container" /&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;料
+																					理と異文化に興味がありますか？聖パトリック祭に一緒にアイルランド料理を作って食べるレッスンに皆さんを招待します。アイルランドとアメリカでアイルラ
+																					ンド系の人達がアイルランド人である事を祝う祭りです。でも、最近アイルランド系の人達だけではなく、パーティー好きや緑のビールを飲みたい人等誰でも祝
+																					います。また、その日は幸運を願って、緑の物を身につけなければなりません。&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/img_1527_med.jpeg" alt="" width="234" height="312" class="not-first-item narrow left graphic-container" /&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メニュー(menu)：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;おつまみ：&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;ギネスフィッシュアンドチップス&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メイン：&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;アイリシュ・シチュー、ソーダ・ブレッド&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;付け合わせ：コーンビーフとキャベツ（アイルランド系アメリカ料理）&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;デザート：スポテッド・ドッグ・ケーキ&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;飲み物：コーヒー、お茶、サイダー、ギネスビール &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;日時 (date and time)：3月21日（金） 11:00~15:00 &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/img_1529_med.jpeg" alt="" width="161" height="215" class="not-first-item narrow right graphic-container" /&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;料金 (fee)：3500円/1人。料理にかかる費用を含みます。    &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;場所(location)：キャラの家、東京都足立区綾瀬７丁目（参加者に住所と地図を後で送ります。）&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;連絡先(contact)：carasensei@gmail.com&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;予約締め切り日(RSVP by)：3月17日( 月)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; *5人のレッスンのため、5人募集中です。* &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/fishandchips_med.png" alt="fishandchips" width="194" height="157" class="not-first-item narrow left graphic-container" /&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;目
+																					的(Purpose)：英語でクッキングクラスを受ける事は、趣味を楽しみ、新しいレシピと料理やおもてなしの仕方を習い、英語のスキルを上達させるのに
+																					最適です。キャラは料理の腕前に関わらず、どの英語のレベルの方にも『英語でクッキング』を提供しますのでお気軽に。 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Are you able to come that
+																					day?  Or do you have any friends or family who might be interested in
+																					English cooking classes? Please pass this on to anyone who might be
+																					interested.  &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/img_1531_med.jpeg" alt="" width="203" height="152" class="not-first-item narrow right graphic-container" /&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;ご都合はどうですか？どなたかお友達やご家族で、英語でクッキングのクラスに興味がある方がいますか？ 他に興味がある方へこのブログを送って下さい。&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;
+																					I hope to see you then!  &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Thank you,&lt;/span&gt;&lt;span style="color: rgb(136, 136, 136); font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;
+																					Cara &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/IrishCooking.html" title="「聖パトリック祭のアイルランド料理」 英語でクッキングレッスン"&gt;Mar 3, 2014 12:54 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i7 o article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/valentines-day-culture.html" title="Valentine’s Day Culture Point"&gt;&lt;span class="in"&gt;Valentine’s Day Culture Point&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Did
+																																											 you know that on Valentine’s Day in Western societies both men and 
+																																											women give gifts to their sweethearts?  (We don’t have White Day in 
+																																											March, and we also don’t generally give valentines to our coworkers, 
+																																											just our romantic partners.) 　 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;バレンタインデーに西洋の国では男性も女性もカードやプレゼントを恋人やパートナーにあげる事を知っていますか？（三月にホワイトデーと言う日がなくて、義理チョコはあげず、恋人やパートナーだけにあげます。）&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;img src="http://carasensei.com/_Media/3_med.jpeg" alt="summer 04 067" width="230" height="172" class="first narrow left graphic-container" /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;A “valentine” is a person, who agrees to be your sweetheart on 
+																																											Valentine’s day (and hopefully they will be your sweetheart longer than 
+																																											just one day!) We give that person a Valentine’s card, which asks them, 
+																																											“Will you be my Valentine?” and confesses new love or reiterates our 
+																																											continued love for our partners. &lt;/span&gt;&lt;/p&gt;
+										&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;「バレンタイン」とは２月１４日の大切な人と言う意味です。&lt;/span&gt;&lt;/p&gt;
+										&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;(うまく行けば、そのバレンタインが一日以上の恋人になります！)&lt;/span&gt;&lt;/p&gt;
+										&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;その相手に「私のバレンタインになってくれる？」と書いたカードをあげて、新しい恋人に告白したり、パートナーへの愛を再確認したりします。&lt;/span&gt;&lt;/p&gt;
+										&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;The
+																																											 Valentine card is often accompanied by a gift such as flowers, 
+																																											chocolate, candy, teddy bears, balloons, or even expensive gifts like 
+																																											jewelry (for that oh so special someone!). If we are in a relationship, 
+																																											then we usually go out on a date with our partner on the evening of 
+																																											Valentine’s Day.&lt;/span&gt;&lt;/p&gt;
+										&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; そのカードと花、チョコレート、キャンディ、テディベアー、風船等のプレゼントを一緒にあげます（すごく特別な恋人にはアクセサリー等の高価な物をあげる事もあります！）。相手がいる場合、普通はバレンタインデーの夜に一緒に出かけます。  &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;Happy Valentine's Day!&lt;/span&gt;&lt;/p&gt;&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/valentines-day-culture.html" title="Valentine’s Day Culture Point"&gt;Feb 4, 2014 3:13 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i8 e article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/XmasParty.html" title="「 クリスマス軽食」 英語でクッキングレッスンとパーティー"&gt;&lt;span class="in"&gt;「 クリスマス軽食」 英語でクッキングレッスンとパーティー&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;img src="http://carasensei.com/_Media/img_2093_med.jpeg" alt="" width="182" height="243" class="first narrow right graphic-container" /&gt;&lt;h3&gt;&lt;span style="font-size: 18px; font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										&lt;/span&gt;&lt;/h3&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18px; font-family: 'Lucida Sans Unicode'; "&gt;
+										
+										
+										&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18px; font-family: 'Lucida Sans Unicode'; color: windowtext; text-decoration: none; "&gt;
+										
+										
+										&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style="font-size: 18px; font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;Christmas Party &amp;amp; Cooking Lesson&lt;/span&gt;&lt;/h3&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Are you interested in cooking,
+										hospitality and American culture? I would like to invite you to make
+										traditional Christmas party foods and drink with me, and then have a Christmas
+										party together.    &lt;br /&gt;おもてなし料理、アメリカの文化に興味がありますか？ 一緒にクリスマスの 伝統的な軽食を作って、パーティーをするために、皆さんを招待します.
+										&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/christmas2_med.png" alt="" width="184" height="221" class="not-first-item narrow left graphic-container" /&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メニュー(menu)：ターキー、ハム、シュリンプ・カクテル、ディップ、野菜、サラダ、パイ、クリスマスクッキー、ホットスパイスワイン等を作ります！
+										&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;日時 (date
+										and time)：12月23日（月） 11:00~ &lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;料金 (fee)：4000円/1人。料理にかかる費用を含みます。    &lt;/span&gt;&lt;/p&gt;
+										&lt;img src="http://carasensei.com/_Media/img_0367_med.jpeg" alt="" width="225" height="169" class="not-first-item narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;場所(location)：キャラの家、東京都足立区綾瀬７丁目&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;（参加者に住所と地図を後で送ります。）&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;連絡先(contact)：carasensei@gmail.com
+										&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/img_0714_med.jpeg" alt="" width="216" height="162" class="not-first-item narrow left graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;予約締め切り日(RSVP
+										by)：12月20日（金） &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;*8人のレッスンのため、4人募集中です。*
+										&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;目的(Purpose)：英語でクッキングクラスを受ける事は、趣味を楽しみ、新しいレシピと料理やアメリカのおもてなしを習い、英語のスキルも上達させるのに最適です。キャラは料理の腕前に関わらずどの英語のレベルの方にも『英語でクッキング』を提供しますのでお気軽に。&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/img_0098_med.jpeg" alt="" width="174" height="232" class="not-first-item narrow right graphic-container" /&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;料理した後で、クリスマス・キャロル、プレゼント、ゲーム等します。５００円ぐらいのプレゼント（または、お家にある使用していない要らない物、贈物用に包装した物）を持って来て、楽しいプレゼント交換のゲームをしましょう！&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/img_2115_med.jpeg" alt="" width="180" height="241" class="not-first-item narrow left graphic-container" /&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;ご都合はどうですか？どなたかお友達やご家族で、英語でクッキングのクラスかクリスマスパーティー に興味がある方がいますか？ 他に興味がある方へこのブログを送って下さい。&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;I hope to see you then!  &lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;Happy Holidays!&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Cara&lt;/span&gt;&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/XmasParty.html" title="「 クリスマス軽食」 英語でクッキングレッスンとパーティー"&gt;Nov 10, 2013 5:28 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i9 o article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/Halloween.html" title="「怖くて楽しいハロィーン」英語でクッキングレッスンとパーティー （大人用）"&gt;&lt;span class="in"&gt;「怖くて楽しいハロィーン」英語でクッキングレッスンとパーティー （大人用）&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;h3&gt;&lt;span style="font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										&lt;/span&gt;&lt;/h3&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Times New Roman'; "&gt;
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										&lt;/span&gt;&lt;/p&gt;&lt;h3&gt;&lt;span style="font-weight: normal; font-family: 'Lucida Sans Unicode'; text-shadow: rgba(0, 0, 0, 0.328125) 1px -1px; "&gt;Halloween
+										Spooky Fun Cooking Lesson and Party (for Adults) &lt;/span&gt;&lt;/h3&gt;&lt;p&gt;&lt;span style="font-weight: normal; font-family: 'Lucida Sans Unicode'; text-shadow: rgba(0, 0, 0, 0.328125) 1px -1px; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Are you
+										interested in learning how Halloween is really celebrated in America (not just
+										in Disneyland)?  Of course, you probably know that we carve pumpkins and
+										that children go trick-or-treating in their neighborhoods.  But how about
+										the Halloween parties? &lt;/span&gt;&lt;/p&gt;
+										&lt;img src="http://carasensei.com/_Media/image_med.png" alt="" width="238" height="178" class="first narrow left graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;アメリカで実際に（ディズニーランドではなくて）どうやってハロウィーンを祝っているかに興味がありますか？アメリカではカボチャを彫ったり、子供達が近所でトリック・オア・トリーティングをしたりする事はもちろん知っていますね。でも、ハロウィーンパーティーは知っていますか？&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;img src="http://carasensei.com/_Media/image-4_med.png" alt="" width="208" height="200" class="not-first-item narrow right graphic-container" /&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;一緒にハロウィーン軽食を作って、ハロウィーンパーティーをするために、足立区綾瀬の私の家、10月26日（ 土 ）に皆さんを招待します。（参加者に住所と地図を後で送ります。）時間は午後４時から午後９時ぐらいまでです。&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;また、ハロウィーン衣装を着て来たら楽しいですが、必須ではありません。もし、着たくても持っていない場合は、キャラのコレクションから貸しますよ！&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メニュー(menu)：&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;「指」、｢脳｣、「血のケーキ」、「目玉」、「蜘蛛」等を作ります。 気持ち悪そうですが、作るのは楽しくて、美味しいですよ！&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;img src="http://carasensei.com/_Media/image-2_med.png" alt="" width="234" height="176" class="not-first-item" /&gt; &lt;/span&gt;&lt;img src="http://carasensei.com/_Media/image-3_med.png" alt="" width="236" height="177" class="not-first-item" /&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/image-6_med.png" alt="" width="184" height="245" class="not-first-item narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;日時 (date and time)：10月26日（土） 16:00~21:00 &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;料金 (fee)：3500円/1人。料理にかかる費用を含みます。  &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;場所(location)：キャラの家、東京都足立区綾瀬７丁目（参加者に住所と地図を後で送ります。）&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;連絡先(contact)：carasensei@gmail.com&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;予約締め切り日(RSVP by)：10月23日(水) &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;
+										*8人のレッスンのため、8人募集中です。*&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;目 的(Purpose)：英語でクッキングクラスを受ける事は、趣味を楽しみ、新しいレシピと料理やアメリカのおもてなしを習い、英語のスキルも上達させる のに最適です。キャラは料理の腕前に関わらずどの英語のレベルの方にも『英語でクッキング』を提供しますのでお気軽に。&lt;/span&gt;&lt;/p&gt;
+										&lt;img src="http://carasensei.com/_Media/image-5_med.png" alt="" width="133" height="177" class="not-first-item narrow left graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;ご都合はどうですか？どなたかお友達やご家族で、英語でクッキングのクラスかアメリカ料理に興味がある方がいますか？ 他に興味がある方へこのブログを送って下さい。 &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;  
+										 &lt;br /&gt;
+										I hope to see you then!   &lt;/span&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;Happy Halloween!&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Cara&lt;/span&gt;&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/Halloween.html" title="「怖くて楽しいハロィーン」英語でクッキングレッスンとパーティー （大人用）"&gt;Sep 2, 2013 5:28 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="i10 e last-item article"&gt;
+									&lt;h3 class="index-title"&gt;&lt;a href="http://carasensei.com/blog/Oktoberfest.html" title="「 オクトーバーフェストのドイツ料理 」 英語でクッキングレッスン"&gt;&lt;span class="in"&gt;「 オクトーバーフェストのドイツ料理 」 英語でクッキングレッスン&lt;/span&gt;&lt;/a&gt;&lt;/h3&gt;
+									&lt;div class="article-summary"&gt;&lt;h3&gt;&lt;span style="font-weight: normal; font-family: 'Lucida Sans Unicode'; "&gt;
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										
+										&lt;/span&gt;&lt;/h3&gt;&lt;img src="http://carasensei.com/_Media/image-7_med.png" alt="" width="152" height="197" class="first narrow right graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 18px; font-family: 'Lucida Sans Unicode'; "&gt;Oktoberest German Cooking Lesson (and beer!)&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Are you
+										interested in cooking and other cultures? Oktoberfest is just around the
+										corner, so I thought it would be nice to have a German food and beer lesson
+										during this time. My mother’s family is German and she taught me some recipes
+										this summer. &lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;I would like to invite you to make German dishes with me on
+										Monday, October 14th at my home in Ayase, Adachi-ku. (I will send the address
+										and map to participating individuals later.)&lt;/span&gt;&lt;/p&gt;
+										&lt;img src="http://carasensei.com/_Media/potatoes_med.jpeg" alt="" width="223" height="167" class="not-first-item narrow left graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;異文化と料理に興味がありますか？ オクトーバーフェストがもうすぐです。そうして、 ドイツ料理とビールのレッスンが相応しいと思います 。この夏にドイツ系の私の母がレシピを教えてくれたので、それをシェアしたいと思います。&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode'; font-size: 14px; "&gt;一緒に料理を作るために、足立区綾瀬の私の家に10月14日（月）に皆さんを招待します。（参加者に住所と地図を後で送ります。）&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt; &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/wienerschnitzel_med.jpeg" alt="" width="238" height="179" class="not-first-item narrow right graphic-container" /&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メニュー(menu)：&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;前菜：プレッツェル、ブラートヴルスト、マスタード、ザウアークラウト&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;メイン：ウィンナー・シュニッツェル&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;サイド：ポテトと玉ねぎ、赤キャベツとりんご、いんげん&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;デザート：ドイツのチョコレートケーキ　（ココナッツのフロスティング）&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;飲み物：コーヒー、お茶、ミントのお水、ドイツのビール！&lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/redcabbage_med.jpeg" alt="" width="230" height="173" class="not-first-item narrow left graphic-container" /&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;日時 (date and time)：10月14日（月） 11:00~15:00 &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;料金 (fee)：4000円/1人。料理にかかる費用を含みます。  &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;場所(location)：キャラの家、東京都足立区綾瀬７丁目（参加者に住所と地図を後で送ります。）&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;連絡先(contact)：carasensei@gmail.com&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;予約締め切り日(RSVP by)：10月11日(金) &lt;/span&gt;&lt;/p&gt;&lt;img src="http://carasensei.com/_Media/image-8_med.png" alt="" width="257" height="150" class="not-first-item narrow right graphic-container" /&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;&lt;br /&gt;
+										*5人のレッスンのため、5人募集中です。*&lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;目 的(Purpose)：英語でクッキングクラスを受ける事は、趣味を楽しみ、新しいレシピと料理やアメリカのおもてなしを習い、英語のスキルも上達させる のに最適です。キャラは料理の腕前に関わらずどの英語のレベルの方にも『英語でクッキング』を提供しますのでお気軽に。&lt;/span&gt;&lt;/p&gt;
+										&lt;img src="http://carasensei.com/_Media/image-9_med.png" alt="" width="150" height="200" class="not-first-item narrow left graphic-container" /&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;ご都合はどうですか？どなたかお友達やご家族で、英語でクッキングのクラスかアメリカ料理に興味がある方がいますか？ 他に興味がある方へこのブログを送って下さい。 &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;    &lt;br /&gt;
+										Danke! I hope to see you then!  &lt;/span&gt;&lt;/p&gt;
+										&lt;p class="MsoNormal"&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans Unicode'; "&gt;Cara &lt;/span&gt;&lt;/p&gt;
+										&lt;p style="border-width: initial; border-color: initial; " class="MsoNormal"&gt;&lt;span style="font-family: 'Times New Roman'; "&gt; &lt;/span&gt;&lt;/p&gt;
+										&lt;/div&gt;
+									&lt;div class="article-info"&gt;
+										&lt;div class="timestamp"&gt;&lt;a href="http://carasensei.com/blog/Oktoberfest.html" title="「 オクトーバーフェストのドイツ料理 」 英語でクッキングレッスン"&gt;Sep 2, 2013 5:28 PM&lt;/a&gt;&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="general-index-bottom"&gt;&lt;/div&gt;
+								&lt;!-- /sandvox.GeneralIndex --&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			</description>
+			<pubDate>Sun, 03 Mar 2013 12:54:33 +0900</pubDate>
+			<guid>http://carasensei.com/blog/</guid>
+            
+			
+		</item>
+		<item>
+			<title>写真とビデオ(Photos&amp;Video)</title>
+			<link>http://carasensei.com/photosvideo.html</link>
+			<description>
+				&lt;div class="article-summary"&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans';"&gt;教室の環境　　　　クッキングクラス　　　　油絵レッスン（大人用）　　　工作（子供用）&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans';"&gt;クッキングのビデオ　&lt;/span&gt;　
+					&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 18px; font-weight: bold;"&gt;&lt;a href="http://www.facebook.com/HomemadeEnglishTheCreativeLearningHouse/photos_albums" target="_blank"&gt;他の&lt;span style="color: rgb(136, 0, 51);"&gt;写真はこちら！  (More photos here!)&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;br /&gt;&lt;/div&gt;
+			</description>
+			<pubDate>Sun, 27 Jan 2013 14:25:21 +0900</pubDate>
+			<guid>http://carasensei.com/photosvideo.html</guid>
+            
+			
+		</item>
+		<item>
+			<title>ビデオレッスン！(Video)</title>
+			<link>http://carasensei.com/video.html</link>
+			<description>
+				&lt;div class="article-summary"&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 18px;"&gt;Valentine's Day Brownie Recipe&lt;/span&gt;&lt;em&gt;                   &lt;/em&gt;&lt;/p&gt;&lt;/div&gt;
+			</description>
+			<pubDate>Sun, 27 Jan 2013 13:55:51 +0900</pubDate>
+			<guid>http://carasensei.com/video.html</guid>
+            
+			
+		</item>
+		<item>
+			<title>レッスン料金のご案内</title>
+			<link>http://carasensei.com/fee.html</link>
+			<description>
+				&lt;div class="article-summary"&gt;
+					&lt;div&gt;
+						
+					&lt;/div&gt;
+				&lt;/div&gt;
+			</description>
+			<pubDate>Sun, 27 Jan 2013 13:17:09 +0900</pubDate>
+			<guid>http://carasensei.com/fee.html</guid>
+            
+			
+		</item>
+		<item>
+			<title>クラス(Classes)</title>
+			<link>http://carasensei.com/class/</link>
+			<description>
+				&lt;div class="article-summary"&gt;&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+					&lt;div class="first wide right"&gt;
+						&lt;div style="" class="graphic"&gt;&lt;div class="RichTextElement"&gt;
+								&lt;div class="figure-content"&gt;
+									&lt;p&gt;&lt;span style="color: rgb(136, 0, 51); font-family: 'Lucida Sans'; "&gt;&lt;a href="http://carasensei.com/class/cooking.html"&gt;英語でクッキング&lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; "&gt;     (Cooking in English)              &lt;/span&gt;&lt;span style="color: rgb(136, 0, 51); font-family: 'Lucida Sans'; "&gt;&lt;a href="http://carasensei.com/class/painting.html"&gt;英語で絵を描く&lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; "&gt;     (Painting in English)         &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="color: rgb(136, 0, 51); font-family: 'Lucida Sans'; "&gt;&lt;a href="http://carasensei.com/class/music.html"&gt;英語で音楽&lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; "&gt;      (Music in English)                          &lt;/span&gt;&lt;span style="color: rgb(136, 0, 51); font-family: 'Lucida Sans'; "&gt;&lt;a href="http://carasensei.com/class/movies.html"&gt;英語で映画&lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; "&gt;      (Movies in English)  &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; "&gt;&lt;a href="http://carasensei.com/class/skype.html"&gt;&lt;span style="color: rgb(136, 0, 51); "&gt;Skype オンライン&lt;/span&gt; &lt;/a&gt;    (Skype Online Lessons)         &lt;/span&gt;&lt;span style="color: rgb(147, 13, 80); font-family: 'Lucida Sans'; "&gt;&lt;a href="http://carasensei.com/class/children.html"&gt;子供のレッスン&lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; "&gt;　(Children's lessons)    &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; "&gt; &lt;/span&gt;&lt;a href="http://carasensei.com/class/events.html" style="color: rgb(136, 0, 51); "&gt;特別なイベント&lt;/a&gt; （Special Event Lessons）　　　　&lt;span style="font-family: 'Lucida Sans'; "&gt;&lt;a href="http://carasensei.com/class/selfstudy.html"&gt;&lt;span style="color: rgb(136, 0, 51); "&gt;自学&lt;/span&gt; &lt;/a&gt;   (Self-study)      　　　　　　　　　　　　 &lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; "&gt;                                  &lt;/span&gt;&lt;/p&gt;
+									
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;
+				&lt;/div&gt;
+			</description>
+			<pubDate>Sat, 26 Jan 2013 22:55:50 +0900</pubDate>
+			<guid>http://carasensei.com/class/</guid>
+            
+			
+		</item>
+		<item>
+			<title>無料の体験レッスン</title>
+			<link>http://carasensei.com/application.html</link>
+			<description>
+				&lt;div class="article-summary"&gt;&lt;p&gt;&lt;span style="font-family: 'Trebuchet MS';"&gt;下の申込書は定期的なレッスンを希望している方用です。&lt;a href="http://carasensei.com/class/events.html"&gt;特別なイベントレッスン&lt;/a&gt;に参加したい場合はキャラに&lt;a href="mailto:carasensei@gmail.com" target="_blank"&gt;メール&lt;/a&gt;しても十分です。&lt;/span&gt;&lt;/p&gt;&lt;p style="color: rgb(0, 0, 0); font-variant: normal;"&gt;&lt;a href="https://docs.google.com/spreadsheet/embeddedform?formkey=dG4ySjh5a3FXVm9nenNWQjRPb3NwOUE6MQ" target="_blank" style="font-size: 14px;"&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;大人（１０才以上）の申込書（ここをクリックして下さい）&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;p style="color: rgb(0, 0, 0); font-variant: normal;"&gt;&lt;a href="https://docs.google.com/spreadsheet/viewform?usp=drive_web&amp;amp;formkey=dHptdENTSmsxbzNSd1NPdFVkaUFQLWc6MA#gid=0" target="_blank" style="font-size: 14px;"&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;子供（９才未満）の申込書（ここをクリックして下さい）&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/div&gt;
+			</description>
+			<pubDate>Thu, 03 Jan 2013 18:20:17 +0900</pubDate>
+			<guid>http://carasensei.com/application.html</guid>
+            
+			
+		</item>
+		<item>
+			<title>教師(Teacher)</title>
+			<link>http://carasensei.com/teacher.html</link>
+			<description>
+				&lt;div class="article-summary"&gt;
+					&lt;div class="first callout-container"&gt;
+						&lt;div class="callout"&gt;
+							&lt;div class="callout-content"&gt;
+								&lt;div class="pagelet titled i1 o last-item"&gt;
+									&lt;h4 class="title pagelet-title"&gt;&lt;span class="in"&gt;About Cara Phillips...&lt;/span&gt;&lt;/h4&gt;
+									&lt;div class="pagelet-body"&gt;
+										&lt;div class="RichTextElement"&gt;
+											&lt;div&gt;
+												&lt;p&gt;&lt;span style="font-size: 13px; font-family: Osaka; background-color: rgb(0, 64, 42); "&gt;キャラ先生は14年の経験がある英語の教師です。 学歴：アメリカのコロラド州立大学、2004年8月、修士号取得、専門：英語教育&lt;/span&gt; &lt;/p&gt;
+												
+											&lt;/div&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;&lt;p&gt;&lt;span style="font-family: Osaka; font-size: 14px;"&gt;&lt;a href="http://carasensei.com/blog/"&gt;キャラのブログ &lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;(Cara's Blog)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: Osaka; font-size: 14px;"&gt;&lt;a href="http://carasensei.com/blog/languagestudy.html"&gt;英語の一番いい学び方 &lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;(The best way to learn English)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="color: rgb(136, 0, 51); font-family: 'Trebuchet MS', sans-serif; font-size: 14px;"&gt;&lt;a href="http://carasensei.com/testimonials.html" target="_blank" style="color: rgb(136, 0, 51);" class="horizontal"&gt;&lt;span style="font-family: Osaka;"&gt;生徒と他の先生の声&lt;/span&gt;&lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; color: rgb(136, 0, 51); font-size: 14px;"&gt; &lt;/span&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;(Testimonials from students and other teachers)&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;&lt;a href="http://carasensei.com/rirekisho.htm" style="color: rgb(136, 0, 51);"&gt;履歴書&lt;/a&gt; (CV/Resumé)  &lt;a href="http://carasensei.com/resume"&gt;Resume in English Here&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;出版（Publications): &lt;a href="http://www.amazon.co.jp/s/ref=nb_sb_noss?__mk_ja_JP=%E3%82%AB%E3%82%BF%E3%82%AB%E3%83%8A&amp;amp;url=search-alias%3Daps&amp;amp;field-keywords=%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%95%E3%82%A3%E3%83%AA%E3%83%83%E3%83%97%E3%82%B9%E3%80%80cara+phillips&amp;amp;rh=i%3Aaps%2Ck%3A%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%95%E3%82%A3%E3%83%AA%E3%83%83%E3%83%97%E3%82%B9%E3%80%80cara+phillips" target="_blank"&gt;教科書&lt;/a&gt;(Textbook)　　&lt;a href="http://carasensei.com/ronbun.html"&gt;論文&lt;/a&gt; (Journal Articles)&lt;/span&gt;&lt;/p&gt;
+					&lt;div class="not-first-item callout-container"&gt;
+						&lt;div class="callout"&gt;
+							&lt;div class="callout-content"&gt;
+								&lt;div class="pagelet untitled i1 o last-item"&gt;
+									&lt;div class="pagelet-body"&gt;
+										&lt;div class="ImageElement"&gt;
+											&lt;div class="photo"&gt;
+												&lt;div&gt;
+													&lt;!-- sandvox.ImageElement --&gt;&lt;img src="http://carasensei.com/_Media/recentheadshot_med.jpeg" alt="" width="135" height="214" /&gt;
+													&lt;!-- /sandvox.ImageElement --&gt;&lt;/div&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;ボランティア歴 (Volunteer Experience):  &lt;a href="http://groups.yahoo.com/group/Peace_Corps_Kiribati/" target="_blank"&gt;&lt;span style="color: rgb(136, 0, 51);"&gt;Peace Corps&lt;/span&gt;&lt;/a&gt;&lt;a href="http://carasensei.com/PeaceCorps.htm" target="_blank" style="color: rgb(136, 0, 51);"&gt;,&lt;/a&gt; &lt;a href="http://www.worldteach.org/site/c.buLRIbNOIbJ2G/b.6150637/k.91AA/Namibia_Summer.htm" target="_blank" style="color: rgb(136, 0, 51);"&gt;World Teach&lt;/a&gt;, &lt;a href="http://team-nadia.org/" target="_blank" style="color: rgb(136, 0, 51);"&gt;Nadia&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;&lt;a href="mailto:carasensei@gmail.com" target="_blank"&gt;連絡先&lt;/a&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-family: 'Lucida Sans'; font-size: 14px;"&gt;キャラの知り合い先生のページ：&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;span style="font-size: 14px; font-family: 'Lucida Sans';"&gt;　&lt;a href="http://sarahsbusinessblog.wordpress.com/" target="_blank" style="color: rgb(136, 0, 51);"&gt;Sarah Birchley &lt;/a&gt;     &lt;a href="http://www.privatejapaneselesson.com/" target="_blank" style="color: rgb(136, 0, 51);"&gt;岡本　美奈子&lt;/a&gt;　　　&lt;a href="http://carasensei.com/ChizukoKishi/" target="_blank" style="color: rgb(136, 0, 51);"&gt;岸　千鶴子&lt;/a&gt;　　&lt;a href="http://paper.li/mickstout" target="_blank" style="color: rgb(136, 0, 51);"&gt;Michael Stout  &lt;/a&gt;&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			</description>
+			<pubDate>Thu, 03 Jan 2013 17:43:40 +0900</pubDate>
+			<guid>http://carasensei.com/teacher.html</guid>
+            
+			
+		</item>
+		<item>
+			<title>岸　千鶴子</title>
+			<link>http://carasensei.com/ChizukoKishi/</link>
+			<description>
+				&lt;div class="article-summary"&gt;&lt;p&gt;&lt;/p&gt;
+					&lt;div class="first callout-container"&gt;
+						&lt;div class="callout"&gt;
+							&lt;div class="callout-content"&gt;
+								&lt;div class="pagelet titled i1 o last-item"&gt;
+									&lt;h4 class="title pagelet-title"&gt;&lt;span class="in"&gt;About Chizuko Kishi...&lt;/span&gt;&lt;/h4&gt;
+									&lt;div class="pagelet-body"&gt;
+										&lt;div class="RichTextElement"&gt;
+											&lt;div&gt;
+												&lt;p&gt;&lt;span style="color: rgb(108, 243, 137); font-family: 'Lucida Sans'; font-size: 14px; "&gt;*群馬大学大学院修士過程修了&lt;br /&gt;*カリフォルニアハー バーカレッジ健康学科卒業                 *東京女子体育大学卒業&lt;/span&gt;&lt;/p&gt;
+												
+											&lt;/div&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode';"&gt;○作文、読書感想文、小論文の指導(小学生～難関大学受験)&lt;br /&gt;○日本語会話および日本語論文指導 (Japanese as a 2nd language for all levels)&lt;br /&gt;○不登校児の受験指導&lt;br /&gt;○受験生や浪人生の指導&lt;br /&gt;○留学指導&lt;br /&gt;○英語と日本語でハワイアンフィットネス&lt;br /&gt;○夏休みや冬休みの宿題など&lt;br /&gt;○子育て相談&lt;br /&gt;○健康相談&lt;/span&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;
+					&lt;div class="not-first-item callout-container"&gt;
+						&lt;div class="callout"&gt;
+							&lt;div class="callout-content"&gt;
+								&lt;div class="pagelet untitled i1 o last-item"&gt;
+									&lt;div class="pagelet-body"&gt;
+										&lt;div class="ImageElement"&gt;
+											&lt;div class="photo"&gt;
+												&lt;div&gt;
+													&lt;!-- sandvox.ImageElement --&gt;&lt;img src="http://carasensei.com/_Media/20080503161912_med.jpeg" alt="" width="200" height="266" /&gt;
+													&lt;!-- /sandvox.ImageElement --&gt;&lt;/div&gt;
+											&lt;/div&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;
+						&lt;/div&gt;
+					&lt;/div&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans';"&gt;&lt;br /&gt;&lt;/span&gt;&lt;/p&gt;&lt;p class="MsoNormal"&gt;&lt;span style="font-family: 'Lucida Sans Unicode';"&gt;大学、高等学校、予備校、英会話スクールなど教員歴20年以上。ボランティア活動14年目。&lt;br /&gt;子育て経験あり。&lt;br /&gt;現在、受験生の母。予防医学、健康学専攻。&lt;br /&gt;&lt;br /&gt;国際的で楽しく、笑顔いっぱいの魅力あるクラスを目指し、アロハの精神(感謝、気配り、寛容)を心掛けています！&lt;br /&gt;&lt;br /&gt;三鷹駅から徒歩圏の千鶴子の家または、ご自宅等ご希望の場所にお伺いする事も可能です。&lt;br /&gt;&lt;br /&gt;ご質問やご相談、詳細などは、直接、千鶴子に連絡して下さい。&lt;br /&gt;&lt;br /&gt;連絡先: &lt;a href="mailto:chizukoflowerhanako@ezweb.ne.jp"&gt;chizukoflowerhanako@ezweb.ne.jp&lt;/a&gt; 又は　&lt;a href="mailto:dai925kishi@ezweb.ne.jp"&gt;dai925kishi@ezweb.ne.jp&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;&lt;a href="tel:09029110925"&gt;09029110925&lt;/a&gt;　又は　&lt;a href="tel:08011510079"&gt;08011510079&lt;/a&gt;　　(12～13時)&lt;/span&gt;&lt;/p&gt;
+				&lt;/div&gt;
+			</description>
+			<pubDate>Thu, 03 Jan 2013 17:43:40 +0900</pubDate>
+			<guid>http://carasensei.com/ChizukoKishi/</guid>
+            
+			
+		</item>
+ 	</channel>
+</rss>
