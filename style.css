@@ -158,8 +158,9 @@ h4 {
   -webkit-background-clip: text;
   opacity: 1;
   background-size: 100%;
-  font-size: 5px;
+  font-size: 3.5px;
   margin-top: -1px;
+  text-align: center;
   width: 260px;
   height: 305px;
 }
