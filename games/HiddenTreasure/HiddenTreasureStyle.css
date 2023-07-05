@@ -2,7 +2,7 @@
 body {
   background-image: url("https://media.istockphoto.com/photos/open-treasure-chest-on-the-beach-picture-id537208605?k=20&m=537208605&s=612x612&w=0&h=UiIbZONBfyJaQLWmfWnN4fSa0Fhn_mkIH90K25FDjH8=");
   background-size: cover;
-  background-color: #0B6623;
+  background-color: #000602;
   font-family:'Mochiy Pop P One', sans-serif;
 }
 
@@ -45,11 +45,13 @@ div {
   display: flex;
   flex-direction: column;
   flex-grow: inherit;
-  width: 80vw;
-  height: 25vw;
-  background-color: whitesmoke;
+  width: 60vw;
+  height: 60vw;
+  background-color: transparent;
   flex: 2;
   padding: 1vw 1vw 1vw 1vw;
+  color: white;
+  font-size: 20px;
 }
 
 .buttonBclass {
