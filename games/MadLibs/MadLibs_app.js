@@ -13,7 +13,7 @@ const mad = [
   prompt(`And another adjective.`),
   prompt(`How about an adverb?`),
   prompt(`And one more adverb, please.`),
-  prompt(`Now type in the a silliest name you can think of.`),
+  prompt(`Now type in the silliest name you can think of.`),
   prompt(`What is your favorite animal?`),
   prompt(`And what was the last fruit you ate? (plural)`),
   prompt(`What is the name of your favorite anime or manga character?`),
