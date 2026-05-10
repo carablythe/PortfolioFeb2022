@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/Cara.PNG">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <title>レシピ</title>
+    <style>
+      .recipeContainer {
+        width: 660px;
+        margin: 0 auto 40px auto;
+      }
+
+      .recipeNavRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 0 12px 0;
+      }
+
+      .backLink {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: #490d63;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .backLink:hover {
+        text-decoration: underline;
+      }
+
+      .langToggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background-color: #490d63;
+        color: #FFFAFA;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 8px 16px;
+        border-radius: 3px;
+        text-decoration: none;
+        transition: background-color 0.18s, color 0.18s;
+      }
+
+      .langToggle:hover {
+        background-color: #F4DEC8;
+        color: #490d63;
+        text-decoration: none;
+      }
+
+      .langToggle .langFlag {
+        font-size: 18px;
+      }
+
+      .recipePhoto {
+        width: 100%;
+        max-height: 380px;
+        object-fit: cover;
+        border-radius: 3px;
+        box-shadow: 5px 5px 5px #311432;
+        margin-bottom: 10px;
+        display: block;
+      }
+
+      .recipePhotoPlaceholder {
+        width: 100%;
+        height: 220px;
+        background: #F4DEC8;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 10px;
+        color: #923d88;
+        font-size: 48px;
+      }
+
+      .recipeSource {
+        font-size: 15px;
+        color: #923d88;
+        font-style: italic;
+        margin: 0 0 24px 0;
+        text-align: left;
+      }
+
+      .recipePanel {
+        background: #FFFAFA;
+        box-shadow: 0 2px 10px #b185ac;
+        border-radius: 3px;
+        padding: 28px 32px;
+        margin-bottom: 20px;
+      }
+
+      .recipePanel h2 {
+        text-align: left;
+        margin-top: 0;
+        margin-bottom: 16px;
+        font-size: 24px;
+        color: #490d63;
+        border-bottom: 3px solid #F4DEC8;
+        padding-bottom: 8px;
+      }
+
+      .ingredientsList {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+
+      .ingredientsList li {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        color: #490d63;
+        padding: 7px 0;
+        border-bottom: 1px solid #F4DEC8;
+        display: flex;
+        align-items: flex-start;
+        gap: 10px;
+      }
+
+      .ingredientsList li:last-child {
+        border-bottom: none;
+      }
+
+      .ingredientsList li::before {
+        content: "\f00c";
+        font-family: FontAwesome;
+        color: #923d88;
+        font-size: 14px;
+        margin-top: 3px;
+        flex-shrink: 0;
+      }
+
+      .directionsList {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        counter-reset: steps;
+      }
+
+      .directionsList li {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        color: #490d63;
+        padding: 12px 0 12px 52px;
+        border-bottom: 1px solid #F4DEC8;
+        position: relative;
+        counter-increment: steps;
+        line-height: 1.5;
+      }
+
+      .directionsList li:last-child {
+        border-bottom: none;
+      }
+
+      .directionsList li::before {
+        content: counter(steps);
+        position: absolute;
+        left: 0;
+        top: 10px;
+        background: #490d63;
+        color: #FFFAFA;
+        font-family: 'Russo One', sans-serif;
+        font-size: 14px;
+        width: 32px;
+        height: 32px;
+        border-radius: 3px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .tagRow {
+        display: flex;
+        gap: 8px;
+        flex-wrap: wrap;
+        margin-bottom: 20px;
+      }
+
+      .recipeTag {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 13px;
+        font-weight: 700;
+        padding: 4px 12px;
+        border-radius: 3px;
+        background: #F4DEC8;
+        color: #490d63;
+      }
+
+      .notFound {
+        text-align: center;
+        padding: 60px 20px;
+        color: #923d88;
+        font-size: 20px;
+      }
+
+      @media (max-width: 800px) {
+        .recipeContainer { width: 80vw; }
+        .recipePanel { padding: 20px 18px; }
+        .directionsList li { padding-left: 44px; }
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <nav>
+        <div class="topNameDiv">
+          <a class="topName" href="/"><b>Cara B. Phillips' Portfolio</b></a>
+        </div>
+      </nav>
+
+      <div class="header">
+        <h1 id="recipePageTitle">読み込み中…</h1>
+      </div>
+
+      <div class="recipeContainer">
+        <div class="recipeNavRow">
+          <a class="backLink" href="recipes.html">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i> レシピ一覧に戻る
+          </a>
+          <a class="langToggle" id="langToggleLink" href="#">
+            <span class="langFlag">🇺🇸</span> View in English
+          </a>
+        </div>
+
+        <div id="recipeContent"></div>
+      </div>
+
+      <footer>
+        <ul class="icons">
+          <li class="foot"><a href="https://www.linkedin.com/in/carablythephillips" target="_blank" class="fa fa-linkedin" alt="Cara's LinkedIn"></a></li>
+          <li class="foot"><a href="https://github.com/carablythe" target="_blank" class="fa fa-github" alt="Cara's GitHub"></a></li>
+          <li class="foot"><a href="https://www.youtube.com/@CaraBlythePhillips" target="_blank" class="fa fa-youtube" alt="Cara's YouTube"></a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <script>
+      var params = new URLSearchParams(window.location.search);
+      var recipeId = params.get('id');
+
+      // Set the English toggle link to point to the same recipe id on the English template
+      document.getElementById('langToggleLink').href = 'recipe.html?id=' + recipeId;
+
+      fetch('recipes-data-ja.json')
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+          var recipe = data.find(function(r) { return r.id === recipeId; });
+
+          if (!recipe) {
+            document.getElementById('recipePageTitle').textContent = 'レシピが見つかりません';
+            document.getElementById('recipeContent').innerHTML =
+              '<div class="notFound"><i class="fa fa-frown-o" style="font-size:48px;display:block;margin-bottom:16px;"></i>このレシピは見つかりませんでした。<br><a href="recipes.html">レシピ一覧へ</a></div>';
+            return;
+          }
+
+          document.title = recipe.title + ' — キャラのレシピ';
+          document.getElementById('recipePageTitle').textContent = recipe.title;
+
+          var photoHTML = recipe.photo
+            ? '<img class="recipePhoto" src="' + recipe.photo + '" alt="' + recipe.title + '">'
+            : '<div class="recipePhotoPlaceholder"><i class="fa fa-camera" aria-hidden="true"></i></div>';
+
+          var sourceHTML = '';
+          if (recipe.source) {
+            var isURL = recipe.source.match(/https?:\/\/[^\s]+/);
+            if (isURL) {
+              sourceHTML = '<p class="recipeSource"><i class="fa fa-bookmark-o" aria-hidden="true"></i> <a href="' + isURL[0] + '" target="_blank" rel="noopener">このレシピ</a>を参考にアレンジしました。</p>';
+            } else {
+              sourceHTML = '<p class="recipeSource"><i class="fa fa-bookmark-o" aria-hidden="true"></i> ' + recipe.source + '</p>';
+            }
+          }
+
+          var tagsHTML = '';
+          if (recipe.tags && recipe.tags.length > 0) {
+            tagsHTML = '<div class="tagRow">' +
+              recipe.tags.map(function(tag) {
+                return '<span class="recipeTag">' + tag + '</span>';
+              }).join('') + '</div>';
+          }
+
+          var ingredientsHTML = '<ul class="ingredientsList">' +
+            recipe.ingredients.map(function(ing) {
+              return '<li>' + ing + '</li>';
+            }).join('') + '</ul>';
+
+          var directionsHTML = '<ol class="directionsList">' +
+            recipe.directions.map(function(step) {
+              return '<li>' + step + '</li>';
+            }).join('') + '</ol>';
+
+          document.getElementById('recipeContent').innerHTML =
+            photoHTML + sourceHTML +
+            '<div class="recipePanel"><h2>材料</h2>' + ingredientsHTML + '</div>' +
+            '<div class="recipePanel"><h2>作り方</h2>' + directionsHTML + '</div>';
+        })
+        .catch(function() {
+          document.getElementById('recipePageTitle').textContent = 'エラーが発生しました';
+          document.getElementById('recipeContent').innerHTML =
+            '<div class="notFound">レシピデータを読み込めませんでした。後でもう一度お試しください。</div>';
+        });
+    </script>
+  </body>
+</html>

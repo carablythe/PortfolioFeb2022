@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/Cara.PNG">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <title>Cara Phillips's Recipes</title>
+
+    <style>
+      /* ── Recipe page styles ── */
+
+      .recipeIntro {
+        width: 600px;
+        margin: 0 auto 10px auto;
+        text-align: center;
+        font-size: 18px;
+        color: #490d63;
+      }
+
+      /* Search bar */
+      .searchSection {
+        width: 600px;
+        margin: 0 auto 18px auto;
+        display: flex;
+        gap: 10px;
+      }
+
+      .searchSection input[type="text"] {
+        flex: 1;
+        padding: 10px 16px;
+        font-size: 18px;
+        font-family: 'Nunito Sans', sans-serif;
+        border: 2px solid #490d63;
+        border-radius: 3px;
+        background: #FFFAFA;
+        color: #490d63;
+        outline: none;
+      }
+
+      .searchSection input[type="text"]::placeholder {
+        color: #b185ac;
+      }
+
+      .searchSection input[type="text"]:focus {
+        border-color: #923d88;
+        box-shadow: 0 0 0 2px #F4DEC8;
+      }
+
+      .searchClearBtn {
+        background-color: #490d63;
+        color: #FFFAFA;
+        font-size: 16px;
+        font-family: 'Nunito Sans', sans-serif;
+        padding: 10px 18px;
+        border: none;
+        border-radius: 3px;
+        cursor: pointer;
+        white-space: nowrap;
+      }
+
+      .searchClearBtn:hover {
+        background-color: #F4DEC8;
+        color: #490d63;
+      }
+
+
+      /* Category grid */
+      .recipeGrid {
+        width: 620px;
+        margin: 0 auto 30px auto;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 16px;
+      }
+
+      .recipeCard {
+        background: #FFFAFA;
+        box-shadow: 0 2px 10px #b185ac;
+        border-radius: 3px;
+        padding: 22px 16px 18px 16px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 8px;
+        text-decoration: none;
+        transition: box-shadow 0.18s, transform 0.18s;
+        cursor: pointer;
+      }
+
+      .recipeCard:hover {
+        box-shadow: 5px 5px 14px #311432;
+        transform: translateY(-2px);
+        text-decoration: none;
+      }
+
+      .recipeCard.hidden {
+        display: none;
+      }
+
+      .cardIcon {
+        font-size: 28px;
+        color: #490d63;
+        margin-bottom: 2px;
+      }
+
+      .cardLabel {
+        font-family: 'Russo One', sans-serif;
+        font-size: 17px;
+        color: #490d63;
+        text-align: center;
+        line-height: 1.2;
+      }
+
+      .cardSub {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 13px;
+        color: #923d88;
+        text-align: center;
+      }
+
+      .cardTags {
+        display: flex;
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-top: 4px;
+      }
+
+      .cardTag {
+        font-size: 11px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        padding: 2px 8px;
+        border-radius: 3px;
+        background: #F4DEC8;
+        color: #490d63;
+      }
+
+      .cardTag.vegan {
+        background: #d6ead7;
+        color: #2a5c2c;
+      }
+
+      /* No results message */
+      .noResults {
+        display: none;
+        width: 600px;
+        margin: 0 auto 20px auto;
+        text-align: center;
+        color: #923d88;
+        font-size: 18px;
+        padding: 20px;
+        background: #FFFAFA;
+        box-shadow: 0 2px 10px #b185ac;
+        border-radius: 3px;
+      }
+
+      /* Conversions link strip */
+      .conversionStrip {
+        width: 600px;
+        margin: 0 auto 30px auto;
+        background: #FFFAFA;
+        box-shadow: 0 2px 10px #b185ac;
+        border-radius: 3px;
+        padding: 14px 22px;
+        display: flex;
+        align-items: center;
+        gap: 14px;
+      }
+
+      .conversionStrip i {
+        font-size: 22px;
+        color: #490d63;
+      }
+
+      .conversionStrip a {
+        color: #490d63;
+        font-size: 17px;
+        font-family: 'Nunito Sans', sans-serif;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .conversionStrip a:hover {
+        text-decoration: underline;
+      }
+
+      /* Responsive */
+      @media (max-width: 800px) {
+        .recipeIntro,
+        .searchSection,
+        .filterRow,
+        .recipeGrid,
+        .conversionStrip,
+        .noResults {
+          width: 80vw;
+        }
+
+        .recipeGrid {
+          grid-template-columns: repeat(2, 1fr);
+        }
+
+        #searchResults {
+          width: 80vw !important;
+        }
+      }
+
+      @media (max-width: 500px) {
+        .recipeGrid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <nav>
+        <div class="topNameDiv">
+          <a class="topName" href="/"><b>Cara B. Phillips' Portfolio</b></a>
+        </div>
+      </nav>
+
+      <div class="header">
+        <h1>Cara's Recipes</h1>
+      </div>
+
+      <h3 class="recipeIntro">
+        A collection of my favorite dishes from around the world — some original, some adapted from other sources. Nearly all include vegetarian and vegan versions. Please check back for updates. Enjoy! &mdash; Cara
+      </h3>
+
+      <!-- Search -->
+      <div class="searchSection">
+        <input type="text" id="recipeSearch" placeholder="Search by cuisine, ingredient, or keyword…" oninput="filterRecipes()" />
+        <button class="searchClearBtn" onclick="clearSearch()">Clear</button>
+      </div>
+
+      <!-- Category grid -->
+      <div class="recipeGrid" id="recipeGrid">
+
+        <a href="cuisine.html?cuisine=african" class="recipeCard" data-name="african">
+          <span class="cardLabel">African</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=cajun" class="recipeCard" data-name="cajun">
+          <span class="cardLabel">Cajun</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=cuban" class="recipeCard" data-name="cuban">
+          <span class="cardLabel">Cuban</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=french" class="recipeCard" data-name="french">
+          <span class="cardLabel">French</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=eastern-mediterranean" class="recipeCard" data-name="eastern mediterranean">
+          <span class="cardLabel">Eastern Mediterranean</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=indian" class="recipeCard" data-name="indian">
+          <span class="cardLabel">Indian</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=italian" class="recipeCard" data-name="italian">
+          <span class="cardLabel">Italian</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=japanese" class="recipeCard" data-name="japanese">
+          <span class="cardLabel">Japanese</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=mexican" class="recipeCard" data-name="mexican">
+          <span class="cardLabel">Mexican</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=thai" class="recipeCard" data-name="thai">
+          <span class="cardLabel">Thai</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=spanish" class="recipeCard" data-name="spanish">
+          <span class="cardLabel">Spanish</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=desserts" class="recipeCard" data-name="desserts">
+          <span class="cardLabel">Desserts</span>
+        </a>
+
+        <a href="cuisine.html?cuisine=other" class="recipeCard" data-name="other dishes">
+          <span class="cardLabel">Other Dishes</span>
+        </a>
+
+      </div>
+
+      <div class="noResults" id="noResults">
+        No recipes match your search. Try a different keyword!
+      </div>
+
+      <div id="searchResults" style="display:none; flex-direction:column; gap:10px; width:600px; margin: 0 auto;"></div>
+
+      <!-- Conversions strip -->
+
+      <footer>
+        <ul class="icons">
+          <li class="foot"><a href="https://www.linkedin.com/in/carablythephillips" target="_blank" class="fa fa-linkedin" alt="Cara's LinkedIn"></a></li>
+          <li class="foot"><a href="https://github.com/carablythe" target="_blank" class="fa fa-github" alt="Cara's GitHub"></a></li>
+          <li class="foot"><a href="https://www.youtube.com/@CaraBlythePhillips" target="_blank" class="fa fa-youtube" alt="Cara's YouTube"></a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <script>
+      // Load all recipes for ingredient/title search
+      var allRecipes = [];
+      fetch('recipes-data.json')
+        .then(function(res) { return res.json(); })
+        .then(function(data) { allRecipes = data; });
+
+      function filterRecipes() {
+        var query = document.getElementById('recipeSearch').value.toLowerCase().trim();
+        var cards = document.querySelectorAll('.recipeCard');
+        var resultsDiv = document.getElementById('searchResults');
+
+        // If no query, show cuisine grid, hide results
+        if (!query) {
+          document.getElementById('recipeGrid').style.display = 'grid';
+          resultsDiv.style.display = 'none';
+          resultsDiv.innerHTML = '';
+          document.getElementById('noResults').style.display = 'none';
+          return;
+        }
+
+        // Hide cuisine grid, show recipe results
+        document.getElementById('recipeGrid').style.display = 'none';
+
+        var matches = allRecipes.filter(function(r) {
+          return r.title.toLowerCase().includes(query) ||
+            r.ingredients.join(' ').toLowerCase().includes(query) ||
+            r.cuisine.toLowerCase().includes(query);
+        });
+
+        if (matches.length === 0) {
+          resultsDiv.style.display = 'none';
+          document.getElementById('noResults').style.display = 'block';
+        } else {
+          document.getElementById('noResults').style.display = 'none';
+          resultsDiv.style.display = 'flex';
+          resultsDiv.innerHTML = matches.map(function(r) {
+            return '<a href="recipe.html?id=' + r.id + '" style="' +
+              'background:#FFFAFA;box-shadow:0 2px 10px #b185ac;border-radius:3px;' +
+              'padding:16px 24px;display:flex;align-items:center;justify-content:space-between;' +
+              'text-decoration:none;transition:box-shadow 0.18s;">' +
+              '<div>' +
+                '<div style="font-family:\'Nunito Sans\',sans-serif;font-size:18px;font-weight:700;color:#490d63;">' + r.title + '</div>' +
+                '<div style="font-size:13px;color:#923d88;font-family:\'Nunito Sans\',sans-serif;margin-top:4px;text-transform:capitalize;">' + r.cuisine.replace(/-/g,' ') + '</div>' +
+              '</div>' +
+              '<span style="color:#b185ac;font-size:18px;"><i class="fa fa-chevron-right"></i></span>' +
+            '</a>';
+          }).join('');
+        }
+      }
+
+      function clearSearch() {
+        document.getElementById('recipeSearch').value = '';
+        filterRecipes();
+      }
+    </script>
+  </body>
+</html>

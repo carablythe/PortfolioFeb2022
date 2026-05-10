@@ -182,7 +182,7 @@ a {
 }
 
 
-a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
+a:hover, .aboutMeLink:hover, .elStart:hover, .idStart:hover, .seStart:hover {
   cursor: pointer;
   text-decoration: underline;
 }
@@ -191,7 +191,7 @@ a:hover, .aboutMeLink:hover, .idStart:hover, .seStart:hover {
 
 /* PROJECT SECTION: The below is for the project summaries in the Projects sections: */
 
-.seProjects, .idProjects, .aboutMe {
+.elProjects, .seProjects, .idProjects, .aboutMe {
   margin: 2vw 10vw 7vw 10vw;
 }
 

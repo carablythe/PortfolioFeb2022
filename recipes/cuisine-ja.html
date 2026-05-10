@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+  <head>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Didact+Gothic&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta charset="utf-8">
+    <link rel="icon" href="images/Cara.PNG">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="../app.js"></script>
+    <title>レシピ</title>
+
+    <style>
+      .cuisineContainer {
+        width: 660px;
+        margin: 0 auto 40px auto;
+      }
+
+      .recipeNavRow {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 16px 0 20px 0;
+      }
+
+      .backLink {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        color: #490d63;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        text-decoration: none;
+      }
+
+      .backLink:hover { text-decoration: underline; }
+
+      .langToggle {
+        display: inline-flex;
+        align-items: center;
+        gap: 8px;
+        background-color: #490d63;
+        color: #FFFAFA;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 15px;
+        font-weight: 700;
+        padding: 8px 16px;
+        border-radius: 3px;
+        text-decoration: none;
+        transition: background-color 0.18s, color 0.18s;
+      }
+
+      .langToggle:hover {
+        background-color: #F4DEC8;
+        color: #490d63;
+        text-decoration: none;
+      }
+
+      .recipeList {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .recipeListCard {
+        background: #FFFAFA;
+        box-shadow: 0 2px 10px #b185ac;
+        border-radius: 3px;
+        padding: 16px 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        text-decoration: none;
+        transition: box-shadow 0.18s, transform 0.18s;
+      }
+
+      .recipeListCard:hover {
+        box-shadow: 5px 5px 14px #311432;
+        transform: translateY(-2px);
+        text-decoration: none;
+      }
+
+      .recipeListTitle {
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        color: #490d63;
+        margin: 0;
+      }
+
+      .recipeListArrow {
+        color: #b185ac;
+        font-size: 18px;
+        flex-shrink: 0;
+      }
+
+      .notFound {
+        text-align: center;
+        padding: 60px 20px;
+        color: #923d88;
+        font-size: 20px;
+      }
+
+      @media (max-width: 800px) {
+        .cuisineContainer { width: 80vw; }
+        .recipeListCard { padding: 14px 16px; }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div>
+      <nav>
+        <div class="topNameDiv">
+          <a class="topName" href="/"><b>Cara B. Phillips' Portfolio</b></a>
+        </div>
+      </nav>
+
+      <div class="header">
+        <h1 id="cuisinePageTitle">読み込み中…</h1>
+      </div>
+
+      <div class="cuisineContainer">
+        <div class="recipeNavRow">
+          <a class="backLink" href="recipes.html">
+            <i class="fa fa-arrow-left" aria-hidden="true"></i> レシピ一覧に戻る
+          </a>
+          <a class="langToggle" id="langToggleLink" href="#">
+            <span>🇺🇸</span> View in English
+          </a>
+        </div>
+
+        <div class="recipeList" id="recipeList"></div>
+      </div>
+
+      <footer>
+        <ul class="icons">
+          <li class="foot"><a href="https://www.linkedin.com/in/carablythephillips" target="_blank" class="fa fa-linkedin" alt="Cara's LinkedIn"></a></li>
+          <li class="foot"><a href="https://github.com/carablythe" target="_blank" class="fa fa-github" alt="Cara's GitHub"></a></li>
+          <li class="foot"><a href="https://www.youtube.com/@CaraBlythePhillips" target="_blank" class="fa fa-youtube" alt="Cara's YouTube"></a></li>
+        </ul>
+      </footer>
+    </div>
+
+    <script>
+      var params = new URLSearchParams(window.location.search);
+      var cuisine = params.get('cuisine');
+
+      var cuisineLabels = {
+        'african': 'アフリカ料理',
+        'cajun': 'ケイジャン料理',
+        'cuban': 'キューバ料理',
+        'indian': 'インド料理',
+        'thai': 'タイ料理',
+        'eastern-mediterranean': '東地中海料理',
+        'mexican': 'メキシコ料理',
+        'italian': 'イタリア料理',
+        'french': 'フランス料理',
+        'japanese': '日本料理',
+        'spanish': 'スペイン料理',
+        'other': 'その他の料理'
+      };
+
+      var label = cuisineLabels[cuisine] || cuisine;
+      document.getElementById('cuisinePageTitle').textContent = label + 'のレシピ';
+      document.title = label + 'のレシピ — キャラのキッチン';
+      document.getElementById('langToggleLink').href = 'cuisine.html?cuisine=' + cuisine;
+
+      fetch('recipes-data-ja.json')
+        .then(function(res) { return res.json(); })
+        .then(function(data) {
+          var recipes = data.filter(function(r) { return r.cuisine === cuisine; });
+
+          if (recipes.length === 0) {
+            document.getElementById('recipeList').innerHTML =
+              '<div class="notFound"><i class="fa fa-frown-o" style="font-size:48px;display:block;margin-bottom:16px;"></i>このカテゴリーのレシピはまだありません。<br><a href="recipes.html">レシピ一覧へ</a></div>';
+            return;
+          }
+
+          var html = recipes.map(function(recipe) {
+            return '<a class="recipeListCard" href="recipe-ja.html?id=' + recipe.id + '">' +
+              '<span class="recipeListTitle">' + recipe.title + '</span>' +
+              '<span class="recipeListArrow"><i class="fa fa-chevron-right" aria-hidden="true"></i></span>' +
+            '</a>';
+          }).join('');
+
+          document.getElementById('recipeList').innerHTML = html;
+        })
+        .catch(function() {
+          document.getElementById('recipeList').innerHTML =
+            '<div class="notFound">レシピデータを読み込めませんでした。後でもう一度お試しください。</div>';
+        });
+    </script>
+  </body>
+</html>

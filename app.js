@@ -143,7 +143,14 @@ $(() => {
 });
 
 
-//Scroll to ID and SE projects
+//Scroll to EL and ID and SE projects
+
+$(() => {
+  $('.elStart').on('click', () => {
+     $("html, body").animate({ scrollTop: $(".elProjects").position().top + (-140)
+    }, 500)
+  })
+});
 
 $(() => {
   $('.idStart').on('click', () => {
