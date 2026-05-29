@@ -258,7 +258,7 @@
       var recipeId = params.get('id');
 
       // Set the Japanese toggle link to point to the same recipe id on the Japanese template
-      document.getElementById('langToggleLink').href = 'index-ja.html?id=' + recipeId;
+      document.getElementById('langToggleLink').href = 'recipe-ja.html?id=' + recipeId;
 
       fetch('recipes-data.json')
         .then(function(res) { return res.json(); })
