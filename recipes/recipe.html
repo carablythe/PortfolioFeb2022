@@ -233,7 +233,7 @@
 
       <div class="recipeContainer">
         <div class="recipeNavRow">
-          <a class="backLink" href="recipes.html">
+          <a class="backLink" href="index.html">
             <i class="fa fa-arrow-left" aria-hidden="true"></i> Back to all recipes
           </a>
           <a class="langToggle" id="langToggleLink" href="#">
@@ -258,7 +258,7 @@
       var recipeId = params.get('id');
 
       // Set the Japanese toggle link to point to the same recipe id on the Japanese template
-      document.getElementById('langToggleLink').href = 'recipe-ja.html?id=' + recipeId;
+      document.getElementById('langToggleLink').href = 'index-ja.html?id=' + recipeId;
 
       fetch('recipes-data.json')
         .then(function(res) { return res.json(); })
@@ -268,7 +268,7 @@
           if (!recipe) {
             document.getElementById('recipePageTitle').textContent = 'Recipe not found';
             document.getElementById('recipeContent').innerHTML =
-              '<div class="notFound"><i class="fa fa-frown-o" style="font-size:48px;display:block;margin-bottom:16px;"></i>Sorry, we could not find that recipe.<br><a href="recipes.html">Browse all recipes</a></div>';
+              '<div class="notFound"><i class="fa fa-frown-o" style="font-size:48px;display:block;margin-bottom:16px;"></i>Sorry, we could not find that recipe.<br><a href="../recipes/index.html">Browse all recipes</a></div>';
             return;
           }
 

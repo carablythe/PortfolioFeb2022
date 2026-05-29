@@ -129,7 +129,7 @@
 
       <div class="cuisineContainer">
         <div class="recipeNavRow">
-          <a class="backLink" href="recipes.html">
+          <a class="backLink" href="index.html">
             <i class="fa fa-arrow-left" aria-hidden="true"></i> Back to all recipes
           </a>
           <a class="langToggle" id="langToggleLink" href="#">
@@ -181,7 +181,7 @@
 
           if (recipes.length === 0) {
             document.getElementById('recipeList').innerHTML =
-              '<div class="notFound"><i class="fa fa-frown-o" style="font-size:48px;display:block;margin-bottom:16px;"></i>No recipes found for this cuisine yet.<br><a href="recipes.html">Browse all recipes</a></div>';
+              '<div class="notFound"><i class="fa fa-frown-o" style="font-size:48px;display:block;margin-bottom:16px;"></i>Recipes coming soon!<br><a href="index.html">Browse all recipes</a></div>';
             return;
           }
 
@@ -196,7 +196,7 @@
         })
         .catch(function() {
           document.getElementById('recipeList').innerHTML =
-            '<div class="notFound">Could not load recipe data. Please try again later.</div>';
+            '<div class="notFound">Recipes coming soon!</div>';
         });
     </script>
   </body>

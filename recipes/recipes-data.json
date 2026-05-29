@@ -3,7 +3,7 @@
     "id": "african-peanut-stew",
     "cuisine": "african",
     "title": "African Peanut Stew",
-    "photo": "",
+    "photo": "images/african-peanut-stew.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 tbsp olive oil",
@@ -29,14 +29,13 @@
       "Reduce heat and simmer for 20 minutes, until sweet potato is tender.",
       "Stir in peanut butter until fully incorporated. Simmer for another 5 minutes.",
       "Season with salt and pepper. Serve over rice, garnished with fresh cilantro."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free"]
+    ]
   },
   {
     "id": "cajun-shrimp-etouffee",
     "cuisine": "cajun",
     "title": "Shrimp Étouffée",
-    "photo": "",
+    "photo": "images/shrimp-etouffee.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1 lb large shrimp, peeled and deveined",
@@ -61,14 +60,13 @@
       "Add shrimp and cook until pink and cooked through, about 5-6 minutes.",
       "Season with salt, pepper, and hot sauce to taste.",
       "Serve over white rice and garnish with fresh parsley."
-    ],
-    "tags": ["quick"]
+    ]
   },
   {
     "id": "cuban-black-beans",
     "cuisine": "cuban",
     "title": "Cuban Black Beans",
-    "photo": "",
+    "photo": "images/cuban-black-beans.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 cans (15 oz each) black beans, drained and rinsed",
@@ -93,14 +91,13 @@
       "Cook uncovered for 20-25 minutes, stirring occasionally, until the beans thicken and the liquid reduces.",
       "Remove bay leaves. Stir in apple cider vinegar and sugar.",
       "Season with salt and pepper. Serve over rice with cilantro and lime."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free"]
+    ]
   },
   {
     "id": "indian-naan",
     "cuisine": "indian",
     "title": "Naan (Indian Flat Bread)",
-    "photo": "",
+    "photo": "images/naan.jpg",
     "source": "http://www.food.com/recipe/naan-203261",
     "ingredients": [
       "4 cups flour (makes 10)",
@@ -118,14 +115,13 @@
       "Lay the dough on the hot griddle and cook it over a medium heat for a few minutes.",
       "It will puff up and there will be some brown spots on the bottom.",
       "Continue this way with all the dough, stacking them on a platter. Serve the naan warm."
-    ],
-    "tags": ["vegetarian"]
+    ]
   },
   {
     "id": "indian-butter-chicken",
     "cuisine": "indian",
     "title": "Butter Chicken",
-    "photo": "",
+    "photo": "images/butter-chicken.jpg",
     "source": "http://www.listentolena.com/2013/05/make-it-yourself-kid-friendly-butter-chicken.html",
     "ingredients": [
       "1 tablespoon canola oil",
@@ -163,14 +159,13 @@
       "Reduce heat, season with 1 teaspoon garam masala and a pinch of cayenne. Stir in a few spoonfuls of sauce, and simmer until liquid has reduced and chicken is no longer pink, about 5 minutes.",
       "Add cooked chicken to the pot of sauce. Cook for 5 to 10 minutes on medium-low heat, or until thickened.",
       "Serve with naan or over rice."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "indian-aloo-gobi-chana-masala",
     "cuisine": "indian",
     "title": "Aloo Gobi Chana Masala (Potato, Cauliflower and Chickpea Mix)",
-    "photo": "images/recipes/aloo-gobi-chana-masala.jpg",
+    "photo": "images/aloo-gobi-chana-masala.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "4-5 medium white or yellow potatoes",
@@ -190,14 +185,13 @@
       "Saute the potatoes, cauliflower, chickpeas, and onions in oil.",
       "Mix in the curry powder, turmeric, salt and cayenne.",
       "Add more oil if necessary and cook until all veggies are tender."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free"]
+    ]
   },
   {
     "id": "indian-saag",
     "cuisine": "indian",
     "title": "Saag (Spinach Curry)",
-    "photo": "",
+    "photo": "images/saag.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1 pack silken tofu",
@@ -220,14 +214,13 @@
       "Add the cream and all of the spices and mix well.",
       "Add salt, to taste.",
       "Serve hot with naan or rice."
-    ],
-    "tags": ["vegetarian", "gluten-free"]
+    ]
   },
   {
     "id": "indian-dal",
     "cuisine": "indian",
     "title": "Dal (Lentil Curry)",
-    "photo": "images/recipes/dal.jpg",
+    "photo": "images/dal.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 cups dried lentils",
@@ -255,14 +248,13 @@
       "If it needs thickening, stir in the cornstarch and water mixture and bring to a boil for a minute or two.",
       "Add salt, to taste.",
       "Serve hot with naan or rice."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free"]
+    ]
   },
   {
     "id": "indian-mint-chutney",
     "cuisine": "indian",
     "title": "Mint Chutney",
-    "photo": "",
+    "photo": "images/mint-chutney.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1 1/2 cups fresh cilantro (stems and leaves)",
@@ -281,14 +273,13 @@
       "Blend all ingredients in a food processor.",
       "Add to a saucepan and bring to a boil.",
       "Let cool in or out of the refrigerator."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free"]
+    ]
   },
   {
     "id": "indian-mango-chutney",
     "cuisine": "indian",
     "title": "Mango Chutney",
-    "photo": "",
+    "photo": "images/mango-chutney.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1 bag frozen mangos (1.5-2 cups)",
@@ -305,14 +296,13 @@
     "directions": [
       "Put all ingredients in a saucepan and stir over medium heat until it congeals.",
       "Let cool in or out of the refrigerator."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free"]
+    ]
   },
   {
     "id": "indian-sabudana-kheer",
     "cuisine": "indian",
     "title": "Sabudana Kheer (Tapioca Pudding)",
-    "photo": "",
+    "photo": "images/sabudana-kheer.jpg",
     "source": "http://www.manjulaskitchen.com/2010/09/10/sabudana-kheer-tapioca-pudding/",
     "ingredients": [
       "2/3 cup tapioca (sabudana / sago) — serves 8",
@@ -328,14 +318,13 @@
       "Add the tapioca and cook until soft and translucent, about 4 minutes.",
       "Add sugar, cardamom, pistachios or almonds, and saffron. Boil for 2 to 3 minutes, then turn off the heat. The pudding will thicken as it cools.",
       "Serve chilled or warm."
-    ],
-    "tags": ["vegetarian", "gluten-free"]
+    ]
   },
   {
     "id": "indian-banana-coconut-raita",
     "cuisine": "indian",
     "title": "Banana and Coconut Raita",
-    "photo": "",
+    "photo": "images/banana-coconut-raita.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1/2 cup toasted coconut",
@@ -344,14 +333,13 @@
     ],
     "directions": [
       "Mix all ingredients together and serve."
-    ],
-    "tags": ["vegetarian", "gluten-free"]
+    ]
   },
   {
     "id": "thai-coconut-green-curry",
     "cuisine": "thai",
     "title": "Coconut Green Curry",
-    "photo": "images/recipes/coconut-green-curry.jpg",
+    "photo": "images/coconut-green-curry.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 tablespoons cooking oil",
@@ -376,14 +364,13 @@
       "Add broccoli, spinach, and bell peppers if using. Stir and cook on medium heat for about 5 more minutes.",
       "Add salt, sugar, and nampla to taste.",
       "Turn off the heat and serve on top of rice. NOTE: coconut milk spoils quickly — eat leftovers within 3 days or freeze them."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "thai-pad-thai",
     "cuisine": "thai",
     "title": "Pad Thai",
-    "photo": "images/recipes/pad-thai.jpg",
+    "photo": "images/pad-thai.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1 pack (400 grams) Pad Thai rice noodles",
@@ -414,14 +401,13 @@
       "Season with salt and pepper.",
       "Stir in the green onions.",
       "Decorate with extra peanuts and lime wedges."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "thai-coconut-ice-cream",
     "cuisine": "thai",
     "title": "Coconut Ice Cream",
-    "photo": "images/recipes/coconut-ice-cream.jpg",
+    "photo": "images/coconut-ice-cream.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 (400 ml) cans unsweetened coconut milk",
@@ -435,14 +421,13 @@
       "Take it out of the freezer and whisk briskly or blend.",
       "Return to the freezer.",
       "Repeat steps 3 to 5 every 30 minutes until your ice cream is creamy and frozen through."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "thai-summer-rolls",
     "cuisine": "thai",
     "title": "Summer Rolls with Shrimp",
-    "photo": "images/recipes/summer-rolls.jpg",
+    "photo": "images/summer-rolls.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1 package of about 20 rice paper sheets (medium/large)",
@@ -463,14 +448,13 @@
       "Carefully tuck in the sides, then roll up. If not sturdy enough, wrap another sheet of rice paper around it.",
       "Repeat for each roll.",
       "Serve immediately — it is fun to lay all the ingredients out and roll with friends right before eating. Dip in Thai sweet chili sauce."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "thai-sweet-chili-sauce",
     "cuisine": "thai",
     "title": "Thai Sweet Chili Sauce",
-    "photo": "",
+    "photo": "images/sweet-chili-sauce.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "4 spicy Japanese red peppers",
@@ -484,14 +468,13 @@
       "WEAR GLOVES! Open the peppers and remove as many seeds as you can. Blend the red casings in the food processor with the garlic and 1/2 cup water.",
       "Put the blended mixture in a medium pot and boil with another 1/2 cup water mixed with the cornstarch, 3/4 cup sugar, and 1/4 cup vinegar until moderately thick — no more than 7 minutes. If the bubbles start to look brown, stop the boil.",
       "Chill in the refrigerator and serve alongside spring rolls or fish cakes."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "thai-tod-mun-pla",
     "cuisine": "thai",
     "title": "Tod Mun Pla (Thai Fish Cakes)",
-    "photo": "images/recipes/tod-mun-pla.jpg",
+    "photo": "images/tod-mun-pla.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "About 10 kaffir lime leaves",
@@ -511,14 +494,13 @@
       "Add the rest of the ingredients except the frying oil to the bowl and mix with a fork.",
       "Heat oil in a frying pan. Spoon the mixture into the pan and fry the cakes on both sides.",
       "Top the fish cakes with cucumber relish."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "thai-cucumber-relish",
     "cuisine": "thai",
     "title": "Cucumber Relish",
-    "photo": "",
+    "photo": "images/cucumber-relish.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1/4 cup vinegar",
@@ -531,14 +513,13 @@
     "directions": [
       "Mix all ingredients together and chill in the refrigerator.",
       "Serve on top of Thai fish cakes."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "thai-mango-jello",
     "cuisine": "thai",
     "title": "Mango Jello",
-    "photo": "images/recipes/mango-jello.jpg",
+    "photo": "images/mango-jello.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 cups mango juice",
@@ -551,14 +532,13 @@
       "Put the agar and the juice in a medium pot and bring to a boil while stirring.",
       "Stir until the agar is fully melted, about 5 minutes.",
       "Pour into the glasses or molds and refrigerate. Chill for 1-2 hours, then serve."
-    ],
-    "tags": []
+    ]
   },
   {
     "id": "lebanese-parsley-salad",
     "cuisine": "eastern-mediterranean",
     "title": "Parsley Salad",
-    "photo": "images/recipes/parsley-salad.jpg",
+    "photo": "images/parsley-salad.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1 bunch of parsley, diced",
@@ -570,14 +550,13 @@
     ],
     "directions": [
       "Put all ingredients in a salad bowl and gently toss."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free", "quick"]
+    ]
   },
   {
     "id": "lebanese-chicken-shawarma",
     "cuisine": "eastern-mediterranean",
     "title": "Chicken Shawarma",
-    "photo": "",
+    "photo": "images/chicken-shawarma.jpg",
     "source": "http://toriavey.com/toris-kitchen/2012/08/chicken-shawarma/",
     "ingredients": [
       "4 large boneless skinless chicken breasts",
@@ -602,14 +581,13 @@
       "Cook for another 10 minutes until cooked through, crispy, and golden brown.",
       "Let cool slightly, then use a sharp knife to slice into small, thin, shawarma-style pieces.",
       "Season with additional salt and pepper to taste if desired."
-    ],
-    "tags": ["gluten-free"]
+    ]
   },
   {
     "id": "lebanese-falafel",
     "cuisine": "eastern-mediterranean",
     "title": "Falafel",
-    "photo": "",
+    "photo": "images/falafel.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 cups uncooked chickpeas (2 cans, drained)",
@@ -629,14 +607,13 @@
       "Form the mixture into balls about the size of table tennis balls.",
       "Heat 6-8 cm of oil to 190°C in a deep pot or wok and fry 1 ball to test. If it falls apart, add a little more flour to the dough.",
       "Fry about 6 balls at once for a few minutes on each side, or until golden brown. Drain on paper towels."
-    ],
-    "tags": ["vegetarian", "vegan"]
+    ]
   },
   {
     "id": "lebanese-sfouf",
     "cuisine": "eastern-mediterranean",
     "title": "Sfouf (Almond Cake)",
-    "photo": "",
+    "photo": "images/sfouf.jpg",
     "source": "http://mideastfood.about.com/od/dessertssweetspastries/r/sfoufrecipe.htm",
     "ingredients": [
       "2 cups semolina",
@@ -655,14 +632,13 @@
       "Add the dry ingredients to the wet ingredients and stir to make a paste.",
       "Pour batter into a large greased cake pan or oven pan. Sprinkle with slivered almonds.",
       "Bake in a 180°C oven for 30-35 minutes or until golden brown."
-    ],
-    "tags": ["vegetarian"]
+    ]
   },
   {
     "id": "lebanese-pita-bread",
     "cuisine": "eastern-mediterranean",
     "title": "Pita Bread",
-    "photo": "",
+    "photo": "images/pita-bread.jpg",
     "source": "http://www.thekitchn.com/how-to-make-pita-bread-at-home-cooking-lessons-from-the-kitchn-90844",
     "ingredients": [
       "1 cup warm water (35°C) — makes 8",
@@ -682,14 +658,13 @@
       "Place the discs on parchment paper, then lay the paper on the hot oven pans.",
       "Bake for 3-5 minutes until the dough puffs up like a balloon and turns golden.",
       "Repeat with remaining dough, stacking breads in a paper towel-lined basket. Serve warm."
-    ],
-    "tags": ["vegetarian", "vegan"]
+    ]
   },
   {
     "id": "lebanese-baba-ghanooj",
     "cuisine": "eastern-mediterranean",
     "title": "Baba Ghanooj (Eggplant Dip)",
-    "photo": "",
+    "photo": "images/baba-ghanooj.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "4-5 Japanese eggplants",
@@ -705,14 +680,13 @@
       "Transfer to a bowl, add the yogurt, and stir.",
       "Taste and add salt if desired.",
       "Serve with veggie sticks, pita bread, chips, or falafel. Also good in kebabs."
-    ],
-    "tags": ["vegetarian", "gluten-free"]
+    ]
   },
   {
     "id": "lebanese-hummus",
     "cuisine": "eastern-mediterranean",
     "title": "Hummus",
-    "photo": "images/recipes/hummus.jpg",
+    "photo": "images/hummus.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 cans garbanzo beans / chickpeas, drained and rinsed",
@@ -724,14 +698,13 @@
     "directions": [
       "Blend all ingredients together in a food processor or blender until smooth and fluffy.",
       "Serve with pita bread or use as a raw vegetable or chip dip. Also great with falafel!"
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free", "quick"]
+    ]
   },
   {
     "id": "lebanese-majadra",
     "cuisine": "eastern-mediterranean",
     "title": "Majadra (Lentils and Rice)",
-    "photo": "images/recipes/majadra.jpg",
+    "photo": "images/majadra.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 cups white or brown rice",
@@ -746,14 +719,13 @@
       "Put all ingredients in a rice cooker and stir thoroughly.",
       "Cook as you would plain rice.",
       "Serve as a side with any Lebanese meal or as a filling for pita kebabs."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free", "quick"]
+    ]
   },
   {
     "id": "mexican-chimichangas",
     "cuisine": "mexican",
     "title": "Chimichangas",
-    "photo": "images/recipes/chimichangas.jpg",
+    "photo": "images/chimichangas.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "3 cups beef, chicken, shrimp, or veggies (zucchini, eggplant, bell peppers, corn, spinach, carrots, mushrooms recommended)",
@@ -776,14 +748,13 @@
       "Add 1/2 cup of the filling and the desired amount of cheese to the center of each tortilla. Fold two opposing sides over first, then the other two sides to completely enclose the filling.",
       "Lay chimichangas folded side down on a greased oven pan. Sprinkle shredded cheese on top if desired. Bake at 200°C (375°F) for 15-20 minutes until crispy and golden brown. Alternatively, fry in a large frying pan with a tablespoon of oil until golden brown and crispy on both sides.",
       "Serve with desired toppings and a side of beans and rice."
-    ],
-    "tags": ["vegetarian"]
+    ]
   },
   {
     "id": "mexican-empanadas",
     "cuisine": "mexican",
     "title": "Empanadas",
-    "photo": "",
+    "photo": "images/empanadas.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 cups refried beans or black beans",
@@ -809,14 +780,13 @@
       "Add filling to the center of each circle and fold into a half-moon shape. Pinch the edges tightly to close.",
       "Bake at 200°C for 15 minutes or until golden brown.",
       "Remove from the oven and let cool. Serve alone or with salsa, sour cream, and/or guacamole."
-    ],
-    "tags": ["vegetarian"]
+    ]
   },
   {
     "id": "mexican-fajitas",
     "cuisine": "mexican",
     "title": "Fajitas",
-    "photo": "images/recipes/fajitas.jpg",
+    "photo": "images/fajitas.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "3 tablespoons canola or vegetable oil",
@@ -844,14 +814,13 @@
       "Add the meat, cumin, cayenne/red pepper, and salt and cook thoroughly.",
       "Add the bell peppers and mushrooms and sauté for 3 minutes until the vegetables are limp.",
       "Add all ingredients to the tortilla, roll it up, and enjoy!"
-    ],
-    "tags": ["vegetarian"]
+    ]
   },
   {
     "id": "mexican-flour-tortillas",
     "cuisine": "mexican",
     "title": "Flour Tortillas",
-    "photo": "images/recipes/flour-tortillas.jpg",
+    "photo": "images/flour-tortillas.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "3 cups flour",
@@ -867,14 +836,13 @@
       "Once the oil is hot, add the tortilla, cook for 1 minute, then flip.",
       "Cook another minute or until bubbles form or light brown circles appear.",
       "Repeat until all tortillas are cooked. Alternatively, store dough in plastic wrap in the refrigerator for up to 5 days."
-    ],
-    "tags": ["vegetarian", "vegan"]
+    ]
   },
   {
     "id": "mexican-spanish-rice",
     "cuisine": "mexican",
     "title": "Spanish Rice",
-    "photo": "",
+    "photo": "images/spanish-rice.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 cups white or brown rice",
@@ -892,14 +860,13 @@
       "Put all ingredients in a rice cooker and stir thoroughly.",
       "Cook as you would plain rice.",
       "Serve as a side with any Mexican meal or as a filling for burritos or fajitas."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free", "quick"]
+    ]
   },
   {
     "id": "mexican-salsa",
     "cuisine": "mexican",
     "title": "Salsa",
-    "photo": "",
+    "photo": "images/salsa.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1 can diced tomatoes",
@@ -914,14 +881,13 @@
     "directions": [
       "Mix together all of the ingredients.",
       "Store in the refrigerator for up to 2 weeks."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free", "quick"]
+    ]
   },
   {
     "id": "mexican-guacamole",
     "cuisine": "mexican",
     "title": "Guacamole",
-    "photo": "",
+    "photo": "images/guacamole.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "2 avocados",
@@ -934,14 +900,13 @@
       "Cut the avocados, put them in a bowl, and mash with a fork. Leave the avocado seeds in the bowl.",
       "Add the other ingredients and mix gently with a fork.",
       "Use as a dip with tortilla chips or as a topping for other Mexican dishes."
-    ],
-    "tags": ["vegetarian", "vegan", "gluten-free", "quick"]
+    ]
   },
   {
     "id": "mexican-margaritas",
     "cuisine": "mexican",
     "title": "Margaritas",
-    "photo": "",
+    "photo": "images/margaritas.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1/3 cup tequila",
@@ -956,14 +921,13 @@
       "Dip the rims of wet glasses in salt and apply evenly.",
       "Add tequila, lime juice, sugar, and water to a bowl and stir.",
       "Put ice in each glass and pour the mixture. Garnish with a lime slice."
-    ],
-    "tags": ["vegan", "gluten-free", "quick"]
+    ]
   },
   {
     "id": "mexican-pina-coladas",
     "cuisine": "mexican",
     "title": "Piña Coladas",
-    "photo": "",
+    "photo": "images/pina-coladas.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1/2 cup rum",
@@ -976,14 +940,13 @@
     "directions": [
       "Add the rum, pineapple, crushed ice, coconut milk, and sugar (if needed) to a blender or food processor. Blend for about 15 seconds.",
       "Pour into glasses and garnish with a slice of fruit."
-    ],
-    "tags": ["vegan", "gluten-free", "quick"]
+    ]
   },
   {
     "id": "mexican-queso",
     "cuisine": "mexican",
     "title": "Queso (Jalapeño Cheese Dip)",
-    "photo": "",
+    "photo": "images/queso.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "1/4 cup margarine or butter",
@@ -999,14 +962,13 @@
       "Mix in cheese and salt while stirring constantly. Continue to cook until the cheese is melted and all ingredients are blended.",
       "Add the jalapeño slices.",
       "Pour over chips for nachos, use as a dip, or use as a topping for Tex-Mex dishes."
-    ],
-    "tags": ["vegetarian", "quick"]
+    ]
   },
   {
     "id": "mexican-sopapillas",
     "cuisine": "mexican",
     "title": "Sopapillas",
-    "photo": "",
+    "photo": "images/sopapillas.jpg",
     "source": "Cara's original recipe",
     "ingredients": [
       "4 cups flour",
@@ -1025,7 +987,6 @@
       "Heat oil in a pot to about 190°C for deep-frying.",
       "Add a few squares at a time and fry until golden brown. Drain on paper-towel-lined pans.",
       "Great with honey on top or inside the sopapilla if hollow."
-    ],
-    "tags": ["vegetarian", "vegan"]
+    ]
   }
 ]

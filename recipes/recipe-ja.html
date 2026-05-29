@@ -230,7 +230,7 @@
 
       <div class="recipeContainer">
         <div class="recipeNavRow">
-          <a class="backLink" href="recipes.html">
+          <a class="backLink" href="index.html">
             <i class="fa fa-arrow-left" aria-hidden="true"></i> レシピ一覧に戻る
           </a>
           <a class="langToggle" id="langToggleLink" href="#">
@@ -255,7 +255,7 @@
       var recipeId = params.get('id');
 
       // Set the English toggle link to point to the same recipe id on the English template
-      document.getElementById('langToggleLink').href = 'recipe.html?id=' + recipeId;
+      document.getElementById('langToggleLink').href = 'index.html?id=' + recipeId;
 
       fetch('recipes-data-ja.json')
         .then(function(res) { return res.json(); })
