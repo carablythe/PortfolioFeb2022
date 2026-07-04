@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Comas Milestone Review Mad Libs</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Kalam:wght@400;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#EFEDE7;
+    --card:#FFFFFF;
+    --ink:#1F2430;
+    --muted:#7A7E89;
+    --line:#E3E1DA;
+    --accent:#3D6E5C;
+    --strike:#B33A3A;
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--bg);
+    font-family:'Inter',sans-serif;
+    color:var(--ink);
+    padding:30px 14px 70px;
+    min-height:100vh;
+  }
+  .card{
+    max-width:600px;
+    margin:0 auto;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    box-shadow:0 1px 2px rgba(0,0,0,0.03), 0 12px 28px rgba(0,0,0,0.06);
+    padding:30px 28px 34px;
+  }
+  h1{
+    font-size:19px;
+    font-weight:700;
+    margin:0 0 4px;
+  }
+  .subtitle{
+    font-size:13px;
+    color:var(--muted);
+    line-height:1.55;
+    margin:0 0 24px;
+  }
+  .field{
+    margin-bottom:15px;
+    display:flex;
+    align-items:baseline;
+    gap:10px;
+  }
+  .field .num{
+    font-size:12px;
+    color:var(--muted);
+    min-width:18px;
+    font-weight:600;
+  }
+  .field .lbl{ flex:1 1 auto; }
+  .field label{
+    display:block;
+    font-size:12.5px;
+    color:var(--muted);
+    margin-bottom:3px;
+  }
+  .field input{
+    width:100%;
+    border:none;
+    border-bottom:1.5px solid var(--line);
+    background:transparent;
+    font-family:'Inter',sans-serif;
+    font-size:15px;
+    color:var(--ink);
+    padding:4px 2px 6px;
+    outline:none;
+  }
+  .field input:focus{ border-bottom-color:var(--accent); }
+  .btn-row{
+    margin-top:24px;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+  button{
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    font-size:14px;
+    border:none;
+    background:var(--ink);
+    color:#fff;
+    padding:11px 20px;
+    cursor:pointer;
+    border-radius:8px;
+    transition:transform .12s ease, opacity .12s ease;
+  }
+  button:hover{ opacity:.9; }
+  button:active{ transform:scale(0.98); }
+  button.secondary{
+    background:var(--card);
+    color:var(--ink);
+    border:1.5px solid var(--line);
+  }
+  button.copybtn{ background:var(--accent); }
+  .error{
+    font-size:12.5px;
+    color:#B33A3A;
+    margin-top:10px;
+    display:none;
+  }
+
+  /* ---- Study doc reveal ---- */
+  .doc-wrap{ display:none; }
+  .doc{
+    max-width:600px;
+    margin:0 auto;
+    background:var(--card);
+    border:1px solid var(--line);
+    border-radius:14px;
+    box-shadow:0 1px 2px rgba(0,0,0,0.03), 0 12px 28px rgba(0,0,0,0.06);
+    padding:32px 30px 30px;
+  }
+  .doc-header-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 16px;
+    font-size: 13px;
+    color: var(--muted);
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .doc h1{
+    font-size:21px;
+    margin:0 0 18px;
+  }
+  .doc h2{
+    font-size:14.5px;
+    font-weight:700;
+    margin:24px 0 8px;
+    padding-top:14px;
+    border-top:1px solid var(--line);
+    color: var(--ink);
+  }
+  .doc h2.first{ border-top:none; padding-top:0; margin-top:0; }
+  .doc h3{
+    font-size:13.5px;
+    font-weight:600;
+    color:var(--muted);
+    margin:18px 0 6px;
+    text-transform: uppercase;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+  }
+  .doc p {
+    font-size:14.5px;
+    line-height:1.75;
+    margin:0 0 12px;
+  }
+  .doc .fill{
+    font-family:'Kalam',cursive;
+    font-weight:700;
+    color:var(--accent);
+    font-size:1.05em;
+  }
+  .doc .comment-box {
+    margin:10px 0;
+    padding:14px;
+    background:#F6F5F1;
+    border-left:3px solid var(--accent);
+    border-radius:4px;
+    font-size:14.5px;
+    line-height:1.85;
+  }
+  .doc .footer {
+    margin-top: 30px;
+    padding-top: 12px;
+    border-top: 1px solid var(--line);
+    font-size: 12px;
+    color: var(--muted);
+    text-align: center;
+    font-weight: 600;
+  }
+  .doc .saved{
+    display:inline-flex;
+    align-items:center;
+    gap:5px;
+    font-size:11.5px;
+    color:var(--muted);
+    margin-top:18px;
+  }
+  .doc .saved::before{
+    content:"✓";
+    color:var(--accent);
+    font-weight:700;
+  }
+  .doc-btn-row{
+    max-width:600px;
+    margin:18px auto 0;
+    display:flex;
+    gap:10px;
+    flex-wrap:wrap;
+  }
+</style>
+</head>
+<body>
+
+<div class="card" id="formCard">
+  <h1>Comas Milestone Mad Libs</h1>
+  <p class="subtitle">Fill out the fields below to transform a formal Comas Ending Task Feedback form into pure trainer social chaos. Think fast, answer weirdly!</p>
+
+  <div id="fields"></div>
+
+  <div class="error" id="errMsg">Please fill in every field before submitting.</div>
+
+  <div class="btn-row">
+    <button id="genBtn">Submit Evaluation</button>
+    <button class="secondary" id="randomBtn" type="button">Surprise me</button>
+  </div>
+</div>
+
+<div class="doc-wrap" id="docWrap">
+  <div class="doc">
+    <h1>Ending Task Feedback</h1>
+
+    <div class="doc-header-grid">
+      <div><b>Learner Name:</b> The Learner</div>
+      <div><b>Date:</b> <span id="docDate"></span></div>
+      <div><b>Program Length:</b> 6 Months</div>
+      <div><b>Evaluation Status:</b> Completed</div>
+    </div>
+
+    <h2 class="first">Ending Task</h2>
+    <p style="font-size:12px; color:var(--muted); margin-bottom:8px;">
+      Write the business task you assessed during the session (e.g., deliver a five-minute presentation about a project you recently completed at work and its impact).<br>
+      セッション中に評価したビジネスタスクを記入してください。
+    </p>
+    <div class="comment-box" style="border-left-color: var(--line); font-weight: 500;">
+      Deliver a five-minute presentation on how to <span class="fill" id="f_ridiculous_task"></span>.
+    </div>
+
+    <p style="font-size:12px; color:var(--muted); margin-top:18px; margin-bottom:4px;">
+      This section provides personalized feedback on your Ending Task performance and your progress toward your performance goal.<br>
+      このセクションでは、エンディングタスクでのパフォーマンスとパフォーマンスゴールへの進捗について、個別のフィードバックを提供します。
+    </p>
+    <div class="comment-box">
+      During the Ending Task, the learner demonstrated an extraordinary, borderline terrifying ability to <span class="fill" id="f_corp_verb"></span> the entire stakeholder team. While the original goal was to focus on performance metrics, the learner instead spent four minutes focusing heavily on <span class="fill" id="f_absurd_object"></span>. They were visibly <span class="fill" id="f_chaos_verbing"></span> throughout the delivery, but their progress toward their performance goal remains undeniable, especially after they successfully managed to execute a <span class="fill" id="f_wild_achievement"></span> without anyone noticing.
+    </div>
+
+    <h2>Trainer Feedback</h2>
+    
+    <h3>Learner Growth in the Program | プログラムにおける学習者の成長</h3>
+    <div class="comment-box">
+      Over the last 6 months, the learner’s growth has been completely <span class="fill" id="f_hyperbolic_adj"></span>. When they first joined the program, they could barely <span class="fill" id="f_human_skill"></span> without <span class="fill" id="f_disaster"></span>. Today, they can confidently navigate a conversation using complex business language like '<span class="fill" id="f_jargon"></span>' while maintaining an impressive aura of <span class="fill" id="f_aura"></span>.
+    </div>
+
+    <h3>Recommendations for Continued Improvement | 今後の更なる成長に向けた推奨事項</h3>
+    <div class="comment-box">
+      To achieve total corporate dominance, I highly recommend the learner dedicate time to <span class="fill" id="f_bizarre_activity"></span>. Moving forward into the next quarter, they should make a conscious effort to stop <span class="fill" id="f_bad_habit"></span> during high-stakes presentations. If they can channel this chaotic energy productively, they will easily move the needle next season.
+    </div>
+
+    <div class="footer">
+      Provided by Comas
+    </div>
+
+    <div class="saved">Saved automatically</div>
+  </div>
+
+  <div class="doc-btn-row">
+    <button class="copybtn" id="copyBtn" type="button">Copy assessment text</button>
+    <button class="secondary" id="resetBtn" type="button">Evaluate another learner</button>
+  </div>
+</div>
+
+<script>
+const FIELDS = [
+  {id:"ridiculous_task", label:"A ridiculous workplace task"},
+  {id:"corp_verb", label:"A corporate action verb"},
+  {id:"absurd_object", label:"An absurd object found in an office"},
+  {id:"chaos_verbing", label:"A chaotic action (verb ending in -ing)"},
+  {id:"wild_achievement", label:"A wild workplace achievement"},
+  {id:"hyperbolic_adj", label:"A hyperbolic/dramatic adjective"},
+  {id:"human_skill", label:"A basic human survival skill"},
+  {id:"disaster", label:"A terrible workplace disaster scenario"},
+  {id:"jargon", label:"A vague piece of corporate jargon"},
+  {id:"aura", label:"A silly professional vibe/aura"},
+  {id:"bizarre_activity", label:"A bizarre workplace activity"},
+  {id:"bad_habit", label:"A bad professional habit"},
+];
+
+const SURPRISE = {
+  ridiculous_task: ["explain corporate synergy to a stray cat", "pitch a tent inside a Zoom meeting", "ask for a promotion using only emojis", "explain to IT why the toaster has an IP address"],
+  corp_verb: ["synergize", "pivot around", "circle back to", "disrupt", "hyper-leverage"],
+  absurd_object: ["stale bagels from last Tuesday", "the company's hidden meme channel", "unpaid utility bills", "a single loose AA battery", "the broken water cooler"],
+  chaos_verbing: ["weeping silently in English", "aggressively chewing ice", "sweating in formal Keigo", "staring into the middle distance", "vibrating with anxiety"],
+  wild_achievement: ["accidental corporate espionage", "unlocking a hidden level in Excel", "bypassing the company firewall to buy shoes", "convincing everyone they work in HR"],
+  hyperbolic_adj: ["catastrophic", "suspiciously calm", "gordian", "unhinged", "baffling", "legendary"],
+  human_skill: ["making direct eye contact", "finding the mute button", "typing with more than two fingers", "sitting completely upright"],
+  disaster: ["setting the office printer on fire", "accidentally muting the CEO for twenty minutes", "sharing their desktop background of Nicolas Cage", "replying-all to the entire global directory"],
+  jargon: ["bleeding-edge paradigm shifts", "low-hanging fruit optimization", "moving the needle organically", "ecosystem standardizations"],
+  aura: ["a wizard who got lost in finance", "unbothered overnight tech support", "an undercover boss who forgot their script", "pure chaotic neutral energy"],
+  bizarre_activity: ["aggressive spreadsheet formatting", "mind-reading defensive stakeholders", "Slack status gymnastics", "pretending their camera is broken"],
+  bad_habit: ["replying 'Reply All' with just a thumbs-up", "napping during mandatory town halls", "eating incredibly crunchy snacks on unmuted calls", "sending emails written entirely in uppercase"]
+};
+
+const fieldsDiv = document.getElementById("fields");
+FIELDS.forEach((f,i)=>{
+  const wrap = document.createElement("div");
+  wrap.className = "field";
+  wrap.innerHTML = `
+    <span class="num">${i+1}.</span>
+    <span class="lbl">
+      <label for="${f.id}">${f.label}</label>
+      <input type="text" id="${f.id}" />
+    </span>`;
+  fieldsDiv.appendChild(wrap);
+});
+
+function getValues(){
+  const v = {};
+  for(const f of FIELDS){ v[f.id] = document.getElementById(f.id).value.trim(); }
+  return v;
+}
+
+function setText(id, val){ document.getElementById(id).textContent = val; }
+
+document.getElementById("genBtn").addEventListener("click", ()=>{
+  const v = getValues();
+  const missing = FIELDS.some(f=>!v[f.id]);
+  if(missing){
+    document.getElementById("errMsg").style.display = "block";
+    return;
+  }
+  document.getElementById("errMsg").style.display = "none";
+
+  const today = new Date();
+  // Formats date precisely to YYYY/MM/DD to match the reference document style
+  document.getElementById("docDate").textContent = today.toLocaleDateString('en-CA').replace(/-/g, '/');
+
+  FIELDS.forEach(f => {
+    setText(`f_${f.id}`, v[f.id]);
+  });
+
+  document.getElementById("formCard").style.display = "none";
+  document.getElementById("docWrap").style.display = "block";
+  window.scrollTo({top:0, behavior:"smooth"});
+});
+
+document.getElementById("randomBtn").addEventListener("click", ()=>{
+  FIELDS.forEach(f=>{
+    const options = SURPRISE[f.id];
+    const input = document.getElementById(f.id);
+    if(!input.value){
+      input.value = options[Math.floor(Math.random()*options.length)];
+    }
+  });
+});
+
+document.getElementById("resetBtn").addEventListener("click", ()=>{
+  FIELDS.forEach(f=> document.getElementById(f.id).value = "");
+  document.getElementById("docWrap").style.display = "none";
+  document.getElementById("formCard").style.display = "block";
+  window.scrollTo({top:0, behavior:"smooth"});
+});
+
+document.getElementById("copyBtn").addEventListener("click", ()=>{
+  const text = document.querySelector(".doc").innerText;
+  navigator.clipboard.writeText(text).then(()=>{
+    const btn = document.getElementById("copyBtn");
+    const original = btn.textContent;
+    btn.textContent = "Copied to Clipboard!";
+    setTimeout(()=> btn.textContent = original, 1500);
+  });
+});
+</script>
+</body>
+</html>
